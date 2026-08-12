@@ -24,13 +24,6 @@ npx @meedo01/agentscan .
 ![MCP](https://img.shields.io/badge/Model_Context_Protocol-111111?style=flat)
 ![Static Analysis](https://img.shields.io/badge/Static_Analysis-4b5563?style=flat)
 
-### 📊 GitHub
-
-<p>
-  <img height="160" alt="stats" src="https://github-readme-stats.vercel.app/api?username=Mohammad1sh&show_icons=true&hide_border=true&theme=transparent" />
-  <img height="160" alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammad1sh&layout=compact&hide_border=true&theme=transparent" />
-</p>
-
 ---
 
 <p align="center"><i>Building in public — feedback and PRs welcome.</i></p>
