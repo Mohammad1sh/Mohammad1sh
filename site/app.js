@@ -442,4 +442,5 @@ function route(){
 window.addEventListener("hashchange", route);
 route();
 }
-fetch("data/v1.html").then(r=>r.text()).then(t=>{const a=t.indexOf("const SECTIONS = ["),b=t.indexOf("/* ---------- storage");const d=new Function(t.slice(a,b)+";return {SECTIONS,GROUPS};")();startApp(d.SECTIONS,d.GROUPS);});
+function ftrGo(){fetch("data/v1.html").then(r=>r.text()).then(t=>{const a=t.indexOf("const SECTIONS = ["),b=t.indexOf("/* ---------- storage");const d=new Function(t.slice(a,b)+";return {SECTIONS,GROUPS};")();startApp(d.SECTIONS,d.GROUPS);});}
+if(window.FTR_BOOT)window.addEventListener("ftr-scripts",ftrGo,{once:true});else if(document.readyState==="complete")ftrGo();else window.addEventListener("load",ftrGo,{once:true});
