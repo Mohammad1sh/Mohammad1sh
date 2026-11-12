@@ -1,0 +1,433 @@
+{
+ "version": 1,
+ "source": "HuBMAP HRA 3D Reference Object Library: hra-kg ref-organ uterus-female v1.2, ovary-female-left/right v1.3, fallopian-tube-female-left/right v1.2, mammary-gland-female-left/right v1.1; ccf-3d-reference-object-library VH_Female/v1.2/VH_F_Vagina.glb",
+ "license": "CC BY 4.0",
+ "attribution": "Female organ models from the HuBMAP Human Reference Atlas 3D Reference Object Library (https://humanatlas.io/3d-reference-library), CC BY 4.0: Browne K., Schlehlein H. 2024, 3D Reference Organ for Uterus v1.2 (https://doi.org/10.48539/HBM627.VTKD.892); Browne K., Schlehlein H. 2024, 3D Reference Organ for Ovary, Female, Left v1.3 (https://doi.org/10.48539/HBM695.KCXS.294) and Right v1.3 (hra-kg ovary-female-right/v1.3); Browne K., Schlehlein H. 2024, 3D Reference Organ for Fallopian Tube, Female, Left v1.2 (https://doi.org/10.48539/HBM529.KBQT.896) and Right v1.2 (hra-kg fallopian-tube-female-right/v1.2); VH_F_Vagina v1.2 from the HuBMAP CCF 3D Reference Object Library (https://github.com/hubmapconsortium/ccf-3d-reference-object-library, CC BY 4.0); Schlehlein H. 2024, 3D Reference Organ for Breast (mammary gland), Female left/right v1.1 (https://doi.org/10.48539/HBM533.BNJL.834). Library citation: Browne K., Schlehlein H., Herr B.W. II, Quardokus E., Bueckle A., Börner K. 2024, HuBMAP CCF 3D Reference Object Library. Pelvic organs derived from the Visible Human Female dataset (NLM; Spitzer & Whitlock 1998). Modified by this atlas: re-meshed, decimated, registered and deformed into the male reference body.",
+ "note": "Organs come from a different, post-menopausal donor (Visible Human Female, 59 y: uterus ~32 cm3, ovaries ~1 cm3, smaller than in reproductive age) and are placed in the MALE reference body (BodyParts3D). Positions are approximate: the pelvic organs were registered to the pelvic bones and then non-rigidly deformed (up to ~45% local compression) to fit between the male bladder and rectum; they still overlap the sigmoid colon/ileum loops and touch bladder/rectum by a few mm. The breasts (a sculpted HRA model, not imaging data) are positioned on the chest wall by rib landmarks and project beyond the male skin.",
+ "chunks": [
+  {
+   "file": "female-0.bin.gz",
+   "systems": [
+    "reproductive_f"
+   ],
+   "bytes": 4880440,
+   "gzipBytes": 2796765
+  }
+ ],
+ "parts": [
+  {
+   "id": "HF0",
+   "name": "Uterus",
+   "en": "Uterus (corpus and cervix)",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 0,
+   "normals": 117624,
+   "indices": 176436,
+   "vertexCount": 9802,
+   "indexCount": 58800,
+   "bounds": [
+    [
+     -0.029734,
+     0.889659,
+     -0.056087
+    ],
+    [
+     0.021858,
+     0.947466,
+     -0.006454
+    ]
+   ],
+   "la": "Uterus",
+   "tr": "Rahim"
+  },
+  {
+   "id": "HF1",
+   "name": "Vagina",
+   "en": "Vagina",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 411636,
+   "normals": 529200,
+   "indices": 587984,
+   "vertexCount": 9797,
+   "indexCount": 58794,
+   "bounds": [
+    [
+     -0.023958,
+     0.820647,
+     -0.056459
+    ],
+    [
+     0.019752,
+     0.906095,
+     -0.033058
+    ]
+   ],
+   "la": "Vagina",
+   "tr": "Vajina"
+  },
+  {
+   "id": "HF2",
+   "name": "Left ovary",
+   "en": "Left ovary",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 823160,
+   "normals": 825728,
+   "indices": 827012,
+   "vertexCount": 214,
+   "indexCount": 1272,
+   "bounds": [
+    [
+     0.048538,
+     0.939451,
+     -0.012141
+    ],
+    [
+     0.060753,
+     0.964004,
+     -0.003881
+    ]
+   ],
+   "la": "Ovarium",
+   "tr": "Yumurtalık"
+  },
+  {
+   "id": "HF3",
+   "name": "Right ovary",
+   "en": "Right ovary",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 832100,
+   "normals": 834584,
+   "indices": 835828,
+   "vertexCount": 207,
+   "indexCount": 1230,
+   "bounds": [
+    [
+     -0.066626,
+     0.935671,
+     -0.007087
+    ],
+    [
+     -0.054752,
+     0.960916,
+     0.003117
+    ]
+   ],
+   "la": "Ovarium",
+   "tr": "Yumurtalık"
+  },
+  {
+   "id": "HF4",
+   "name": "Left uterine tube",
+   "en": "Left uterine (fallopian) tube",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 840748,
+   "normals": 950704,
+   "indices": 1005684,
+   "vertexCount": 9163,
+   "indexCount": 54843,
+   "bounds": [
+    [
+     0.021115,
+     0.93566,
+     -0.018544
+    ],
+    [
+     0.059942,
+     0.975655,
+     0.003448
+    ]
+   ],
+   "la": "Tuba uterina",
+   "tr": "Fallop tüpü"
+  },
+  {
+   "id": "HF5",
+   "name": "Right uterine tube",
+   "en": "Right uterine (fallopian) tube",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 1225056,
+   "normals": 1331916,
+   "indices": 1385348,
+   "vertexCount": 8905,
+   "indexCount": 53310,
+   "bounds": [
+    [
+     -0.060839,
+     0.932473,
+     -0.017071
+    ],
+    [
+     -0.028899,
+     0.972311,
+     0.007316
+    ]
+   ],
+   "la": "Tuba uterina",
+   "tr": "Fallop tüpü"
+  },
+  {
+   "id": "HF6",
+   "name": "Left mammary gland",
+   "en": "Glandular lobes of left mammary gland",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 1598588,
+   "normals": 1717412,
+   "indices": 1776824,
+   "vertexCount": 9902,
+   "indexCount": 59997,
+   "bounds": [
+    [
+     0.074006,
+     1.230276,
+     0.128068
+    ],
+    [
+     0.152825,
+     1.351536,
+     0.191526
+    ]
+   ],
+   "la": "Lobi glandulae mammariae",
+   "tr": "Meme bezi lobları"
+  },
+  {
+   "id": "HF7",
+   "name": "Lactiferous ducts of left breast",
+   "en": "Lactiferous ducts and sinuses of left breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 2016812,
+   "normals": 2140748,
+   "indices": 2202716,
+   "vertexCount": 10328,
+   "indexCount": 59997,
+   "bounds": [
+    [
+     0.085666,
+     1.234778,
+     0.133251
+    ],
+    [
+     0.148828,
+     1.344138,
+     0.206054
+    ]
+   ],
+   "la": "Ductus lactiferi",
+   "tr": "Süt kanalları"
+  },
+  {
+   "id": "HF8",
+   "name": "Left nipple",
+   "en": "Nipple of left breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 2442704,
+   "normals": 2502872,
+   "indices": 2532956,
+   "vertexCount": 5014,
+   "indexCount": 29088,
+   "bounds": [
+    [
+     0.115709,
+     1.267546,
+     0.199364
+    ],
+    [
+     0.126432,
+     1.279358,
+     0.206555
+    ]
+   ],
+   "la": "Papilla mammaria",
+   "tr": "Meme başı"
+  },
+  {
+   "id": "HF9",
+   "name": "Areola of left breast",
+   "en": "Areola of left breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 2649308,
+   "normals": 2771084,
+   "indices": 2831972,
+   "vertexCount": 10148,
+   "indexCount": 59997,
+   "bounds": [
+    [
+     0.106491,
+     1.259737,
+     0.192665
+    ],
+    [
+     0.132996,
+     1.287617,
+     0.204571
+    ]
+   ],
+   "la": "Areola mammae",
+   "tr": "Areola"
+  },
+  {
+   "id": "HF10",
+   "name": "Adipose tissue of left breast",
+   "en": "Adipose tissue of left breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 3071960,
+   "normals": 3120104,
+   "indices": 3144176,
+   "vertexCount": 4012,
+   "indexCount": 24000,
+   "bounds": [
+    [
+     0.020468,
+     1.215813,
+     0.065616
+    ],
+    [
+     0.163087,
+     1.408136,
+     0.199803
+    ]
+   ],
+   "tr": "Meme yağ dokusu"
+  },
+  {
+   "id": "HF11",
+   "name": "Right mammary gland",
+   "en": "Glandular lobes of right mammary gland",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 3240176,
+   "normals": 3358832,
+   "indices": 3418160,
+   "vertexCount": 9888,
+   "indexCount": 60000,
+   "bounds": [
+    [
+     -0.147252,
+     1.230748,
+     0.124476
+    ],
+    [
+     -0.06837,
+     1.351054,
+     0.190703
+    ]
+   ],
+   "la": "Lobi glandulae mammariae",
+   "tr": "Meme bezi lobları"
+  },
+  {
+   "id": "HF12",
+   "name": "Lactiferous ducts of right breast",
+   "en": "Lactiferous ducts and sinuses of right breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 3658160,
+   "normals": 3782060,
+   "indices": 3844012,
+   "vertexCount": 10325,
+   "indexCount": 59997,
+   "bounds": [
+    [
+     -0.144713,
+     1.235494,
+     0.131592
+    ],
+    [
+     -0.080195,
+     1.343678,
+     0.204093
+    ]
+   ],
+   "la": "Ductus lactiferi",
+   "tr": "Süt kanalları"
+  },
+  {
+   "id": "HF13",
+   "name": "Right nipple",
+   "en": "Nipple of right breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 4084000,
+   "normals": 4144168,
+   "indices": 4174252,
+   "vertexCount": 5014,
+   "indexCount": 29088,
+   "bounds": [
+    [
+     -0.126296,
+     1.266905,
+     0.197211
+    ],
+    [
+     -0.115751,
+     1.278729,
+     0.20479
+    ]
+   ],
+   "la": "Papilla mammaria",
+   "tr": "Meme başı"
+  },
+  {
+   "id": "HF14",
+   "name": "Areola of right breast",
+   "en": "Areola of right breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 4290604,
+   "normals": 4412428,
+   "indices": 4473340,
+   "vertexCount": 10152,
+   "indexCount": 59997,
+   "bounds": [
+    [
+     -0.132445,
+     1.259098,
+     0.190094
+    ],
+    [
+     -0.1064,
+     1.28684,
+     0.203064
+    ]
+   ],
+   "la": "Areola mammae",
+   "tr": "Areola"
+  },
+  {
+   "id": "HF15",
+   "name": "Adipose tissue of right breast",
+   "en": "Adipose tissue of right breast",
+   "system": "reproductive_f",
+   "chunk": 0,
+   "positions": 4713328,
+   "normals": 4760752,
+   "indices": 4784464,
+   "vertexCount": 3952,
+   "indexCount": 23994,
+   "bounds": [
+    [
+     -0.157368,
+     1.215846,
+     0.060121
+    ],
+    [
+     -0.013763,
+     1.408271,
+     0.198886
+    ]
+   ],
+   "tr": "Meme yağ dokusu"
+  }
+ ]
+}
