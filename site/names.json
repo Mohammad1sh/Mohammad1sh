@@ -1,0 +1,7431 @@
+{
+"(abdominal part of pectoralis major muscle)": {
+"la": "M. pectoralis major – pars abdominalis"
+},
+"(accessory parotid gland)": {
+"la": "Glandula parotidea accessoria"
+},
+"(adductor minimus)": {
+"la": "M. adductor minimus"
+},
+"(anterior tibial node)": {
+"la": "Nl. tibialis anterior"
+},
+"(communicating branch of median nerve with ulnar nerve)": {
+"la": "R. communicans n. mediani cum n. ulnari"
+},
+"(deep branch of transverse cervical artery)": {
+"la": "R. profundus a. transversae colli"
+},
+"(fibular node)": {
+"la": "Nl. fibularis"
+},
+"(iliopectineal bursa)": {
+"la": "Bursa iliopectinea"
+},
+"(intermediate deep inguinal node)": {
+"la": "Nl. inguinalis profundus intermedius"
+},
+"(intermediate lacunar node)": {
+"la": "Nl. lacunaris intermedius"
+},
+"(lateral lacunar node)": {
+"la": "Nl. lacunaris lateralis"
+},
+"(medial lacunar node)": {
+"la": "Nl. lacunaris medialis"
+},
+"(opponens digiti minimi muscle of foot)": {
+"la": "M. opponens digiti minimi (pedis)"
+},
+"(posterior tibial node)": {
+"la": "Nl. tibialis posterior"
+},
+"(proximal deep inguinal node)": {
+"la": "Nl. inguinalis profundus proximalis"
+},
+"(retropyloric nodes)": {
+"la": "Nll. retropylorici"
+},
+"(subpyloric nodes)": {
+"la": "Nll. subpylorici"
+},
+"(superficial branch of transverse cervical artery)": {
+"la": "R. superficialis a. transversae colli"
+},
+"(suprapyloric node)": {
+"la": "Nl. suprapyloricus"
+},
+"(ulnar recurrent artery)": {
+"la": "A. recurrens ulnaris"
+},
+"abdominal aorta": {
+"la": "Aorta abdominalis",
+"tr": "Karın aortası"
+},
+"abdominal part of pectoralis major muscle": {
+"la": "M. pectoralis major – pars abdominalis"
+},
+"abducens nerve (vi)": {
+"la": "N. abducens (VI)",
+"tr": "6. kranial sinir"
+},
+"abductor digiti minimi of foot": {
+"la": "M. abductor digiti minimi (pedis)"
+},
+"abductor digiti minimi of hand": {
+"la": "M. abductor digiti minimi (manus)"
+},
+"abductor hallucis": {
+"la": "M. abductor hallucis"
+},
+"abductor pollicis brevis": {
+"la": "M. abductor pollicis brevis"
+},
+"abductor pollicis longus": {
+"la": "M. abductor pollicis longus"
+},
+"accessory branch of middle meningeal artery": {
+"la": "R. accessorius a. meningeae mediae"
+},
+"accessory hemi-azygos vein": {
+"la": "V. hemiazygos accessoria"
+},
+"accessory nerve (xi)": {
+"la": "N. accessorius (XI)",
+"tr": "11. kranial sinir"
+},
+"accessory nucleus of oculomotor nerve": {
+"la": "Nuclei accessorii n. oculomotorii"
+},
+"accessory pancreatic duct": {
+"la": "Ductus pancreaticus accessorius"
+},
+"accessory parotid gland": {
+"la": "Glandula parotidea accessoria"
+},
+"acetabular fossa": {
+"la": "Fossa acetabuli"
+},
+"acetabular labrum": {
+"la": "Labrum acetabuli",
+"tr": "Asetabulum labrumu"
+},
+"acetabular margin": {
+"la": "Limbus acetabuli"
+},
+"acetabular notch": {
+"la": "Incisura acetabuli"
+},
+"acetabulum": {
+"la": "Acetabulum"
+},
+"acromial angle": {
+"la": "Angulus acromii"
+},
+"acromial end": {
+"la": "Extremitas acromialis"
+},
+"acromial facet": {
+"la": "Facies articularis acromialis"
+},
+"acromial part of deltoid muscle": {
+"la": "M. deltoideus – pars acromialis"
+},
+"acromioclavicular ligament": {
+"la": "Lig. acromioclaviculare"
+},
+"acromion": {
+"la": "Acromion"
+},
+"adductor brevis": {
+"la": "M. adductor brevis"
+},
+"adductor longus": {
+"la": "M. adductor longus"
+},
+"adductor magnus": {
+"la": "M. adductor magnus"
+},
+"adductor minimus": {
+"la": "M. adductor minimus"
+},
+"adductor pollicis": {
+"la": "M. adductor pollicis"
+},
+"adductor tubercle": {
+"la": "Tuberculum adductorium"
+},
+"adenohypophysis": {
+"la": "Adenohypophysis"
+},
+"ala of ilium": {
+"la": "Ala ossis ilii"
+},
+"ala of sacrum": {
+"la": "Ala ossis sacri"
+},
+"ampulla of lacrimal canaliculus": {
+"la": "Ampulla canaliculi lacrimalis"
+},
+"amygdaloid body": {
+"la": "Corpus amygdaloideum"
+},
+"anatomical neck of humerus": {
+"la": "Collum anatomicum humeri"
+},
+"anconeus muscle": {
+"la": "M. anconeus"
+},
+"angle of rib": {
+"la": "Angulus costae"
+},
+"angular artery": {
+"la": "A. angularis"
+},
+"angular gyrus": {
+"la": "Gyrus angularis"
+},
+"angular incisure": {
+"la": "Incisura angularis"
+},
+"angular vein": {
+"la": "V. angularis"
+},
+"annular epiphysis": {
+"la": "Epiphysis anularis"
+},
+"annular ligament of radius": {
+"la": "Lig. anulare radii",
+"tr": "Radiusun halka bağı"
+},
+"anserine bursa": {
+"la": "Bursa anserina",
+"tr": "Pes anserinus bursası"
+},
+"antebrachial fascia": {
+"la": "Fascia antebrachii"
+},
+"anterior arch of atlas": {
+"la": "Arcus anterior atlantis"
+},
+"anterior articular facet of dens axis": {
+"la": "Facies articularis anterior dentis axis"
+},
+"anterior axillary nodes": {
+"la": "Nll. axillares anteriores",
+"tr": "Ön koltuk altı lenf düğümleri"
+},
+"anterior basal segment of left lung (sviii)": {
+"la": "Segmentum basale anterius pulmonis sinistri (s VIII)"
+},
+"anterior basal segment of right lung (sviii)": {
+"la": "Segmentum basale anterius pulmonis dextri (s VIII)"
+},
+"anterior basal segmental artery of left lung": {
+"la": "A. segmentalis basalis anterior pulmonis sinistri"
+},
+"anterior basal segmental artery of right lung": {
+"la": "A. segmentalis basalis anterior pulmonis dextri"
+},
+"anterior basal segmental bronchus of left lung (bviii)": {
+"la": "Bronchus segmentalis basalis anterior pulmonis sinistri (B VIII)"
+},
+"anterior basal segmental bronchus of right lung (bviii)": {
+"la": "Bronchus segmentalis basalis anterior pulmonis dextri (B VIII)"
+},
+"anterior belly of digastric muscle": {
+"la": "M. digastricus – venter anterior"
+},
+"anterior bony ampulla": {
+"la": "Ampulla ossea anterior"
+},
+"anterior border of fibula": {
+"la": "Margo anterior fibulae"
+},
+"anterior border of humerus": {
+"la": "Margo anterior humeri"
+},
+"anterior border of lung": {
+"la": "Margo anterior pulmonis"
+},
+"anterior border of pancreas": {
+"la": "Margo anterior pancreatis"
+},
+"anterior border of radius": {
+"la": "Margo anterior radii"
+},
+"anterior border of testis": {
+"la": "Margo anterior testis"
+},
+"anterior border of tibia": {
+"la": "Margo anterior tibiae"
+},
+"anterior border of ulna": {
+"la": "Margo anterior ulnae"
+},
+"anterior branch of medial antebrachial cutaneous nerve": {
+"la": "R. anterior n. cutanei antebrachii medialis"
+},
+"anterior branch of obturator nerve": {
+"la": "R. anterior n. obturatorii"
+},
+"anterior branch of renal artery": {
+"la": "R. anterior a. renalis"
+},
+"anterior cells of ethmoid bone": {
+"la": "Cellulae ethmoidales anteriores"
+},
+"anterior cerebral artery": {
+"la": "A. cerebri anterior"
+},
+"anterior chamber of eyeball": {
+"la": "Camera anterior bulbi oculi",
+"tr": "Ön kamara"
+},
+"anterior circumflex humeral artery": {
+"la": "A. circumflexa humeri anterior"
+},
+"anterior circumflex humeral vein": {
+"la": "V. circumflexa humeri anterior"
+},
+"anterior clinoid process": {
+"la": "Processus clinoideus anterior"
+},
+"anterior cochlear nucleus": {
+"la": "Nucleus cochlearis anterior"
+},
+"anterior commissure": {
+"la": "Commissura anterior"
+},
+"anterior communicating artery": {
+"la": "A. communicans anterior"
+},
+"anterior corticospinal tract": {
+"la": "Tractus corticospinalis anterior"
+},
+"anterior cruciate ligament": {
+"la": "Lig. cruciatum anterius",
+"tr": "Ön çapraz bağ"
+},
+"anterior cutaneous branches of femoral nerve": {
+"la": "Rr. cutanei anteriores n. femoralis"
+},
+"anterior deep temporal artery": {
+"la": "A. temporalis profunda anterior"
+},
+"anterior division of inferior trunk of brachial plexus": {
+"la": "Divisio anterior trunci inferioris plexus brachialis"
+},
+"anterior division of middle trunk of brachial plexus": {
+"la": "Divisio anterior trunci medii plexus brachialis"
+},
+"anterior division of superior trunk of brachial plexus": {
+"la": "Divisio anterior trunci superioris plexus brachialis"
+},
+"anterior ethmoidal artery": {
+"la": "A. ethmoidalis anterior"
+},
+"anterior extremity of spleen": {
+"la": "Extremitas anterior splenis"
+},
+"anterior fasciculus proprius": {
+"la": "Fasciculus proprius anterior"
+},
+"anterior gluteal line": {
+"la": "Linea glutea anterior"
+},
+"anterior horn of spinal cord": {
+"la": "Cornu anterius medullae spinalis",
+"tr": "Omuriliğin ön boynuzu"
+},
+"anterior inferior cerebellar artery": {
+"la": "A. inferior anterior cerebelli"
+},
+"anterior inferior iliac spine": {
+"la": "Spina iliaca anterior inferior"
+},
+"anterior intercavernous sinus": {
+"la": "Sinus intercavernosus anterior"
+},
+"anterior intercondylar area": {
+"la": "Area intercondylaris anterior"
+},
+"anterior intermuscular septum of leg": {
+"la": "Septum intermusculare cruris anterius"
+},
+"anterior interosseous nerve of forearm": {
+"la": "N. interosseus antebrachii anterior"
+},
+"anterior interventricular artery": {
+"la": "R. interventricularis anterior a. coronariae sinistrae"
+},
+"anterior interventricular sulcus": {
+"la": "Sulcus interventricularis anterior"
+},
+"anterior jugular vein": {
+"la": "V. jugularis anterior"
+},
+"anterior lateral segment of liver (vi)": {
+"la": "Segmentum anterius laterale dextrum (VI)"
+},
+"anterior layer of thoracolumbar fascia": {
+"la": "Lamina anterior fasciae thoracolumbalis"
+},
+"anterior ligament of fibular head": {
+"la": "Lig. capitis fibulae anterius"
+},
+"anterior limb of stapes": {
+"la": "Crus anterius stapedis"
+},
+"anterior longitudinal ligament": {
+"la": "Lig. longitudinale anterius",
+"tr": "Ön uzunlamasına bağ"
+},
+"anterior medial segment of liver (v)": {
+"la": "Segmentum anterius mediale dextrum (V)"
+},
+"anterior median fissure of medulla oblongata": {
+"la": "Fissura mediana anterior medullae oblongatae"
+},
+"anterior meniscotibial ligament (lateral meniscus)": {
+"la": "Lig. meniscotibiale anterius (menisci lateralis)"
+},
+"anterior meniscotibial ligament (medial meniscus)": {
+"la": "Lig. meniscotibiale anterius (menisci medialis)"
+},
+"anterior obturator tubercle": {
+"la": "Tuberculum obturatorium anterius"
+},
+"anterior papillary muscle of right ventricle": {
+"la": "M. papillaris anterior ventriculi dextri"
+},
+"anterior pole of eyeball": {
+"la": "Polus anterior bulbi oculi"
+},
+"anterior process of calcaneus": {
+"la": "Processus anterior calcanei"
+},
+"anterior process of malleus": {
+"la": "Processus anterior mallei"
+},
+"anterior quadrangular lobule": {
+"la": "Lobulus quadrangularis anterior"
+},
+"anterior root of spinal nerve": {
+"la": "Radix anterior n. spinalis",
+"tr": "Spinal sinir ön kökü"
+},
+"anterior sacral foramina": {
+"la": "Foramina sacralia anteriora"
+},
+"anterior sacro-iliac ligament": {
+"la": "Lig. sacroiliacum anterius"
+},
+"anterior segment of eyeball": {
+"la": "Segmentum anterius bulbi oculi"
+},
+"anterior segment of left lung (siii)": {
+"la": "Segmentum anterius pulmonis sinistri (s III)"
+},
+"anterior segment of right lung (siii)": {
+"la": "Segmentum anterius pulmonis dextri (s III)"
+},
+"anterior segmental artery of left lung": {
+"la": "A. segmentalis anterior pulmonis sinistri"
+},
+"anterior segmental artery of right lung": {
+"la": "A. segmentalis anterior pulmonis dextri"
+},
+"anterior segmental bronchus of left lung (biii)": {
+"la": "Bronchus segmentalis anterior pulmonis sinistri (B III)"
+},
+"anterior segmental bronchus of right lung (biii)": {
+"la": "Bronchus segmentalis anterior pulmonis dextri (B III)"
+},
+"anterior semicircular canal": {
+"la": "Canalis semicircularis anterior"
+},
+"anterior semilunar leaflet of pulmonary valve": {
+"la": "Valvula semilunaris anterior valvae trunci pulmonalis"
+},
+"anterior septal branches of anterior ethmoidal artery": {
+"la": "Rr. septales anteriores a. ethmoidalis anterioris"
+},
+"anterior spinal artery": {
+"la": "A. spinalis anterior"
+},
+"anterior spinocerebellar tract": {
+"la": "Tractus spinocerebellaris anterior"
+},
+"anterior spinothalamic tract": {
+"la": "Tractus spinothalamicus anterior"
+},
+"anterior sternoclavicular ligament": {
+"la": "Lig. sternoclaviculare anterius"
+},
+"anterior superior iliac spine": {
+"la": "Spina iliaca anterior superior"
+},
+"anterior surface of cornea": {
+"la": "Facies anterior corneae"
+},
+"anterior surface of heart": {
+"la": "Facies sternocostalis cordis"
+},
+"anterior surface of iris": {
+"la": "Facies anterior iridis"
+},
+"anterior surface of kidney": {
+"la": "Facies anterior renis"
+},
+"anterior surface of liver": {
+"la": "Facies anterior hepatis"
+},
+"anterior surface of petrous part": {
+"la": "Facies anterior partis petrosae"
+},
+"anterior surface of radius": {
+"la": "Facies anterior radii"
+},
+"anterior surface of suprarenal gland": {
+"la": "Facies anterior glandulae suprarenalis"
+},
+"anterior talocalcaneal ligament": {
+"la": "Lig. talocalcaneum anterius"
+},
+"anterior talofibular ligament": {
+"la": "Lig. talofibulare anterius",
+"tr": "Ön talofibular bağ"
+},
+"anterior temporal branch": {
+"la": "R. temporalis anterior"
+},
+"anterior tibial artery": {
+"la": "A. tibialis anterior"
+},
+"anterior tibial node": {
+"la": "Nl. tibialis anterior"
+},
+"anterior tibial veins": {
+"la": "Vv. tibiales anteriores"
+},
+"anterior tibiofibular ligament": {
+"la": "Lig. tibiofibulare anterius"
+},
+"anterior tubercle of atlas": {
+"la": "Tuberculum anterius atlantis"
+},
+"anterior tubercle of transverse process": {
+"la": "Tuberculum anterius processus transversi"
+},
+"anterior vein of left lung": {
+"la": "V. anterior pulmonis sinistri"
+},
+"anterior vein of right lung": {
+"la": "V. anterior pulmonis dextri"
+},
+"anterior wall of stomach": {
+"la": "Paries anterior gastris"
+},
+"antero-inferior surface of pancreas": {
+"la": "Facies anteroinferior pancreatis"
+},
+"anterolateral sulcus of medulla oblongata": {
+"la": "Sulcus anterolateralis medullae oblongatae"
+},
+"anterolateral surface of arytenoid cartilage": {
+"la": "Facies anterolateralis cartilaginis arytenoideae"
+},
+"anterolateral surface of humerus": {
+"la": "Facies anterolateralis humeri"
+},
+"anteromedial surface of fibula": {
+"la": "Facies anteromedialis fibulae"
+},
+"anteromedial surface of humerus": {
+"la": "Facies anteromedialis humeri"
+},
+"anterosuperior surface of pancreas": {
+"la": "Facies anterosuperior pancreatis"
+},
+"aortic arch": {
+"la": "Arcus aortae",
+"tr": "Aort kemeri"
+},
+"apex of arytenoid cartilage": {
+"la": "Apex cartilaginis arytenoideae"
+},
+"apex of bladder": {
+"la": "Apex vesicae"
+},
+"apex of coccyx": {
+"la": "Apex ossis coccygis"
+},
+"apex of dens axis": {
+"la": "Apex dentis axis"
+},
+"apex of head of fibula": {
+"la": "Apex capitis fibulae"
+},
+"apex of heart": {
+"la": "Apex cordis"
+},
+"apex of lung": {
+"la": "Apex pulmonis"
+},
+"apex of petrous part": {
+"la": "Apex partis petrosae"
+},
+"apex of sacrum": {
+"la": "Apex ossis sacri"
+},
+"apical axillary nodes": {
+"la": "Nll. axillares apicales",
+"tr": "Apikal koltuk altı lenf düğümleri"
+},
+"apical segment of right lung (si)": {
+"la": "Segmentum apicale pulmonis dextri (s I)"
+},
+"apical segmental artery of left lung": {
+"la": "A. segmentalis apicalis pulmonis sinistri"
+},
+"apical segmental artery of right lung": {
+"la": "A. segmentalis apicalis pulmonis dextri"
+},
+"apical segmental bronchus of right lung (bi)": {
+"la": "Bronchus segmentalis apicalis pulmonis dextri (B I)"
+},
+"apical vein of right lung": {
+"la": "V. apicalis pulmonis dextri"
+},
+"apicoposterior segment of left lung (si+sii)": {
+"la": "Segmentum apicoposterius pulmonis sinistri (S I+II)"
+},
+"apicoposterior segmental bronchus of left lung (bi+bii)": {
+"la": "Bronchus segmentalis apicoposterior pulmonis sinistri (B I+II)"
+},
+"appendicular artery": {
+"la": "A. appendicularis"
+},
+"appendicular nodes": {
+"la": "Nll. appendiculares"
+},
+"aqueduct of midbrain": {
+"la": "Aqueductus mesencephali"
+},
+"arch of cricoid cartilage": {
+"la": "Arcus cartilaginis cricoideae"
+},
+"arcuate artery": {
+"la": "A. arcuata"
+},
+"arcuate crest": {
+"la": "Crista arcuata"
+},
+"arcuate eminence": {
+"la": "Eminentia arcuata"
+},
+"arcuate line of ilium": {
+"la": "Linea arcuata ossis ilii"
+},
+"arcuate popliteal ligament": {
+"la": "Lig. popliteum arcuatum"
+},
+"artery of central sulcus": {
+"la": "A. sulci centralis"
+},
+"artery of precentral sulcus": {
+"la": "A. sulci precentralis"
+},
+"artery of pterygoid canal": {
+"la": "A. canalis pterygoidei"
+},
+"articular capsule of acromioclavicular joint": {
+"la": "Capsula articularis art. acromioclavicularis",
+"tr": "Akromiyoklaviküler eklem kapsülü"
+},
+"articular capsule of elbow joint": {
+"la": "Capsula articularis art. cubiti",
+"tr": "Dirsek eklemi kapsülü"
+},
+"articular capsule of glenohumeral joint": {
+"la": "Capsula articularis art. glenohumeralis",
+"tr": "Omuz eklemi kapsülü"
+},
+"articular capsule of hip joint": {
+"la": "Capsula articularis art. coxae",
+"tr": "Kalça eklemi kapsülü"
+},
+"articular capsule of interphalangeal joint of great toe": {
+"la": "Capsula articularis art. interphalangeae hallucis"
+},
+"articular capsule of knee joint": {
+"la": "Capsula articularis art. genus",
+"tr": "Diz eklemi kapsülü"
+},
+"articular capsule of radiocarpal joint": {
+"la": "Capsula articularis art. radiocarpalis",
+"tr": "El bileği eklemi kapsülü"
+},
+"articular capsule of sternoclavicular joint": {
+"la": "Capsula articularis art. sternoclavicularis",
+"tr": "Sternoklaviküler eklem kapsülü"
+},
+"articular capsule of superior tibiofibular joint": {
+"la": "Capsula articularis art. tibiofibularis"
+},
+"articular capsule of temporomandibular joint": {
+"la": "Capsula articularis art. temporomandibularis",
+"tr": "Temporomandibular eklem kapsülü"
+},
+"articular capsules of distal interphalangeal joints": {
+"la": "Capsulae articulares artt. interphalangearum distalium manus"
+},
+"articular capsules of distal interphalangeal joints of foot": {
+"la": "Capsulae articulares artt. interphalangearum distalium pedis"
+},
+"articular capsules of metacarpophalangeal joints": {
+"la": "Capsulae articulares artt. metacarpophalangearum"
+},
+"articular capsules of metatarsophalangeal joints": {
+"la": "Capsulae articulares artt. metatarsophalangearum"
+},
+"articular capsules of proximal interphalangeal joints": {
+"la": "Capsulae articulares artt. interphalangearum proximalium manus"
+},
+"articular capsules of proximal interphalangeal joints of foot": {
+"la": "Capsulae articulares artt. interphalangearum proximalium pedis"
+},
+"articular circumference of head of radius": {
+"la": "Circumferentia articularis capitis radii"
+},
+"articular circumference of head of ulna": {
+"la": "Circumferentia articularis capitis ulnae"
+},
+"articular disc of acromioclavicular joint": {
+"la": "Discus articularis art. acromioclavicularis"
+},
+"articular disc of distal radio-ulnar joint": {
+"la": "Discus articularis art. radioulnaris distalis"
+},
+"articular disc of sternoclavicular joint": {
+"la": "Discus articularis art. sternoclavicularis"
+},
+"articular disc of temporomandibular joint": {
+"la": "Discus articularis art. temporomandibularis",
+"tr": "Temporomandibular eklem diski"
+},
+"articular facet for malleus": {
+"la": "Facies articularis mallearis"
+},
+"articular facet for stapes": {
+"la": "Facies articularis stapedialis"
+},
+"articular facet of head of fibula": {
+"la": "Facies articularis capitis fibulae"
+},
+"articular facet of head of malleus": {
+"la": "Facies articularis capitis mallei"
+},
+"articular facet of head of radius": {
+"la": "Fovea articularis capitis radii"
+},
+"articular facet of head of stapes": {
+"la": "Facies articularis capitis stapedis"
+},
+"articular facet of lateral malleolus": {
+"la": "Facies articularis malleoli lateralis"
+},
+"articular facet of medial malleolus": {
+"la": "Facies articularis malleoli medialis"
+},
+"articular facet of tubercle of rib": {
+"la": "Facies articularis tuberculi costae"
+},
+"articular facets of head of rib": {
+"la": "Facies articulares capitis costae"
+},
+"articular surface for cuboid": {
+"la": "Facies articularis cuboidea"
+},
+"articular surface of arytenoid cartilage": {
+"la": "Facies articularis cartilaginis arytenoideae"
+},
+"articular surface of medial condyle": {
+"la": "Facies articularis condyli medialis"
+},
+"articularis genus muscle": {
+"la": "M. articularis genus"
+},
+"ary-epiglottic part of oblique arytenoid muscle": {
+"la": "M. arytenoideus obliquus – pars aryepiglottica"
+},
+"arytenoid articular surface": {
+"la": "Facies articularis arytenoidea"
+},
+"arytenoid cartilage": {
+"la": "Cartilago arytenoidea"
+},
+"ascending aorta": {
+"la": "Aorta ascendens",
+"tr": "Çıkan aorta"
+},
+"ascending branch of left colic artery": {
+"la": "R. ascendens a. colicae sinistrae"
+},
+"ascending colon": {
+"la": "Colon ascendens",
+"tr": "Çıkan kolon"
+},
+"ascending part of trapezius muscle": {
+"la": "M. trapezius – pars ascendens"
+},
+"ascending pharyngeal artery": {
+"la": "A. pharyngea ascendens"
+},
+"atlas": {
+"la": "Atlas (C1)"
+},
+"atlas (c1)": {
+"la": "Atlas (C1)",
+"tr": "1. boyun omuru"
+},
+"auditory tube": {
+"la": "Tuba auditiva",
+"tr": "Östaki borusu"
+},
+"auricular surface of ilium": {
+"la": "Facies auricularis ossis ilii"
+},
+"auricular surface of sacrum": {
+"la": "Facies auricularis ossis sacri"
+},
+"axillary artery": {
+"la": "A. axillaris"
+},
+"axillary nerve": {
+"la": "N. axillaris",
+"tr": "Koltuk altı siniri"
+},
+"axillary vein": {
+"la": "V. axillaris"
+},
+"axis (c2)": {
+"la": "Axis (C2)",
+"tr": "2. boyun omuru"
+},
+"azygos vein": {
+"la": "V. azygos"
+},
+"bare area of liver": {
+"la": "Area nuda hepatis"
+},
+"base of arytenoid cartilage": {
+"la": "Basis cartilaginis arytenoideae"
+},
+"base of coccyx": {
+"la": "Basis ossis coccygis"
+},
+"base of cochlea": {
+"la": "Basis cochleae"
+},
+"base of heart": {
+"la": "Basis cordis"
+},
+"base of lung": {
+"la": "Basis pulmonis"
+},
+"base of mandible": {
+"la": "Basis mandibulae"
+},
+"base of metatarsal bone": {
+"la": "Basis ossis metatarsi"
+},
+"base of peduncle": {
+"la": "Basis pedunculi"
+},
+"base of phalanx of foot": {
+"la": "Basis phalangis pedis"
+},
+"base of phalanx of hand": {
+"la": "Basis phalangis manus"
+},
+"base of sacrum": {
+"la": "Basis ossis sacri"
+},
+"base of stapes": {
+"la": "Basis stapedis"
+},
+"basilar artery": {
+"la": "A. basilaris"
+},
+"basilar part of occipital bone": {
+"la": "Pars basilaris ossis occipitalis"
+},
+"basilar venous plexus": {
+"la": "Plexus basilaris"
+},
+"basilic vein": {
+"la": "V. basilica"
+},
+"biceps brachii muscle": {
+"la": "M. biceps brachii"
+},
+"biceps femoris muscle": {
+"la": "M. biceps femoris"
+},
+"bicipitoradial bursa": {
+"la": "Bursa bicipitoradialis"
+},
+"bifurcation of pulmonary trunk": {
+"la": "Bifurcatio trunci pulmonalis"
+},
+"bile duct": {
+"la": "Ductus biliaris"
+},
+"biventral lobule": {
+"la": "Lobulus biventer"
+},
+"body of bladder": {
+"la": "Corpus vesicae"
+},
+"body of clavicle": {
+"la": "Corpus claviculae"
+},
+"body of femur": {
+"la": "Corpus femoris"
+},
+"body of fibula": {
+"la": "Corpus fibulae"
+},
+"body of gallbladder": {
+"la": "Corpus vesicae biliaris"
+},
+"body of humerus": {
+"la": "Corpus humeri"
+},
+"body of hyoid bone": {
+"la": "Corpus ossis hyoidei"
+},
+"body of ilium": {
+"la": "Corpus ossis ilii"
+},
+"body of incus": {
+"la": "Corpus incudis"
+},
+"body of ischium": {
+"la": "Corpus ossis ischii"
+},
+"body of mandible": {
+"la": "Corpus mandibulae"
+},
+"body of metacarpal bone": {
+"la": "Corpus ossis metacarpi"
+},
+"body of metatarsal bone": {
+"la": "Corpus ossis metatarsi"
+},
+"body of pancreas": {
+"la": "Corpus pancreatis"
+},
+"body of phalanx of foot": {
+"la": "Corpus phalangis pedis"
+},
+"body of phalanx of hand": {
+"la": "Corpus phalangis manus"
+},
+"body of pubis": {
+"la": "Corpus ossis pubis"
+},
+"body of radius": {
+"la": "Corpus radii"
+},
+"body of rib": {
+"la": "Corpus costae"
+},
+"body of sphenoid bone": {
+"la": "Corpus ossis sphenoidalis"
+},
+"body of sternum": {
+"la": "Corpus sterni",
+"tr": "Göğüs kemiği gövdesi"
+},
+"body of stomach": {
+"la": "Corpus gastricum"
+},
+"body of talus": {
+"la": "Corpus tali"
+},
+"body of tibia": {
+"la": "Corpus tibiae"
+},
+"body of ulna": {
+"la": "Corpus ulnae"
+},
+"brachial artery": {
+"la": "A. brachialis"
+},
+"brachial fascia": {
+"la": "Fascia brachii"
+},
+"brachial nodes": {
+"la": "Nll. brachiales"
+},
+"brachial veins": {
+"la": "Vv. brachiales"
+},
+"brachialis muscle": {
+"la": "M. brachialis"
+},
+"brachiocephalic nodes": {
+"la": "Nll. brachiocephalici"
+},
+"brachiocephalic trunk": {
+"la": "Truncus brachiocephalicus"
+},
+"brachioradialis muscle": {
+"la": "M. brachioradialis"
+},
+"branch to angular gyrus": {
+"la": "R. gyri angularis"
+},
+"buccal artery": {
+"la": "A. buccalis"
+},
+"buccal nerve": {
+"la": "N. buccalis"
+},
+"bucinator": {
+"la": "M. buccinator"
+},
+"bucinator node": {
+"la": "Nl. buccinatorius"
+},
+"bursa of piriformis muscle": {
+"la": "Bursa m. piriformis"
+},
+"calcaneal branches of fibular artery": {
+"la": "Rr. calcanei a. fibularis"
+},
+"calcaneal branches of posterior tibial artery": {
+"la": "Rr. calcanei a. tibialis posterioris"
+},
+"calcaneal sulcus": {
+"la": "Sulcus calcanei"
+},
+"calcaneal tendon": {
+"la": "Tendo calcaneus",
+"tr": "Aşil tendonu"
+},
+"calcaneal tubercle": {
+"la": "Tuberculum calcanei"
+},
+"calcaneal tuberosity": {
+"la": "Tuber calcanei"
+},
+"calcaneocuboid ligament": {
+"la": "Lig. calcaneocuboideum"
+},
+"calcaneofibular ligament": {
+"la": "Lig. calcaneofibulare",
+"tr": "Kalkaneofibular bağ"
+},
+"calcaneonavicular ligament": {
+"la": "Lig. calcaneonaviculare"
+},
+"calcaneus": {
+"la": "Calcaneus",
+"tr": "Topuk kemiği"
+},
+"calcarine sulcus": {
+"la": "Sulcus calcarinus"
+},
+"callosomarginal artery": {
+"la": "A. callosomarginalis"
+},
+"canal for vertebral artery": {
+"la": "Canalis a. vertebralis"
+},
+"capitate bone": {
+"la": "Os capitatum"
+},
+"capitohamate interosseous ligament": {
+"la": "Lig. capitohamatum interosseum"
+},
+"capitulum of humerus": {
+"la": "Capitulum humeri"
+},
+"cardia": {
+"la": "Cardia"
+},
+"cardiac impression of liver": {
+"la": "Impressio cardiaca hepatis"
+},
+"cardiac impression of lung": {
+"la": "Impressio cardiaca pulmonis"
+},
+"cardiac notch": {
+"la": "Incisura cardialis"
+},
+"cardiac notch of left lung": {
+"la": "Incisura cardiaca pulmonis sinistri"
+},
+"carotid sulcus": {
+"la": "Sulcus caroticus"
+},
+"carpal articular surface": {
+"la": "Facies articularis carpalis"
+},
+"cauda equina": {
+"la": "Cauda equina",
+"tr": "At kuyruğu"
+},
+"caudate lobe": {
+"la": "Lobus caudatus"
+},
+"caudate nucleus": {
+"la": "Nucleus caudatus"
+},
+"cavernous sinus": {
+"la": "Sinus cavernosus"
+},
+"central axillary nodes": {
+"la": "Nll. axillares centrales",
+"tr": "Merkezi koltuk altı lenf düğümleri"
+},
+"central canal": {
+"la": "Canalis centralis"
+},
+"central lobule": {
+"la": "Lobulus centralis"
+},
+"central retinal artery": {
+"la": "A. centralis retinae"
+},
+"central sulcus": {
+"la": "Sulcus centralis"
+},
+"central superior mesenteric nodes": {
+"la": "Nll. superiores centrales"
+},
+"cephalic vein": {
+"la": "V. cephalica"
+},
+"cerebellar fossa": {
+"la": "Fossa cerebellaris"
+},
+"cerebral fossa": {
+"la": "Fossa cerebralis"
+},
+"cerebral surface of greater wing": {
+"la": "Facies cerebralis alae majoris"
+},
+"cervical vertebra": {
+"la": "Vertebra cervicalis"
+},
+"chiasmatic sulcus": {
+"la": "Sulcus chiasmaticus"
+},
+"chorda tympani": {
+"la": "Chorda tympani"
+},
+"choroid plexus": {
+"la": "Plexus choroideus"
+},
+"circular sulcus of insula": {
+"la": "Sulcus circularis insulae"
+},
+"circumflex artery of heart": {
+"la": "R. circumflexus a. coronariae sinistrae",
+"tr": "Sirkumfleks arter"
+},
+"circumflex scapular artery": {
+"la": "A. circumflexa scapulae"
+},
+"circumflex scapular vein": {
+"la": "V. circumflexa scapulae"
+},
+"clavicle": {
+"la": "Clavicula",
+"tr": "Köprücük kemiği"
+},
+"clavicular facet": {
+"la": "Facies articularis clavicularis"
+},
+"clavicular head of pectoralis major muscle": {
+"la": "M. pectoralis major – pars clavicularis"
+},
+"clavicular notch": {
+"la": "Incisura clavicularis"
+},
+"clavicular part of deltoid muscle": {
+"la": "M. deltoideus – pars clavicularis"
+},
+"clavipectoral fascia": {
+"la": "Fascia clavipectoralis"
+},
+"coccygeal horn": {
+"la": "Cornu coccygeum"
+},
+"coccygeus muscle": {
+"la": "M. coccygeus"
+},
+"coccyx": {
+"la": "Os coccygis",
+"tr": "Kuyruk sokumu kemiği"
+},
+"cochlea": {
+"la": "Cochlea",
+"tr": "Koklea"
+},
+"cochlear cupula": {
+"la": "Cupula cochleae"
+},
+"cochlear nerve": {
+"la": "N. cochlearis"
+},
+"coeliac nodes": {
+"la": "Nll. coeliaci"
+},
+"coeliac trunk": {
+"la": "Truncus coeliacus"
+},
+"colic branch of ileocolic artery": {
+"la": "R. colicus a. ileocolicae"
+},
+"colic impression of liver": {
+"la": "Impressio colica hepatis"
+},
+"colic impression of spleen": {
+"la": "Facies colica splenis"
+},
+"collateral interphalangeal ligaments of foot": {
+"la": "Ligg. collateralia artt. interphalangearum pedis"
+},
+"collateral interphalangeal ligaments of hand": {
+"la": "Ligg. collateralia artt. interphalangearum manus"
+},
+"collateral metacarpophalangeal ligaments": {
+"la": "Ligg. collateralia artt. metacarpophalangearum"
+},
+"collateral metatarsophalangeal ligaments": {
+"la": "Ligg. collateralia artt. metatarsophalangearum"
+},
+"collateral sulcus": {
+"la": "Sulcus collateralis"
+},
+"colliculus of arytenoid cartilage": {
+"la": "Colliculus cartilaginis arytenoideae"
+},
+"common bony limb": {
+"la": "Crus osseum commune"
+},
+"common fibular nerve": {
+"la": "N. fibularis communis"
+},
+"common flexor tendon sheath": {
+"la": "Vagina communis tendinum mm. flexorum"
+},
+"common hepatic artery": {
+"la": "A. hepatica communis"
+},
+"common iliac artery": {
+"la": "A. iliaca communis"
+},
+"common iliac vein": {
+"la": "V. iliaca communis"
+},
+"common interosseous artery": {
+"la": "A. interossea communis"
+},
+"common palmar digital arteries": {
+"la": "Aa. digitales palmares communes"
+},
+"common palmar digital branches of median nerve": {
+"la": "Nn. digitales palmares communes n. mediani"
+},
+"common palmar digital branches of ulnar nerve": {
+"la": "Nn. digitales palmares communes n. ulnaris"
+},
+"common plantar digital arteries": {
+"la": "Aa. digitales plantares communes"
+},
+"common plantar digital branches of lateral plantar nerve": {
+"la": "Nn. digitales plantares communes n. plantaris lateralis"
+},
+"common plantar digital branches of medial plantar nerve": {
+"la": "Nn. digitales plantares communes n. plantaris medialis"
+},
+"common tendinous ring": {
+"la": "Anulus tendineus communis"
+},
+"common tendon sheath of fibularis muscles": {
+"la": "Vagina communis tendinum mm. fibularium"
+},
+"communicating branch of median nerve with ulnar nerve": {
+"la": "R. communicans n. mediani cum n. ulnari"
+},
+"condylar canal": {
+"la": "Canalis condylaris"
+},
+"condylar fossa": {
+"la": "Fossa condylaris"
+},
+"condyle of humerus": {
+"la": "Condylus humeri"
+},
+"conoid ligament": {
+"la": "Lig. conoideum"
+},
+"conoid tubercle": {
+"la": "Tuberculum conoideum"
+},
+"coraco-acromial ligament": {
+"la": "Lig. coracoacromiale"
+},
+"coracobrachial bursa": {
+"la": "Bursa m. coracobrachialis"
+},
+"coracobrachialis muscle": {
+"la": "M. coracobrachialis"
+},
+"coracohumeral ligament": {
+"la": "Lig. coracohumerale"
+},
+"coracoid process": {
+"la": "Processus coracoideus"
+},
+"cornea": {
+"la": "Cornea",
+"tr": "Kornea"
+},
+"corneoscleral junction": {
+"la": "Limbus corneae"
+},
+"corniculate cartilage": {
+"la": "Cartilago corniculata"
+},
+"coronary sinus": {
+"la": "Sinus coronarius",
+"tr": "Koroner sinüs"
+},
+"coronary sulcus": {
+"la": "Sulcus coronarius"
+},
+"coronoid fossa": {
+"la": "Fossa coronoidea"
+},
+"coronoid process of ulna": {
+"la": "Processus coronoideus ulnae"
+},
+"corpus callosum": {
+"la": "Corpus callosum",
+"tr": "Nasırlı cisim"
+},
+"corpus cavernosum of penis": {
+"la": "Corpus cavernosum penis"
+},
+"corpus spongiosum of penis": {
+"la": "Corpus spongiosum penis"
+},
+"corrugator supercilii": {
+"la": "M. corrugator supercilii"
+},
+"costal cartilage of eighth rib": {
+"la": "Cartilago costalis VIII",
+"tr": "8. kosta kıkırdağı"
+},
+"costal cartilage of fifth rib": {
+"la": "Cartilago costalis V",
+"tr": "5. kosta kıkırdağı"
+},
+"costal cartilage of first rib": {
+"la": "Cartilago costalis I",
+"tr": "1. kosta kıkırdağı"
+},
+"costal cartilage of fourth rib": {
+"la": "Cartilago costalis IV",
+"tr": "4. kosta kıkırdağı"
+},
+"costal cartilage of ninth rib": {
+"la": "Cartilago costalis IX",
+"tr": "9. kosta kıkırdağı"
+},
+"costal cartilage of second rib": {
+"la": "Cartilago costalis II",
+"tr": "2. kosta kıkırdağı"
+},
+"costal cartilage of seventh rib": {
+"la": "Cartilago costalis VII",
+"tr": "7. kosta kıkırdağı"
+},
+"costal cartilage of sixth rib": {
+"la": "Cartilago costalis VI",
+"tr": "6. kosta kıkırdağı"
+},
+"costal cartilage of tenth rib": {
+"la": "Cartilago costalis X",
+"tr": "10. kosta kıkırdağı"
+},
+"costal cartilage of third rib": {
+"la": "Cartilago costalis III",
+"tr": "3. kosta kıkırdağı"
+},
+"costal groove": {
+"la": "Sulcus costae"
+},
+"costal notches": {
+"la": "Incisurae costales"
+},
+"costal part of transverse process": {
+"la": "Pars costalis processus transversi"
+},
+"costal surface of lung": {
+"la": "Facies costalis pulmonis"
+},
+"costal surface of scapula": {
+"la": "Facies costalis scapulae"
+},
+"costocervical trunk": {
+"la": "Truncus costocervicalis"
+},
+"costoclavicular ligament": {
+"la": "Lig. costoclaviculare"
+},
+"costotransverse ligament": {
+"la": "Lig. costotransversarium"
+},
+"crest of greater tubercle": {
+"la": "Crista tuberculi majoris"
+},
+"crest of head of rib": {
+"la": "Crista capitis costae"
+},
+"crest of lesser tubercle": {
+"la": "Crista tuberculi minoris"
+},
+"crest of neck of rib": {
+"la": "Crista colli costae"
+},
+"cricoid cartilage": {
+"la": "Cartilago cricoidea"
+},
+"cricopharyngeal ligament": {
+"la": "Lig. cricopharyngeum"
+},
+"crown of tooth": {
+"la": "Corona dentis"
+},
+"cruciform eminence": {
+"la": "Eminentia cruciformis"
+},
+"cruciform part of fibrous sheath of digit of hand": {
+"la": "Pars cruciformis vaginae fibrosae"
+},
+"crural fascia": {
+"la": "Fascia cruris"
+},
+"cubital nodes": {
+"la": "Nll. cubitales",
+"tr": "Kubital lenf düğümleri"
+},
+"cuboid bone": {
+"la": "Os cuboideum"
+},
+"culmen": {
+"la": "Culmen"
+},
+"cuneate fasciculus": {
+"la": "Fasciculus cuneatus"
+},
+"cuneate tubercle": {
+"la": "Tuberculum cuneatum"
+},
+"cuneocuboid interosseous ligament": {
+"la": "Lig. cuneocuboideum interosseum"
+},
+"cuneometatarsal interosseous ligaments": {
+"la": "Ligg. cuneometatarsalia interossea"
+},
+"cuneus": {
+"la": "Cuneus"
+},
+"cusp of tooth": {
+"la": "Cuspis dentis"
+},
+"cystic node": {
+"la": "Nl. cysticus"
+},
+"declive": {
+"la": "Declive"
+},
+"deep artery of penis": {
+"la": "A. profunda penis"
+},
+"deep brachial artery": {
+"la": "A. profunda brachii"
+},
+"deep branch of radial nerve": {
+"la": "R. profundus n. radialis"
+},
+"deep branch of transverse cervical artery": {
+"la": "R. profundus a. transversae colli"
+},
+"deep branch of ulnar nerve": {
+"la": "R. profundus n. ulnaris"
+},
+"deep cervical artery": {
+"la": "A. cervicalis profunda"
+},
+"deep dorsal vein of penis": {
+"la": "V. dorsalis profunda penis"
+},
+"deep external pudendal artery": {
+"la": "A. pudenda externa profunda"
+},
+"deep femoral artery": {
+"la": "A. profunda femoris"
+},
+"deep femoral vein": {
+"la": "V. profunda femoris"
+},
+"deep fibular nerve": {
+"la": "N. fibularis profundus"
+},
+"deep head of flexor pollicis brevis": {
+"la": "M. flexor pollicis brevis – caput profundum"
+},
+"deep infrapatellar bursa": {
+"la": "Bursa infrapatellaris profunda"
+},
+"deep palmar arch": {
+"la": "Arcus palmaris profundus"
+},
+"deep part of masseter": {
+"la": "M. masseter – pars profunda"
+},
+"deep part of tibial collateral ligament": {
+"la": "Lig. collaterale tibiale – pars profunda",
+"tr": "İç yan bağın derin kısmı"
+},
+"deep plantar artery": {
+"la": "A. plantaris profunda"
+},
+"deep popliteal nodes": {
+"la": "Nll. poplitei profundi",
+"tr": "Derin popliteal lenf düğümleri"
+},
+"deep transverse metacarpal ligament": {
+"la": "Lig. metacarpale transversum profundum"
+},
+"deep transverse metatarsal ligament": {
+"la": "Lig. metatarsale transversum profundum"
+},
+"deep venous palmar arch": {
+"la": "Arcus venosus palmaris profundus"
+},
+"deltoid fascia": {
+"la": "Fascia deltoidea"
+},
+"deltoid muscle": {
+"la": "M. deltoideus"
+},
+"deltoid tubercle": {
+"la": "Tuberculum deltoideum"
+},
+"deltoid tuberosity": {
+"la": "Tuberositas deltoidea"
+},
+"dens axis": {
+"la": "Dens axis"
+},
+"depressor anguli oris": {
+"la": "M. depressor anguli oris"
+},
+"depressor labii inferioris": {
+"la": "M. depressor labii inferioris"
+},
+"depressor septi nasi": {
+"la": "M. depressor septi nasi"
+},
+"descending branch of lateral circumflex femoral artery": {
+"la": "R. descendens a. circumflexae femoris lateralis"
+},
+"descending branch of left colic artery": {
+"la": "R. descendens a. colicae sinistrae"
+},
+"descending colon": {
+"la": "Colon descendens",
+"tr": "İnen kolon"
+},
+"descending palatine artery": {
+"la": "A. palatina descendens"
+},
+"descending part of iliofemoral ligament": {
+"la": "Lig. iliofemorale – pars descendens"
+},
+"descending part of trapezius muscle": {
+"la": "M. trapezius – pars descendens"
+},
+"diaphragm": {
+"la": "Diaphragma",
+"tr": "Diyafram"
+},
+"diaphragmatic fascia": {
+"la": "Fascia diaphragmatica"
+},
+"diaphragmatic surface of liver": {
+"la": "Facies diaphragmatica hepatis"
+},
+"diaphragmatic surface of lung": {
+"la": "Facies diaphragmatica pulmonis"
+},
+"diaphragmatic surface of spleen": {
+"la": "Facies diaphragmatica splenis"
+},
+"digastric fossa": {
+"la": "Fossa digastrica"
+},
+"dilator pupillae": {
+"la": "M. dilatator pupillae"
+},
+"distal lateral striate branches": {
+"la": "Rr. distales laterales striati"
+},
+"distal phalanx of fifth finger of foot": {
+"la": "Phalanx distalis",
+"tr": "Ayak serçe parmağının distal falanksı"
+},
+"distal phalanx of fifth finger of hand": {
+"la": "Phalanx distalis",
+"tr": "El serçe parmağının distal falanksı"
+},
+"distal phalanx of first finger of foot": {
+"la": "Phalanx distalis",
+"tr": "Ayak başparmağının distal falanksı"
+},
+"distal phalanx of first finger of hand": {
+"la": "Phalanx distalis",
+"tr": "El başparmağının distal falanksı"
+},
+"distal phalanx of fourth finger of foot": {
+"la": "Phalanx distalis",
+"tr": "4. ayak parmağının distal falanksı"
+},
+"distal phalanx of fourth finger of hand": {
+"la": "Phalanx distalis",
+"tr": "Yüzük parmağının distal falanksı"
+},
+"distal phalanx of second finger of foot": {
+"la": "Phalanx distalis",
+"tr": "2. ayak parmağının distal falanksı"
+},
+"distal phalanx of second finger of hand": {
+"la": "Phalanx distalis",
+"tr": "İşaret parmağının distal falanksı"
+},
+"distal phalanx of third finger of foot": {
+"la": "Phalanx distalis",
+"tr": "3. ayak parmağının distal falanksı"
+},
+"distal phalanx of third finger of hand": {
+"la": "Phalanx distalis",
+"tr": "Orta parmağın distal falanksı"
+},
+"distal surface of tooth": {
+"la": "Facies distalis dentis"
+},
+"dorsal artery of penis": {
+"la": "A. dorsalis penis"
+},
+"dorsal branch of ulnar nerve": {
+"la": "R. dorsalis n. ulnaris"
+},
+"dorsal calcaneocuboid ligament": {
+"la": "Lig. calcaneocuboideum dorsale"
+},
+"dorsal carpal anastomosis": {
+"la": "Rete carpale dorsale"
+},
+"dorsal carpal branch of ulnar artery": {
+"la": "R. carpalis dorsalis a. ulnaris"
+},
+"dorsal carpometacarpal ligaments": {
+"la": "Ligg. carpometacarpalia dorsalia"
+},
+"dorsal cuboideonavicular ligament": {
+"la": "Lig. cuboideonaviculare dorsale"
+},
+"dorsal cuneocuboid ligament": {
+"la": "Lig. cuneocuboideum dorsale"
+},
+"dorsal cuneonavicular ligaments": {
+"la": "Ligg. cuneonavicularia dorsalia"
+},
+"dorsal digital arteries of foot": {
+"la": "Aa. digitales dorsales (pedis)"
+},
+"dorsal digital arteries of hand": {
+"la": "Aa. digitales dorsales (manus)"
+},
+"dorsal digital branches of deep fibular nerve": {
+"la": "Nn. digitales dorsales pedis"
+},
+"dorsal digital branches of radial nerve": {
+"la": "Nn. digitales dorsales n. radialis"
+},
+"dorsal digital branches of superficial fibular nerve": {
+"la": "Nn. digitales dorsales pedis"
+},
+"dorsal digital branches of ulnar nerve": {
+"la": "Nn. digitales dorsales n. ulnaris"
+},
+"dorsal digital veins of foot": {
+"la": "Vv. digitales dorsales pedis"
+},
+"dorsal fascia of hand": {
+"la": "Fascia dorsalis manus"
+},
+"dorsal intercarpal ligaments": {
+"la": "Ligg. intercarpalia dorsalia"
+},
+"dorsal intercuneiform ligaments": {
+"la": "Ligg. intercuneiformia dorsalia"
+},
+"dorsal interossei muscles of foot": {
+"la": "Mm. interossei dorsales (pedis)"
+},
+"dorsal interossei muscles of hand": {
+"la": "Mm. interossei dorsales (manus)"
+},
+"dorsal metacarpal arteries": {
+"la": "Aa. metacarpales dorsales"
+},
+"dorsal metacarpal ligaments": {
+"la": "Ligg. metacarpalia dorsalia"
+},
+"dorsal metatarsal arteries": {
+"la": "Aa. metatarsales dorsales"
+},
+"dorsal metatarsal ligaments": {
+"la": "Ligg. metatarsalia dorsalia"
+},
+"dorsal metatarsal veins": {
+"la": "Vv. metatarsales dorsales"
+},
+"dorsal parts of lateral intertransversarii lumborum muscles": {
+"la": "Mm. intertransversarii laterales lumborum – partes dorsales"
+},
+"dorsal radial tubercle": {
+"la": "Tuberculum dorsale radii"
+},
+"dorsal radio-ulnar ligament": {
+"la": "Lig. radioulnare dorsale"
+},
+"dorsal radiocarpal ligament": {
+"la": "Lig. radiocarpale dorsale"
+},
+"dorsal scaphotriquetral ligament": {
+"la": "Lig. scaphotriquetrum dorsale"
+},
+"dorsal scapular nerve": {
+"la": "N. dorsalis scapulae"
+},
+"dorsal surface of sacrum": {
+"la": "Facies dorsalis ossis sacri"
+},
+"dorsal tarsometatarsal ligaments": {
+"la": "Ligg. tarsometatarsalia dorsalia"
+},
+"dorsal ulnocarpal ligament": {
+"la": "Lig. ulnocarpale dorsale"
+},
+"dorsal venous arch of foot": {
+"la": "Arcus venosus dorsalis pedis"
+},
+"dorsal venous network of hand": {
+"la": "Rete venosum dorsale manus"
+},
+"dorsalis pedis artery": {
+"la": "A. dorsalis pedis"
+},
+"dorsum sellae": {
+"la": "Dorsum sellae"
+},
+"ductus deferens": {
+"la": "Ductus deferens"
+},
+"duodenal impression of liver": {
+"la": "Impressio duodenalis hepatis"
+},
+"duodenum": {
+"la": "Duodenum",
+"tr": "Onikiparmak bağırsağı"
+},
+"eighth rib": {
+"la": "Costa VIII",
+"tr": "8. kaburga"
+},
+"ejaculatory duct": {
+"la": "Ductus ejaculatorius"
+},
+"eleventh rib": {
+"la": "Costa XI",
+"tr": "11. kaburga"
+},
+"epicranial aponeurosis": {
+"la": "Galea aponeurotica"
+},
+"epididymis": {
+"la": "Epididymis"
+},
+"epiglottis": {
+"la": "Epiglottis",
+"tr": "Epiglot"
+},
+"equator of eyeball": {
+"la": "Equator bulbi oculi"
+},
+"erector spinae": {
+"la": "M. erector spinae"
+},
+"ethmoid bone": {
+"la": "Os ethmoidale",
+"tr": "Kalbur kemiği"
+},
+"ethmoidal notch": {
+"la": "Incisura ethmoidalis"
+},
+"extensor carpi radialis brevis": {
+"la": "M. extensor carpi radialis brevis"
+},
+"extensor carpi radialis longus": {
+"la": "M. extensor carpi radialis longus"
+},
+"extensor carpi ulnaris": {
+"la": "M. extensor carpi ulnaris"
+},
+"extensor digiti minimi": {
+"la": "M. extensor digiti minimi"
+},
+"extensor digitorum": {
+"la": "M. extensor digitorum"
+},
+"extensor digitorum brevis": {
+"la": "M. extensor digitorum brevis"
+},
+"extensor digitorum longus": {
+"la": "M. extensor digitorum longus"
+},
+"extensor hallucis brevis": {
+"la": "M. extensor hallucis brevis"
+},
+"extensor hallucis longus": {
+"la": "M. extensor hallucis longus"
+},
+"extensor indicis": {
+"la": "M. extensor indicis"
+},
+"extensor pollicis brevis": {
+"la": "M. extensor pollicis brevis"
+},
+"extensor pollicis longus": {
+"la": "M. extensor pollicis longus"
+},
+"extensor retinaculum of wrist": {
+"la": "Retinaculum extensorum",
+"tr": "Ekstansör retinakulum"
+},
+"external abdominal oblique muscle": {
+"la": "M. obliquus externus abdominis"
+},
+"external anal sphincter": {
+"la": "M. sphincter ani externus"
+},
+"external axis of eyeball": {
+"la": "Axis bulbi externus"
+},
+"external carotid artery": {
+"la": "A. carotis externa"
+},
+"external iliac artery": {
+"la": "A. iliaca externa"
+},
+"external iliac vein": {
+"la": "V. iliaca externa"
+},
+"external intercostal membrane": {
+"la": "Membrana intercostalis externa"
+},
+"external intercostal muscles": {
+"la": "Mm. intercostales externi",
+"tr": "Dış interkostal kaslar"
+},
+"external jugular vein": {
+"la": "V. jugularis externa",
+"tr": "Dış juguler ven"
+},
+"external occipital crest": {
+"la": "Crista occipitalis externa"
+},
+"external occipital protuberance": {
+"la": "Protuberantia occipitalis externa"
+},
+"external pudendal veins": {
+"la": "Vv. pudendae externae"
+},
+"external surface of parietal bone": {
+"la": "Facies externa ossis parietalis"
+},
+"eyeball": {
+"la": "Bulbus oculi"
+},
+"facet for calcaneonavicular part of bifurcate ligament": {
+"la": "Facies articularis partis calcaneonavicularis lig. bifurcati"
+},
+"facet for dens": {
+"la": "Fovea dentis"
+},
+"facet for plantar calcaneonavicular ligament": {
+"la": "Facies articularis lig. calcaneonavicularis plantaris"
+},
+"facial artery": {
+"la": "A. facialis"
+},
+"facial nerve (vii)": {
+"la": "N. facialis (VII)",
+"tr": "7. kranial sinir"
+},
+"facial vein": {
+"la": "V. facialis"
+},
+"falx cerebri": {
+"la": "Falx cerebri"
+},
+"fascia lata": {
+"la": "Fascia lata"
+},
+"femoral artery": {
+"la": "A. femoralis"
+},
+"femoral branch of genitofemoral nerve": {
+"la": "R. femoralis n. genitofemoralis"
+},
+"femoral nerve": {
+"la": "N. femoralis"
+},
+"femoral vein": {
+"la": "V. femoralis"
+},
+"femur": {
+"la": "Femur",
+"tr": "Uyluk kemiği"
+},
+"fibrous appendix of liver": {
+"la": "Appendix fibrosa hepatis"
+},
+"fibula": {
+"la": "Fibula",
+"tr": "Kamış kemiği"
+},
+"fibular artery": {
+"la": "A. fibularis"
+},
+"fibular articular facet": {
+"la": "Facies articularis fibularis"
+},
+"fibular collateral ligament": {
+"la": "Lig. collaterale fibulare",
+"tr": "Dış yan bağ"
+},
+"fibular node": {
+"la": "Nl. fibularis"
+},
+"fibular notch": {
+"la": "Incisura fibularis"
+},
+"fibular veins": {
+"la": "Vv. fibulares"
+},
+"fibularis brevis muscle": {
+"la": "M. fibularis brevis"
+},
+"fibularis longus muscle": {
+"la": "M. fibularis longus"
+},
+"fibularis tertius muscle": {
+"la": "M. fibularis tertius"
+},
+"fifth metacarpal bone": {
+"la": "Os metacarpale V",
+"tr": "5. el tarak kemiği"
+},
+"fifth metatarsal bone": {
+"la": "Os metatarsale V",
+"tr": "5. ayak tarak kemiği"
+},
+"fifth rib": {
+"la": "Costa V",
+"tr": "5. kaburga"
+},
+"first metacarpal bone": {
+"la": "Os metacarpale I",
+"tr": "1. el tarak kemiği"
+},
+"first metatarsal bone": {
+"la": "Os metatarsale I",
+"tr": "1. ayak tarak kemiği"
+},
+"first posterior intercostal artery": {
+"la": "A. intercostalis posterior prima"
+},
+"first rib": {
+"la": "Costa I",
+"tr": "1. kaburga"
+},
+"fissure for ligamentum teres": {
+"la": "Fissura lig. teretis"
+},
+"fissure for ligamentum venosum": {
+"la": "Fissura lig. venosi"
+},
+"flexor carpi radialis": {
+"la": "M. flexor carpi radialis"
+},
+"flexor carpi ulnaris": {
+"la": "M. flexor carpi ulnaris"
+},
+"flexor digiti minimi of foot": {
+"la": "M. flexor digiti minimi brevis (pedis)"
+},
+"flexor digiti minimi of hand": {
+"la": "M. flexor digiti minimi brevis (manus)"
+},
+"flexor digitorum brevis": {
+"la": "M. flexor digitorum brevis"
+},
+"flexor digitorum longus": {
+"la": "M. flexor digitorum longus"
+},
+"flexor digitorum profundus": {
+"la": "M. flexor digitorum profundus"
+},
+"flexor digitorum superficialis": {
+"la": "M. flexor digitorum superficialis"
+},
+"flexor hallucis longus": {
+"la": "M. flexor hallucis longus"
+},
+"flexor pollicis longus": {
+"la": "M. flexor pollicis longus"
+},
+"flexor retinaculum of ankle": {
+"la": "Retinaculum mm. flexorum"
+},
+"flexor retinaculum of wrist": {
+"la": "Retinaculum flexorum",
+"tr": "Fleksör retinakulum"
+},
+"flocculus": {
+"la": "Flocculus"
+},
+"folds of iris": {
+"la": "Plicae iridis"
+},
+"folium of vermis": {
+"la": "Folium vermis"
+},
+"foramen caecum of frontal bone": {
+"la": "Foramen caecum ossis frontalis"
+},
+"foramen magnum": {
+"la": "Foramen magnum"
+},
+"foramen ovale": {
+"la": "Foramen ovale"
+},
+"foramen rotundum": {
+"la": "Foramen rotundum"
+},
+"foramen spinosum": {
+"la": "Foramen spinosum"
+},
+"foramen transversarium": {
+"la": "Foramen transversarium"
+},
+"fornix": {
+"la": "Fornix"
+},
+"fossa for gallbladder": {
+"la": "Fossa vesicae biliaris"
+},
+"fossa for lacrimal gland": {
+"la": "Fossa glandulae lacrimalis"
+},
+"fourth metacarpal bone": {
+"la": "Os metacarpale IV",
+"tr": "4. el tarak kemiği"
+},
+"fourth metatarsal bone": {
+"la": "Os metatarsale IV",
+"tr": "4. ayak tarak kemiği"
+},
+"fourth rib": {
+"la": "Costa IV",
+"tr": "4. kaburga"
+},
+"fourth ventricle": {
+"la": "Ventriculus quartus",
+"tr": "Dördüncü karıncık"
+},
+"fovea for ligament of head of femur": {
+"la": "Fovea capitis femoris"
+},
+"free taenia": {
+"la": "Taenia libera"
+},
+"frontal angle of parietal bone": {
+"la": "Angulus frontalis ossis parietalis"
+},
+"frontal bone": {
+"la": "Os frontale",
+"tr": "Alın kemiği"
+},
+"frontal border of parietal bone": {
+"la": "Margo frontalis ossis parietalis"
+},
+"frontal branch of superficial temporal artery": {
+"la": "R. frontalis a. temporalis superficialis"
+},
+"frontal crest": {
+"la": "Crista frontalis"
+},
+"frontal eminence": {
+"la": "Tuber frontale"
+},
+"frontal margin of greater wing": {
+"la": "Margo frontalis alae majoris"
+},
+"frontal part of orbital margin": {
+"la": "Pars frontalis marginis orbitalis"
+},
+"fundus of bladder": {
+"la": "Fundus vesicae"
+},
+"fundus of gallbladder": {
+"la": "Fundus vesicae biliaris"
+},
+"fundus of stomach": {
+"la": "Fundus gastricus"
+},
+"gallbladder": {
+"la": "Vesica biliaris",
+"tr": "Safra kesesi"
+},
+"ganglia of sympathetic trunk": {
+"la": "Ganglia trunci sympathici"
+},
+"gastric impression of liver": {
+"la": "Impressio gastrica hepatis"
+},
+"gastric impression of spleen": {
+"la": "Facies gastrica splenis"
+},
+"gastroduodenal artery": {
+"la": "A. gastroduodenalis"
+},
+"genicular veins": {
+"la": "Vv. geniculares"
+},
+"genioglossus muscle": {
+"la": "M. genioglossus"
+},
+"geniohyoid muscle": {
+"la": "M. geniohyoideus"
+},
+"genion": {
+"la": "Genion"
+},
+"genital branch of genitofemoral nerve": {
+"la": "R. genitalis n. genitofemoralis"
+},
+"genitofemoral nerve": {
+"la": "N. genitofemoralis"
+},
+"gingiva": {
+"la": "Gingiva",
+"tr": "Diş eti"
+},
+"glabella": {
+"la": "Glabella"
+},
+"glans penis": {
+"la": "Glans penis"
+},
+"glenoid labrum": {
+"la": "Labrum glenoidale",
+"tr": "Glenoid labrum"
+},
+"globus pallidus": {
+"la": "Globus pallidus"
+},
+"glossopharyngeal nerve (ix)": {
+"la": "N. glossopharyngeus (IX)",
+"tr": "9. kranial sinir"
+},
+"gluteal surface of ilium": {
+"la": "Facies glutea ossis ilii"
+},
+"gluteal tuberosity": {
+"la": "Tuberositas glutea"
+},
+"gluteus maximus muscle": {
+"la": "M. gluteus maximus"
+},
+"gluteus medius muscle": {
+"la": "M. gluteus medius"
+},
+"gluteus minimus muscle": {
+"la": "M. gluteus minimus"
+},
+"gnathion": {
+"la": "Gnathion"
+},
+"gracile fasciculus": {
+"la": "Fasciculus gracilis"
+},
+"gracile lobule": {
+"la": "Lobulus gracilis"
+},
+"gracile tubercle": {
+"la": "Tuberculum gracile"
+},
+"gracilis muscle": {
+"la": "M. gracilis"
+},
+"great cardiac vein": {
+"la": "V. cardiaca magna"
+},
+"great saphenous vein": {
+"la": "V. saphena magna",
+"tr": "Büyük safen ven"
+},
+"greater curvature of stomach": {
+"la": "Curvatura major gastris"
+},
+"greater horn of hyoid bone": {
+"la": "Cornu majus ossis hyoidei"
+},
+"greater omentum": {
+"la": "Omentum majus",
+"tr": "Büyük omentum"
+},
+"greater palatine artery": {
+"la": "A. palatina major"
+},
+"greater sciatic foramen": {
+"la": "Foramen ischiadicum majus"
+},
+"greater sciatic notch": {
+"la": "Incisura ischiadica major"
+},
+"greater trochanter": {
+"la": "Trochanter major"
+},
+"greater tubercle": {
+"la": "Tuberculum majus"
+},
+"greater wing": {
+"la": "Ala major"
+},
+"groove for marginal sinus": {
+"la": "Sulcus sinus marginalis"
+},
+"groove for middle meningeal artery": {
+"la": "Sulcus a. meningeae mediae"
+},
+"groove for occipital sinus": {
+"la": "Sulcus sinus occipitalis"
+},
+"groove for popliteus muscle": {
+"la": "Sulcus popliteus"
+},
+"groove for spinal nerve": {
+"la": "Sulcus n. spinalis"
+},
+"groove for subclavius muscle": {
+"la": "Sulcus m. subclavii"
+},
+"groove for tendon of fibularis longus muscle of cuboid bone": {
+"la": "Sulcus tendinis m. fibularis longi (ossis cuboidei)"
+},
+"groove for tendon of flexor hallucis longus of calcaneus": {
+"la": "Sulcus tendinis m. flexoris hallucis longi (calcanei)"
+},
+"groove for tendon of flexor hallucis longus of talus": {
+"la": "Sulcus tendinis m. flexoris hallucis longi (tali)"
+},
+"groove for transverse sinus": {
+"la": "Sulcus sinus transversi"
+},
+"groove for ulnar nerve": {
+"la": "Sulcus n. ulnaris"
+},
+"groove for vertebral artery": {
+"la": "Sulcus a. vertebralis"
+},
+"groove of pterygoid hamulus": {
+"la": "Sulcus hamuli pterygoidei"
+},
+"grooves for extensor tendons": {
+"la": "Sulci tendinum mm. extensorum"
+},
+"habenula": {
+"la": "Habenula"
+},
+"hamate bone": {
+"la": "Os hamatum"
+},
+"handle of malleus": {
+"la": "Manubrium mallei"
+},
+"head of femur": {
+"la": "Caput femoris"
+},
+"head of fibula": {
+"la": "Caput fibulae"
+},
+"head of humerus": {
+"la": "Caput humeri"
+},
+"head of malleus": {
+"la": "Caput mallei"
+},
+"head of metacarpal bone": {
+"la": "Caput ossis metacarpi"
+},
+"head of metatarsal bone": {
+"la": "Caput ossis metatarsi"
+},
+"head of pancreas": {
+"la": "Caput pancreatis"
+},
+"head of phalanx of foot": {
+"la": "Caput phalangis pedis"
+},
+"head of phalanx of hand": {
+"la": "Caput phalangis manus"
+},
+"head of radius": {
+"la": "Caput radii"
+},
+"head of rib": {
+"la": "Caput costae"
+},
+"head of talus": {
+"la": "Caput tali"
+},
+"head of ulna": {
+"la": "Caput ulnae"
+},
+"hemi-azygos vein": {
+"la": "V. hemiazygos"
+},
+"hepatic portal vein": {
+"la": "V. portae hepatis",
+"tr": "Portal ven"
+},
+"hepatic veins": {
+"la": "Vv. hepaticae"
+},
+"hilum of kidney": {
+"la": "Hilum renale"
+},
+"hilum of lung": {
+"la": "Hilum pulmonis"
+},
+"hilum of spleen": {
+"la": "Hilum splenis"
+},
+"hilum of suprarenal gland": {
+"la": "Hilum glandulae suprarenalis"
+},
+"hip bone": {
+"la": "Os coxae",
+"tr": "Kalça kemiği"
+},
+"hippocampal commissure": {
+"la": "Commissura hippocampi"
+},
+"hippocampus": {
+"la": "Hippocampus",
+"tr": "Hipokampus"
+},
+"hook of hamate bone": {
+"la": "Hamulus ossis hamati"
+},
+"horizontal fissure of right lung": {
+"la": "Fissura horizontalis pulmonis dextri"
+},
+"humeral head of extensor carpi ulnaris": {
+"la": "M. extensor carpi ulnaris – caput humerale"
+},
+"humeral head of flexor carpi ulnaris": {
+"la": "M. flexor carpi ulnaris – caput humerale"
+},
+"humero-ulnar head of flexor digitorum superficialis": {
+"la": "M. flexor digitorum superficialis – caput humeroulnare"
+},
+"humerus": {
+"la": "Humerus",
+"tr": "Kol kemiği"
+},
+"hyoglossus muscle": {
+"la": "M. hyoglossus"
+},
+"hyoid bone": {
+"la": "Os hyoideum",
+"tr": "Dil kemiği"
+},
+"hypoglossal canal": {
+"la": "Canalis n. hypoglossi"
+},
+"hypoglossal nerve (xii)": {
+"la": "N. hypoglossus (XII)",
+"tr": "12. kranial sinir"
+},
+"hypophysial fossa": {
+"la": "Fossa hypophysialis"
+},
+"hypothalamus": {
+"la": "Hypothalamus",
+"tr": "Hipotalamus"
+},
+"ileal branch of ileocolic artery": {
+"la": "R. ilealis a. ileocolicae"
+},
+"ileocolic artery": {
+"la": "A. ileocolica"
+},
+"ileocolic nodes": {
+"la": "Nll. ileocolici"
+},
+"iliac crest": {
+"la": "Crista iliaca"
+},
+"iliac fossa": {
+"la": "Fossa iliaca"
+},
+"iliac tubercle": {
+"la": "Tuberculum iliacum"
+},
+"iliac tuberosity": {
+"la": "Tuberositas iliaca"
+},
+"iliacus branch of iliolumbar artery": {
+"la": "R. iliacus a. iliolumbalis"
+},
+"iliacus muscle": {
+"la": "M. iliacus"
+},
+"ilio-inguinal nerve": {
+"la": "N. ilioinguinalis"
+},
+"iliococcygeus muscle": {
+"la": "M. iliococcygeus"
+},
+"iliocostalis colli muscle": {
+"la": "M. iliocostalis colli"
+},
+"iliocostalis lumborum muscle": {
+"la": "M. iliocostalis lumborum"
+},
+"iliocostalis thoracis muscle": {
+"la": "M. iliocostalis thoracis"
+},
+"iliohypogastric nerve": {
+"la": "N. iliohypogastricus"
+},
+"iliolumbar artery": {
+"la": "A. iliolumbalis"
+},
+"iliolumbar ligament": {
+"la": "Lig. iliolumbale"
+},
+"iliolumbar vein": {
+"la": "V. iliolumbalis"
+},
+"iliopectineal arch": {
+"la": "Arcus iliopectineus"
+},
+"iliopectineal bursa": {
+"la": "Bursa iliopectinea"
+},
+"iliopsoas fascia": {
+"la": "Fascia iliopsoas"
+},
+"iliopsoas muscle": {
+"la": "M. iliopsoas"
+},
+"iliopubic eminence": {
+"la": "Eminentia iliopubica"
+},
+"iliotibial tract": {
+"la": "Tractus iliotibialis",
+"tr": "İliotibial bant"
+},
+"ilium": {
+"la": "Os ilium"
+},
+"impression for costoclavicular ligament": {
+"la": "Impressio lig. costoclavicularis"
+},
+"incus": {
+"la": "Incus",
+"tr": "Örs kemiği"
+},
+"inferior alveolar artery": {
+"la": "A. alveolaris inferior"
+},
+"inferior alveolar nerve": {
+"la": "N. alveolaris inferior"
+},
+"inferior angle of scapula": {
+"la": "Angulus inferior scapulae"
+},
+"inferior articular facet of vertebra": {
+"la": "Facies articularis inferior vertebrae"
+},
+"inferior articular surface of atlas": {
+"la": "Facies articularis inferior atlantis"
+},
+"inferior articular surface of tibia": {
+"la": "Facies articularis inferior tibiae"
+},
+"inferior basal vein of left lung": {
+"la": "V. basalis inferior pulmonis sinistri"
+},
+"inferior basal vein of right lung": {
+"la": "V. basalis inferior pulmonis dextri"
+},
+"inferior border of heart": {
+"la": "Margo inferior cordis"
+},
+"inferior border of liver": {
+"la": "Margo inferior hepatis"
+},
+"inferior border of lung": {
+"la": "Margo inferior pulmonis"
+},
+"inferior border of pancreas": {
+"la": "Margo inferior pancreatis"
+},
+"inferior border of spleen": {
+"la": "Margo inferior splenis"
+},
+"inferior colliculus": {
+"la": "Colliculus inferior"
+},
+"inferior costal facet": {
+"la": "Fovea costalis inferior"
+},
+"inferior deep lateral cervical nodes": {
+"la": "Nll. cervicales laterales profundi inferiores"
+},
+"inferior diaphragmatic nodes": {
+"la": "Nll. phrenici inferiores"
+},
+"inferior epigastric artery": {
+"la": "A. epigastrica inferior"
+},
+"inferior epigastric nodes": {
+"la": "Nll. epigastrici inferiores"
+},
+"inferior epigastric vein": {
+"la": "V. epigastrica inferior"
+},
+"inferior extensor retinaculum of ankle": {
+"la": "Retinaculum mm. extensorum inferius"
+},
+"inferior fibular retinaculum": {
+"la": "Retinaculum mm. fibularium inferius"
+},
+"inferior frontal sulcus": {
+"la": "Sulcus frontalis inferior"
+},
+"inferior gemellus muscle": {
+"la": "M. gemellus inferior"
+},
+"inferior glenohumeral ligament": {
+"la": "Lig. glenohumerale inferius",
+"tr": "Alt glenohumeral bağ"
+},
+"inferior gluteal artery": {
+"la": "A. glutea inferior"
+},
+"inferior gluteal line": {
+"la": "Linea glutea inferior"
+},
+"inferior gluteal nodes": {
+"la": "Nll. gluteales inferiores"
+},
+"inferior gluteal veins": {
+"la": "Vv. gluteae inferiores"
+},
+"inferior head of lateral pterygoid muscle": {
+"la": "M. pterygoideus lateralis – caput inferius"
+},
+"inferior horn of thyroid cartilage": {
+"la": "Cornu inferius cartilaginis thyroideae"
+},
+"inferior interventricular sulcus": {
+"la": "Sulcus interventricularis inferior"
+},
+"inferior labial artery": {
+"la": "A. labialis inferior"
+},
+"inferior labial veins": {
+"la": "Vv. labiales inferiores"
+},
+"inferior lateral brachial cutaneous nerve": {
+"la": "N. cutaneus brachii lateralis inferior"
+},
+"inferior lateral genicular artery": {
+"la": "A. inferior lateralis genus"
+},
+"inferior lingular artery of left lung": {
+"la": "A. lingularis inferior"
+},
+"inferior lingular segment of left lung (sv)": {
+"la": "Segmentum lingulare inferius pulmonis sinistri (s V)"
+},
+"inferior lingular segmental bronchus of left lung (bv)": {
+"la": "Bronchus lingularis inferior (B V)"
+},
+"inferior lobar artery of right lung": {
+"la": "A. lobaris inferior pulmonis dextri"
+},
+"inferior lobe of left lung": {
+"la": "Lobus inferior pulmonis sinistri",
+"tr": "Sol akciğer alt lobu"
+},
+"inferior lobe of right lung": {
+"la": "Lobus inferior pulmonis dextri",
+"tr": "Sağ akciğer alt lobu"
+},
+"inferior medial genicular artery": {
+"la": "A. inferior medialis genus"
+},
+"inferior mental spine": {
+"la": "Spina mentalis inferior"
+},
+"inferior mesenteric artery": {
+"la": "A. mesenterica inferior"
+},
+"inferior mesenteric vein": {
+"la": "V. mesenterica inferior"
+},
+"inferior nasal concha bone": {
+"la": "Concha nasalis inferior",
+"tr": "Alt burun kavkısı"
+},
+"inferior nuchal line": {
+"la": "Linea nuchalis inferior"
+},
+"inferior oblique muscle": {
+"la": "M. obliquus inferior"
+},
+"inferior ophthalmic vein": {
+"la": "V. ophthalmica inferior"
+},
+"inferior pancreatic nodes": {
+"la": "Nll. pancreatici inferiores"
+},
+"inferior pancreaticoduodenal artery": {
+"la": "A. pancreaticoduodenalis inferior"
+},
+"inferior parathyroid gland": {
+"la": "Glandula parathyroidea inferior",
+"tr": "Alt paratiroid bezi"
+},
+"inferior petrosal sinus": {
+"la": "Sinus petrosus inferior"
+},
+"inferior pharyngeal constrictor": {
+"la": "M. constrictor pharyngis inferior"
+},
+"inferior phrenic artery": {
+"la": "A. phrenica inferior"
+},
+"inferior pole of kidney": {
+"la": "Polus inferior renis"
+},
+"inferior pole of testis": {
+"la": "Polus inferior testis"
+},
+"inferior pubic ligament": {
+"la": "Lig. pubicum inferius"
+},
+"inferior pubic ramus": {
+"la": "R. inferior ossis pubis"
+},
+"inferior rectus muscle": {
+"la": "M. rectus inferior"
+},
+"inferior sagittal sinus": {
+"la": "Sinus sagittalis inferior"
+},
+"inferior salivatory nucleus": {
+"la": "Nucleus salivatorius inferior"
+},
+"inferior semilunar lobule": {
+"la": "Lobulus semilunaris inferior"
+},
+"inferior subtendinous bursa of biceps femoris muscle": {
+"la": "Bursa subtendinea m. bicipitis femoris inferior"
+},
+"inferior superficial inguinal nodes": {
+"la": "Nll. inguinales superficiales inferiores"
+},
+"inferior suprarenal artery": {
+"la": "A. suprarenalis inferior"
+},
+"inferior surface of heart": {
+"la": "Facies inferior cordis"
+},
+"inferior tarsus": {
+"la": "Tarsus inferior"
+},
+"inferior temporal gyrus": {
+"la": "Gyrus temporalis inferior"
+},
+"inferior temporal line": {
+"la": "Linea temporalis inferior"
+},
+"inferior temporal sulcus": {
+"la": "Sulcus temporalis inferior"
+},
+"inferior thyroid artery": {
+"la": "A. thyroidea inferior"
+},
+"inferior thyroid notch": {
+"la": "Incisura thyroidea inferior"
+},
+"inferior thyroid tubercle": {
+"la": "Tuberculum thyroideum inferius"
+},
+"inferior tracheobronchial nodes": {
+"la": "Nll. tracheobronchiales inferiores"
+},
+"inferior transverse scapular ligament": {
+"la": "Lig. transversum scapulae inferius"
+},
+"inferior trunk of brachial plexus": {
+"la": "Truncus inferior plexus brachialis",
+"tr": "Plexus brachialis alt trunkusu"
+},
+"inferior ulnar collateral artery": {
+"la": "A. collateralis ulnaris inferior"
+},
+"inferior vertebral notch": {
+"la": "Incisura vertebralis inferior"
+},
+"infra-auricular nodes": {
+"la": "Nll. infraauriculares"
+},
+"infra-orbital artery": {
+"la": "A. infraorbitalis"
+},
+"infraclavicular nodes": {
+"la": "Nll. infraclaviculares",
+"tr": "İnfraklaviküler lenf düğümleri"
+},
+"infraglenoid tubercle": {
+"la": "Tuberculum infraglenoidale"
+},
+"infrapatellar branch of saphenous nerve": {
+"la": "R. infrapatellaris n. sapheni"
+},
+"infrapatellar fat pad": {
+"la": "Corpus adiposum infrapatellare",
+"tr": "İnfrapatellar yağ yastığı"
+},
+"infraspinatus muscle": {
+"la": "M. infraspinatus"
+},
+"infraspinous fossa": {
+"la": "Fossa infraspinata"
+},
+"infratemporal surface of greater wing": {
+"la": "Facies infratemporalis alae majoris"
+},
+"infundibulum of gallbladder": {
+"la": "Infundibulum vesicae biliaris"
+},
+"inguinal ligament": {
+"la": "Lig. inguinale",
+"tr": "Kasık bağı"
+},
+"inner lip of iliac crest": {
+"la": "Labium internum cristae iliacae"
+},
+"innermost intercostal muscles": {
+"la": "Mm. intercostales intimi"
+},
+"interatrial septum": {
+"la": "Septum interatriale"
+},
+"intercapitular veins of foot": {
+"la": "Vv. intercapitulares (pedis)"
+},
+"interclavicular ligament": {
+"la": "Lig. interclaviculare"
+},
+"intercondylar area": {
+"la": "Area intercondylaris"
+},
+"intercondylar eminence": {
+"la": "Eminentia intercondylaris"
+},
+"intercondylar fossa": {
+"la": "Fossa intercondylaris"
+},
+"intercondylar line": {
+"la": "Linea intercondylaris"
+},
+"intercostal nerves": {
+"la": "Nn. intercostales",
+"tr": "Kaburgalar arası sinirler"
+},
+"intercostal nodes": {
+"la": "Nll. intercostales"
+},
+"intercuneiform interosseous ligaments": {
+"la": "Ligg. intercuneiformia interossea"
+},
+"interlobar surface of lung": {
+"la": "Facies interlobaris pulmonis"
+},
+"intermediate common iliac nodes": {
+"la": "Nll. iliaci communes intermedii"
+},
+"intermediate cuneiform bone": {
+"la": "Os cuneiforme intermedium"
+},
+"intermediate deep inguinal node": {
+"la": "Nl. inguinalis profundus intermedius"
+},
+"intermediate dorsal cutaneous nerve of foot": {
+"la": "N. cutaneus dorsalis intermedius"
+},
+"intermediate external iliac nodes": {
+"la": "Nll. iliaci externi intermedii"
+},
+"intermediate lacunar node": {
+"la": "Nl. lacunaris intermedius"
+},
+"intermediate lumbar nodes": {
+"la": "Nll. lumbales intermedii"
+},
+"intermediate sacral crest": {
+"la": "Crista sacralis medialis"
+},
+"intermediate zone": {
+"la": "Linea intermedia (cristae iliacae)"
+},
+"intermediolateral nucleus": {
+"la": "Nucleus intermediolateralis"
+},
+"intermediomedial nucleus": {
+"la": "Nucleus intermediomedialis"
+},
+"intermuscular gluteal bursae": {
+"la": "Bursae intermusculares mm. gluteorum"
+},
+"internal abdominal oblique muscle": {
+"la": "M. obliquus internus abdominis"
+},
+"internal axis of eyeball": {
+"la": "Axis bulbi internus"
+},
+"internal carotid artery": {
+"la": "A. carotis interna"
+},
+"internal iliac artery": {
+"la": "A. iliaca interna"
+},
+"internal iliac vein": {
+"la": "V. iliaca interna"
+},
+"internal intercostal membrane": {
+"la": "Membrana intercostalis interna"
+},
+"internal intercostal muscles": {
+"la": "Mm. intercostales interni",
+"tr": "İç interkostal kaslar"
+},
+"internal jugular vein": {
+"la": "V. jugularis interna",
+"tr": "İç juguler ven"
+},
+"internal occipital crest": {
+"la": "Crista occipitalis interna"
+},
+"internal occipital protuberance": {
+"la": "Protuberantia occipitalis interna"
+},
+"internal pudendal artery": {
+"la": "A. pudenda interna"
+},
+"internal pudendal vein": {
+"la": "V. pudenda interna"
+},
+"internal surface of parietal bone": {
+"la": "Facies interna ossis parietalis"
+},
+"internal surface of squamous part of frontal bone": {
+"la": "Facies interna squamae frontalis"
+},
+"internal thoracic artery": {
+"la": "A. thoracica interna"
+},
+"internal thoracic veins": {
+"la": "Vv. thoracicae internae"
+},
+"interosseous border of radius": {
+"la": "Margo interosseus radii"
+},
+"interosseous border of tibia": {
+"la": "Margo interosseus tibiae"
+},
+"interosseous border of ulna": {
+"la": "Margo interosseus ulnae"
+},
+"interosseous crest of fibula": {
+"la": "Crista interossea fibulae"
+},
+"interosseous membrane of forearm": {
+"la": "Membrana interossea antebrachii"
+},
+"interosseous membrane of leg": {
+"la": "Membrana interossea cruris"
+},
+"interosseous metacarpal ligaments": {
+"la": "Ligg. metacarpalia interossea"
+},
+"interosseous sacro-iliac ligament": {
+"la": "Lig. sacroiliacum interosseum"
+},
+"interpectoral nodes": {
+"la": "Nll. interpectorales"
+},
+"interpeduncular fossa": {
+"la": "Fossa interpeduncularis"
+},
+"interpubic disc": {
+"la": "Discus interpubicus"
+},
+"interspinales colli muscles": {
+"la": "Mm. interspinales colli"
+},
+"interspinales lumborum muscles": {
+"la": "Mm. interspinales lumborum"
+},
+"interspinales thoracis muscles": {
+"la": "Mm. interspinales thoracis"
+},
+"interspinous ligaments": {
+"la": "Ligg. interspinalia"
+},
+"intertransverse ligaments": {
+"la": "Ligg. intertransversaria"
+},
+"intertrochanteric crest": {
+"la": "Crista intertrochanterica"
+},
+"intertrochanteric line": {
+"la": "Linea intertrochanterica"
+},
+"intertubercular sulcus": {
+"la": "Sulcus intertubercularis"
+},
+"intertubercular tendon sheath": {
+"la": "Vagina tendinis intertubercularis"
+},
+"intervertebral disc c2-c3": {
+"la": "Discus intervertebralis C2–C3",
+"tr": "C2–C3 omurlar arası disk"
+},
+"intervertebral disc c3-c4": {
+"la": "Discus intervertebralis C3–C4",
+"tr": "C3–C4 omurlar arası disk"
+},
+"intervertebral disc c4-c5": {
+"la": "Discus intervertebralis C4–C5",
+"tr": "C4–C5 omurlar arası disk"
+},
+"intervertebral disc c5-c6": {
+"la": "Discus intervertebralis C5–C6",
+"tr": "C5–C6 omurlar arası disk"
+},
+"intervertebral disc c6-c7": {
+"la": "Discus intervertebralis C6–C7",
+"tr": "C6–C7 omurlar arası disk"
+},
+"intervertebral disc c7-t1": {
+"la": "Discus intervertebralis C7–T1",
+"tr": "C7–T1 omurlar arası disk"
+},
+"intervertebral disc l1-l2": {
+"la": "Discus intervertebralis L1–L2",
+"tr": "L1–L2 omurlar arası disk"
+},
+"intervertebral disc l2-l3": {
+"la": "Discus intervertebralis L2–L3",
+"tr": "L2–L3 omurlar arası disk"
+},
+"intervertebral disc l3-l4": {
+"la": "Discus intervertebralis L3–L4",
+"tr": "L3–L4 omurlar arası disk"
+},
+"intervertebral disc l4-l5": {
+"la": "Discus intervertebralis L4–L5",
+"tr": "L4–L5 omurlar arası disk"
+},
+"intervertebral disc l5-s1": {
+"la": "Discus intervertebralis L5–S1",
+"tr": "L5–S1 omurlar arası disk"
+},
+"intervertebral disc t1-t2": {
+"la": "Discus intervertebralis T1–T2",
+"tr": "T1–T2 omurlar arası disk"
+},
+"intervertebral disc t10-t11": {
+"la": "Discus intervertebralis T10–T11",
+"tr": "T10–T11 omurlar arası disk"
+},
+"intervertebral disc t11-t12": {
+"la": "Discus intervertebralis T11–T12",
+"tr": "T11–T12 omurlar arası disk"
+},
+"intervertebral disc t12-l1": {
+"la": "Discus intervertebralis T12–L1",
+"tr": "T12–L1 omurlar arası disk"
+},
+"intervertebral disc t2-t3": {
+"la": "Discus intervertebralis T2–T3",
+"tr": "T2–T3 omurlar arası disk"
+},
+"intervertebral disc t3-t4": {
+"la": "Discus intervertebralis T3–T4",
+"tr": "T3–T4 omurlar arası disk"
+},
+"intervertebral disc t4-t5": {
+"la": "Discus intervertebralis T4–T5",
+"tr": "T4–T5 omurlar arası disk"
+},
+"intervertebral disc t5-t6": {
+"la": "Discus intervertebralis T5–T6",
+"tr": "T5–T6 omurlar arası disk"
+},
+"intervertebral disc t6-t7": {
+"la": "Discus intervertebralis T6–T7",
+"tr": "T6–T7 omurlar arası disk"
+},
+"intervertebral disc t7-t8": {
+"la": "Discus intervertebralis T7–T8",
+"tr": "T7–T8 omurlar arası disk"
+},
+"intervertebral disc t8-t9": {
+"la": "Discus intervertebralis T8–T9",
+"tr": "T8–T9 omurlar arası disk"
+},
+"intervertebral disc t9-t10": {
+"la": "Discus intervertebralis T9–T10",
+"tr": "T9–T10 omurlar arası disk"
+},
+"intervertebral foramen": {
+"la": "Foramen intervertebrale"
+},
+"intervertebral foramina": {
+"la": "Foramina intervertebralia"
+},
+"intervertebral surface": {
+"la": "Facies intervertebralis"
+},
+"intra-articular ligament of head of rib": {
+"la": "Lig. capitis costae intraarticulare"
+},
+"intraglandular parotid nodes": {
+"la": "Nll. parotidei intraglandulares"
+},
+"intrajugular process of occipital bone": {
+"la": "Processus intrajugularis ossis occipitalis"
+},
+"intraparietal sulcus": {
+"la": "Sulcus intraparietalis"
+},
+"intrapulmonary nodes": {
+"la": "Nll. intrapulmonales"
+},
+"intrarenal arteries of left kidney": {
+"la": "Aa. intrarenales"
+},
+"intrarenal arteries of right kidney": {
+"la": "Aa. intrarenales"
+},
+"intrarenal veins of left kidney": {
+"la": "Vv. intrarenales"
+},
+"intrarenal veins of right kidney": {
+"la": "Vv. intrarenales"
+},
+"investing abdominal fascia": {
+"la": "Fascia investiens abdominis"
+},
+"iris": {
+"la": "Iris",
+"tr": "İris"
+},
+"ischial spine": {
+"la": "Spina ischiadica"
+},
+"ischial tuberosity": {
+"la": "Tuber ischiadicum"
+},
+"ischiofemoral ligament": {
+"la": "Lig. ischiofemorale"
+},
+"ischiopubic ramus": {
+"la": "R. ischiopubicus"
+},
+"ischium": {
+"la": "Os ischii"
+},
+"isthmus of thyroid gland": {
+"la": "Isthmus glandulae thyroideae"
+},
+"jejunum": {
+"la": "Jejunum",
+"tr": "Boş bağırsak"
+},
+"jugular notch of occipital bone": {
+"la": "Incisura jugularis ossis occipitalis"
+},
+"jugular process": {
+"la": "Processus jugularis"
+},
+"jugulodigastric node": {
+"la": "Nl. jugulodigastricus"
+},
+"juxta-intestinal mesenteric nodes": {
+"la": "Nll. juxtaintestinales"
+},
+"juxta-oesophageal nodes": {
+"la": "Nll. juxtaoesophageales"
+},
+"kidney": {
+"la": "Ren",
+"tr": "Böbrek"
+},
+"lacrimal artery": {
+"la": "A. lacrimalis"
+},
+"lacrimal bone": {
+"la": "Os lacrimale",
+"tr": "Gözyaşı kemiği"
+},
+"lacrimal canaliculus": {
+"la": "Canaliculus lacrimalis"
+},
+"lacrimal gland": {
+"la": "Glandula lacrimalis",
+"tr": "Gözyaşı bezi"
+},
+"lacrimal sac": {
+"la": "Saccus lacrimalis",
+"tr": "Gözyaşı kesesi"
+},
+"lamina of cricoid cartilage": {
+"la": "Lamina cartilaginis cricoideae"
+},
+"lamina of thyroid cartilage": {
+"la": "Lamina cartilaginis thyroideae"
+},
+"lamina of vertebral arch": {
+"la": "Lamina arcus vertebrae"
+},
+"laryngeal prominence": {
+"la": "Prominentia laryngea"
+},
+"laryngopharynx": {
+"la": "Pars laryngea pharyngis"
+},
+"lateral angle of scapula": {
+"la": "Angulus lateralis scapulae"
+},
+"lateral antebrachial cutaneous nerve": {
+"la": "N. cutaneus antebrachii lateralis"
+},
+"lateral aortic nodes": {
+"la": "Nll. aortici laterales"
+},
+"lateral axillary nodes": {
+"la": "Nll. axillares laterales",
+"tr": "Yan koltuk altı lenf düğümleri"
+},
+"lateral basal segment of left lung (six)": {
+"la": "Segmentum basale laterale pulmonis sinistri (s IX)"
+},
+"lateral basal segment of right lung (six)": {
+"la": "Segmentum basale laterale pulmonis dextri (s IX)"
+},
+"lateral basal segmental artery of left lung": {
+"la": "A. segmentalis basalis lateralis pulmonis sinistri"
+},
+"lateral basal segmental artery of right lung": {
+"la": "A. segmentalis basalis lateralis pulmonis dextri"
+},
+"lateral basal segmental bronchus of left lung (bix)": {
+"la": "Bronchus segmentalis basalis lateralis pulmonis sinistri (B IX)"
+},
+"lateral basal segmental bronchus of right lung (bix)": {
+"la": "Bronchus segmentalis basalis lateralis pulmonis dextri (B IX)"
+},
+"lateral bony ampulla": {
+"la": "Ampulla ossea lateralis"
+},
+"lateral border of humerus": {
+"la": "Margo lateralis humeri"
+},
+"lateral border of kidney": {
+"la": "Margo lateralis renis"
+},
+"lateral border of scapula": {
+"la": "Margo lateralis scapulae"
+},
+"lateral caval nodes": {
+"la": "Nll. cavales laterales"
+},
+"lateral circumflex femoral artery": {
+"la": "A. circumflexa femoris lateralis"
+},
+"lateral circumflex femoral veins": {
+"la": "Vv. circumflexae femoris laterales"
+},
+"lateral common iliac nodes": {
+"la": "Nll. iliaci communes laterales"
+},
+"lateral condyle of femur": {
+"la": "Condylus lateralis femoris"
+},
+"lateral condyle of tibia": {
+"la": "Condylus lateralis tibiae"
+},
+"lateral corticospinal tract": {
+"la": "Tractus corticospinalis lateralis"
+},
+"lateral crico-arytenoid muscle": {
+"la": "M. cricoarytenoideus lateralis"
+},
+"lateral cuneiform bone": {
+"la": "Os cuneiforme laterale"
+},
+"lateral epicondyle of femur": {
+"la": "Epicondylus lateralis femoris"
+},
+"lateral epicondyle of humerus": {
+"la": "Epicondylus lateralis humeri"
+},
+"lateral fasciculus proprius": {
+"la": "Fasciculus proprius lateralis"
+},
+"lateral femoral cutaneous nerve": {
+"la": "N. cutaneus femoris lateralis"
+},
+"lateral femoral intermuscular septum": {
+"la": "Septum intermusculare femoris laterale"
+},
+"lateral frontobasal artery": {
+"la": "A. frontobasalis lateralis"
+},
+"lateral funiculus of medulla oblongata": {
+"la": "Funiculus lateralis medullae oblongatae"
+},
+"lateral geniculate body": {
+"la": "Corpus geniculatum laterale"
+},
+"lateral head of flexor hallucis brevis": {
+"la": "M. flexor hallucis brevis – caput laterale"
+},
+"lateral head of gastrocnemius": {
+"la": "M. gastrocnemius – caput laterale"
+},
+"lateral head of triceps brachii": {
+"la": "M. triceps brachii – caput laterale"
+},
+"lateral intercondylar tubercle": {
+"la": "Tuberculum intercondylare laterale"
+},
+"lateral intermediate substance": {
+"la": "Substantia intermedia lateralis"
+},
+"lateral intermuscular septum of arm": {
+"la": "Septum intermusculare brachii laterale"
+},
+"lateral lacunar node": {
+"la": "Nl. lacunaris lateralis"
+},
+"lateral lip of linea aspera": {
+"la": "Labium laterale lineae asperae"
+},
+"lateral malleolar facet": {
+"la": "Facies malleolaris lateralis"
+},
+"lateral malleolus": {
+"la": "Malleolus lateralis"
+},
+"lateral mass": {
+"la": "Massa lateralis atlantis"
+},
+"lateral meniscus": {
+"la": "Meniscus lateralis",
+"tr": "Dış menisküs"
+},
+"lateral occipital artery": {
+"la": "A. occipitalis lateralis"
+},
+"lateral occipitotemporal gyrus": {
+"la": "Gyrus occipitotemporalis lateralis"
+},
+"lateral part of occipital bone": {
+"la": "Pars lateralis ossis occipitalis"
+},
+"lateral part of sacrum": {
+"la": "Pars lateralis ossis sacri"
+},
+"lateral part of transverse process": {
+"la": "Pars lateralis processus transversi"
+},
+"lateral patellar retinaculum": {
+"la": "Retinaculum patellae laterale"
+},
+"lateral pectoral nerve": {
+"la": "N. pectoralis lateralis"
+},
+"lateral pericardial nodes": {
+"la": "Nll. pericardiaci laterales"
+},
+"lateral plantar artery": {
+"la": "A. plantaris lateralis"
+},
+"lateral plantar nerve": {
+"la": "N. plantaris lateralis"
+},
+"lateral plantar veins": {
+"la": "Vv. plantares laterales"
+},
+"lateral process of calcaneal tuberosity": {
+"la": "Processus lateralis tuberis calcanei"
+},
+"lateral process of malleus": {
+"la": "Processus lateralis mallei"
+},
+"lateral process of nasal septal cartilage": {
+"la": "Processus lateralis cartilaginis septi nasi"
+},
+"lateral process of talus": {
+"la": "Processus lateralis tali"
+},
+"lateral pterygoid muscle": {
+"la": "M. pterygoideus lateralis"
+},
+"lateral pterygoid plate": {
+"la": "Lamina lateralis processus pterygoidei"
+},
+"lateral rectus muscle": {
+"la": "M. rectus lateralis"
+},
+"lateral reticulospinal tract": {
+"la": "Tractus bulboreticulospinalis"
+},
+"lateral sacral crest": {
+"la": "Crista sacralis lateralis"
+},
+"lateral sacral veins": {
+"la": "Vv. sacrales laterales"
+},
+"lateral segment of right lung (siv)": {
+"la": "Segmentum laterale pulmonis dextri (s IV)"
+},
+"lateral segmental artery of right lung": {
+"la": "A. segmentalis lateralis pulmonis dextri"
+},
+"lateral segmental bronchus of right lung (biv)": {
+"la": "Bronchus segmentalis lateralis pulmonis dextri (B IV)"
+},
+"lateral semicircular canal": {
+"la": "Canalis semicircularis lateralis"
+},
+"lateral spinothalamic tract": {
+"la": "Tractus spinothalamicus lateralis"
+},
+"lateral subtendinous bursa of gastrocnemius muscle": {
+"la": "Bursa subtendinea m. gastrocnemii lateralis"
+},
+"lateral supracondylar line": {
+"la": "Linea supracondylaris lateralis"
+},
+"lateral supracondylar ridge": {
+"la": "Crista supraepicondylaris lateralis"
+},
+"lateral surface of fibula": {
+"la": "Facies lateralis fibulae"
+},
+"lateral surface of radius": {
+"la": "Facies lateralis radii"
+},
+"lateral surface of testis": {
+"la": "Facies lateralis testis"
+},
+"lateral surface of tibia": {
+"la": "Facies lateralis tibiae"
+},
+"lateral talocalcaneal ligament": {
+"la": "Lig. talocalcaneum laterale"
+},
+"lateral tarsal artery": {
+"la": "A. tarsalis lateralis"
+},
+"lateral temporomandibular ligament": {
+"la": "Lig. laterale art. temporomandibularis"
+},
+"lateral thoracic artery": {
+"la": "A. thoracica lateralis"
+},
+"lateral thoracic vein": {
+"la": "V. thoracica lateralis"
+},
+"lateral thyrohyoid ligament": {
+"la": "Lig. thyrohyoideum laterale"
+},
+"lateral tubercle": {
+"la": "Tuberculum laterale"
+},
+"lateral ventricle": {
+"la": "Ventriculus lateralis",
+"tr": "Yan karıncık"
+},
+"lateral vesical nodes": {
+"la": "Nll. vesicales laterales"
+},
+"lateral vestibulospinal tract": {
+"la": "Tractus vestibulospinalis lateralis"
+},
+"latissimus dorsi muscle": {
+"la": "M. latissimus dorsi"
+},
+"left anterior lateral segment of liver (iii)": {
+"la": "Segmentum anterius laterale sinistrum (III)"
+},
+"left ascending lumbar vein": {
+"la": "V. lumbalis ascendens sinistra"
+},
+"left atrium": {
+"la": "Atrium sinistrum",
+"tr": "Sol kulakçık"
+},
+"left brachiocephalic vein": {
+"la": "V. brachiocephalica sinistra"
+},
+"left colic artery": {
+"la": "A. colica sinistra"
+},
+"left colic nodes": {
+"la": "Nll. colici sinistri"
+},
+"left common carotid artery": {
+"la": "A. carotis communis sinistra",
+"tr": "Sol ana karotis arter"
+},
+"left coronary artery": {
+"la": "A. coronaria sinistra"
+},
+"left coronary leaflet": {
+"la": "Valvula coronaria sinistra (valvae aortae)"
+},
+"left gastric artery": {
+"la": "A. gastrica sinistra"
+},
+"left gastro-omental vein": {
+"la": "V. gastroomentalis sinistra"
+},
+"left inferior lobar bronchus": {
+"la": "Bronchus lobaris inferior sinister"
+},
+"left inferior pulmonary vein": {
+"la": "V. pulmonalis sinistra inferior"
+},
+"left lateral division of liver": {
+"la": "Divisio lateralis sinistra hepatis"
+},
+"left lobe of liver": {
+"la": "Lobus hepatis sinister"
+},
+"left lobe of thymus": {
+"la": "Lobus sinister thymi",
+"tr": "Timusun sol lobu"
+},
+"left main bronchus": {
+"la": "Bronchus principalis sinister",
+"tr": "Sol ana bronş"
+},
+"left medial division of liver": {
+"la": "Divisio medialis sinistra hepatis"
+},
+"left medial segment of liver (iv)": {
+"la": "Segmentum mediale sinistrum (IV)"
+},
+"left part of liver": {
+"la": "Pars hepatis sinistra"
+},
+"left posterior lateral segment of liver (ii)": {
+"la": "Segmentum posterius laterale sinistrum (II)"
+},
+"left pulmonary artery": {
+"la": "A. pulmonalis sinistra"
+},
+"left renal artery": {
+"la": "A. renalis sinistra"
+},
+"left renal vein": {
+"la": "V. renalis sinistra"
+},
+"left semilunar leaflet of pulmonary valve": {
+"la": "Valvula semilunaris sinistra valvae trunci pulmonalis"
+},
+"left subclavian artery": {
+"la": "A. subclavia sinistra"
+},
+"left subclavian vein": {
+"la": "V. subclavia sinistra"
+},
+"left subcostal vein": {
+"la": "V. subcostalis sinistra"
+},
+"left superior intercostal vein": {
+"la": "V. intercostalis superior sinistra"
+},
+"left superior lobar bronchus": {
+"la": "Bronchus lobaris superior sinister"
+},
+"left superior pulmonary vein": {
+"la": "V. pulmonalis sinistra superior"
+},
+"left surface of heart": {
+"la": "Facies sinistra cordis"
+},
+"left testicular artery": {
+"la": "A. testicularis sinistra"
+},
+"left testicular vein": {
+"la": "V. testicularis sinistra"
+},
+"left ventricle": {
+"la": "Ventriculus sinister",
+"tr": "Sol karıncık"
+},
+"lens": {
+"la": "Lens"
+},
+"lenticular process of incus": {
+"la": "Processus lenticularis incudis"
+},
+"lentiform nucleus": {
+"la": "Nucleus lentiformis"
+},
+"lesser curvature of stomach": {
+"la": "Curvatura minor gastris"
+},
+"lesser horn of hyoid bone": {
+"la": "Cornu minus ossis hyoidei"
+},
+"lesser omentum": {
+"la": "Omentum minus",
+"tr": "Küçük omentum"
+},
+"lesser sciatic foramen": {
+"la": "Foramen ischiadicum minus"
+},
+"lesser sciatic notch": {
+"la": "Incisura ischiadica minor"
+},
+"lesser trochanter": {
+"la": "Trochanter minor"
+},
+"lesser tubercle": {
+"la": "Tuberculum minus"
+},
+"lesser wing": {
+"la": "Ala minor"
+},
+"levator anguli oris": {
+"la": "M. levator anguli oris"
+},
+"levator ani": {
+"la": "M. levator ani"
+},
+"levator labii superioris": {
+"la": "M. levator labii superioris"
+},
+"levator palpebrae superioris": {
+"la": "M. levator palpebrae superioris"
+},
+"levator scapulae": {
+"la": "M. levator scapulae"
+},
+"levatores breves costarum": {
+"la": "Mm. levatores costarum breves"
+},
+"levatores longi costarum": {
+"la": "Mm. levatores costarum longi"
+},
+"ligament of head of femur": {
+"la": "Lig. capitis femoris",
+"tr": "Femur başı bağı"
+},
+"ligamenta flava": {
+"la": "Ligg. flava",
+"tr": "Sarı bağlar"
+},
+"limbus of sphenoid": {
+"la": "Limbus sphenoidalis"
+},
+"linea alba": {
+"la": "Linea alba"
+},
+"linea aspera": {
+"la": "Linea aspera"
+},
+"lingual gyrus": {
+"la": "Gyrus lingualis"
+},
+"lingual nerve": {
+"la": "N. lingualis"
+},
+"lingual surface of tooth": {
+"la": "Facies lingualis dentis"
+},
+"lingual vein": {
+"la": "V. lingualis"
+},
+"lingula of cerebellum": {
+"la": "Lingula cerebelli"
+},
+"lingula of left lung": {
+"la": "Lingula pulmonis sinistri"
+},
+"lingular vein of left lung": {
+"la": "V. lingularis"
+},
+"liver": {
+"la": "Hepar",
+"tr": "Karaciğer"
+},
+"lobe of lung": {
+"la": "Lobus pulmonis"
+},
+"lobe of thyroid gland": {
+"la": "Lobus glandulae thyroideae"
+},
+"long head of biceps brachii": {
+"la": "M. biceps brachii – caput longum"
+},
+"long head of biceps femoris": {
+"la": "M. biceps femoris – caput longum"
+},
+"long head of triceps brachii": {
+"la": "M. triceps brachii – caput longum"
+},
+"long limb of incus": {
+"la": "Crus longum incudis"
+},
+"long plantar ligament": {
+"la": "Lig. plantare longum",
+"tr": "Uzun plantar bağ"
+},
+"long posterior ciliary arteries": {
+"la": "Aa. ciliares posteriores longae"
+},
+"long thoracic nerve": {
+"la": "N. thoracicus longus"
+},
+"longissimus capitis muscle": {
+"la": "M. longissimus capitis"
+},
+"longissimus colli muscle": {
+"la": "M. longissimus colli"
+},
+"longissimus thoracis muscle": {
+"la": "M. longissimus thoracis"
+},
+"longus capitis muscle": {
+"la": "M. longus capitis"
+},
+"longus colli muscle": {
+"la": "M. longus colli"
+},
+"lower canine": {
+"tr": "Alt köpek dişi"
+},
+"lower first molar tooth": {
+"tr": "Alt 1. büyük azı dişi"
+},
+"lower first premolar": {
+"tr": "Alt 1. küçük azı dişi"
+},
+"lower lateral incisor": {
+"tr": "Alt yan kesici diş"
+},
+"lower medial incisor": {
+"tr": "Alt orta kesici diş"
+},
+"lower second molar tooth": {
+"tr": "Alt 2. büyük azı dişi"
+},
+"lower second premolar": {
+"tr": "Alt 2. küçük azı dişi"
+},
+"lumbar arteries": {
+"la": "Aa. lumbales"
+},
+"lumbar branch of iliolumbar artery": {
+"la": "R. lumbalis a. iliolumbalis"
+},
+"lumbar veins": {
+"la": "Vv. lumbales"
+},
+"lumbrical muscles of foot": {
+"la": "Mm. lumbricales (pedis)"
+},
+"lumbrical muscles of hand": {
+"la": "Mm. lumbricales (manus)"
+},
+"lunate bone": {
+"la": "Os lunatum"
+},
+"lunate sulcus": {
+"la": "Sulcus lunatus"
+},
+"lunate surface": {
+"la": "Facies lunata"
+},
+"lunotriquetral interosseous ligament": {
+"la": "Lig. lunotriquetrum interosseum"
+},
+"main portal fissure": {
+"la": "Fissura portalis principalis"
+},
+"major alar cartilage": {
+"la": "Cartilago alaris major"
+},
+"malleolar fossa": {
+"la": "Fossa malleoli lateralis"
+},
+"malleolar groove of fibula": {
+"la": "Sulcus malleolaris fibulae"
+},
+"malleolar groove of tibia": {
+"la": "Sulcus malleolaris tibiae"
+},
+"malleus": {
+"la": "Malleus",
+"tr": "Çekiç kemiği"
+},
+"mamillary body": {
+"la": "Corpus mammillare"
+},
+"mandible": {
+"la": "Mandibula",
+"tr": "Alt çene kemiği"
+},
+"mandibular dental arch": {
+"la": "Arcus dentalis mandibularis"
+},
+"mandibular node": {
+"la": "Nl. mandibularis"
+},
+"mandibular symphysis": {
+"la": "Symphysis mandibulae"
+},
+"manubrium of sternum": {
+"la": "Manubrium sterni",
+"tr": "Göğüs kemiği sapı"
+},
+"marginal artery": {
+"la": "A. marginalis coli"
+},
+"masseter": {
+"la": "M. masseter"
+},
+"masseteric fascia": {
+"la": "Fascia masseterica"
+},
+"mastoid angle of parietal bone": {
+"la": "Angulus mastoideus ossis parietalis"
+},
+"mastoid border of occipital bone": {
+"la": "Margo mastoideus ossis occipitalis"
+},
+"mastoid nodes": {
+"la": "Nll. mastoidei"
+},
+"mastoid notch": {
+"la": "Incisura mastoidea"
+},
+"mastoid process": {
+"la": "Processus mastoideus"
+},
+"maxilla": {
+"la": "Maxilla",
+"tr": "Üst çene kemiği"
+},
+"maxillary artery": {
+"la": "A. maxillaris"
+},
+"maxillary dental arch": {
+"la": "Arcus dentalis maxillaris"
+},
+"maxillary nerve": {
+"la": "N. maxillaris"
+},
+"maxillary surface of greater wing": {
+"la": "Facies maxillaris alae majoris"
+},
+"maxillary veins": {
+"la": "Vv. maxillares"
+},
+"medial antebrachial cutaneous nerve": {
+"la": "N. cutaneus antebrachii medialis"
+},
+"medial basal segment of left lung (svii)": {
+"la": "Segmentum basale mediale pulmonis sinistri (s VII)"
+},
+"medial basal segment of right lung (svii)": {
+"la": "Segmentum basale mediale pulmonis dextri (s VII)"
+},
+"medial basal segmental artery of left lung": {
+"la": "A. segmentalis basalis medialis pulmonis sinistri"
+},
+"medial basal segmental artery of right lung": {
+"la": "A. segmentalis basalis medialis pulmonis dextri"
+},
+"medial basal segmental bronchus of left lung (bvii)": {
+"la": "Bronchus segmentalis basalis medialis pulmonis sinistri (B VII)"
+},
+"medial basal segmental bronchus of right lung (bvii)": {
+"la": "Bronchus segmentalis basalis medialis pulmonis dextri (B VII)"
+},
+"medial border of fibula": {
+"la": "Margo medialis fibulae"
+},
+"medial border of humerus": {
+"la": "Margo medialis humeri"
+},
+"medial border of kidney": {
+"la": "Margo medialis renis"
+},
+"medial border of scapula": {
+"la": "Margo medialis scapulae"
+},
+"medial border of suprarenal gland": {
+"la": "Margo medialis glandulae suprarenalis"
+},
+"medial border of tibia": {
+"la": "Margo medialis tibiae"
+},
+"medial brachial cutaneous nerve": {
+"la": "N. cutaneus brachii medialis"
+},
+"medial circumflex femoral artery": {
+"la": "A. circumflexa femoris medialis"
+},
+"medial circumflex femoral veins": {
+"la": "Vv. circumflexae femoris mediales"
+},
+"medial common iliac nodes": {
+"la": "Nll. iliaci communes mediales"
+},
+"medial condyle of femur": {
+"la": "Condylus medialis femoris"
+},
+"medial condyle of tibia": {
+"la": "Condylus medialis tibiae"
+},
+"medial crural cutaneous branches of saphenous nerve": {
+"la": "Rr. cutanei cruris mediales n. sapheni"
+},
+"medial cuneiform bone": {
+"la": "Os cuneiforme mediale"
+},
+"medial dorsal cutaneous nerve of foot": {
+"la": "N. cutaneus dorsalis medialis"
+},
+"medial epicondyle of femur": {
+"la": "Epicondylus medialis femoris"
+},
+"medial epicondyle of humerus": {
+"la": "Epicondylus medialis humeri"
+},
+"medial external iliac nodes": {
+"la": "Nll. iliaci externi mediales"
+},
+"medial femoral intermuscular septum": {
+"la": "Septum intermusculare femoris mediale"
+},
+"medial geniculate body": {
+"la": "Corpus geniculatum mediale"
+},
+"medial head of flexor hallucis brevis": {
+"la": "M. flexor hallucis brevis – caput mediale"
+},
+"medial head of gastrocnemius": {
+"la": "M. gastrocnemius – caput mediale"
+},
+"medial head of triceps brachii": {
+"la": "M. triceps brachii – caput mediale"
+},
+"medial intercondylar tubercle": {
+"la": "Tuberculum intercondylare mediale"
+},
+"medial intermuscular septum of arm": {
+"la": "Septum intermusculare brachii mediale"
+},
+"medial lacunar node": {
+"la": "Nl. lacunaris medialis"
+},
+"medial lip of linea aspera": {
+"la": "Labium mediale lineae asperae"
+},
+"medial malleolar facet": {
+"la": "Facies malleolaris medialis"
+},
+"medial malleolus": {
+"la": "Malleolus medialis"
+},
+"medial meniscus": {
+"la": "Meniscus medialis",
+"tr": "İç menisküs"
+},
+"medial occipital artery": {
+"la": "A. occipitalis medialis"
+},
+"medial patellar retinaculum": {
+"la": "Retinaculum patellae mediale"
+},
+"medial pectoral nerve": {
+"la": "N. pectoralis medialis"
+},
+"medial plantar artery": {
+"la": "A. plantaris medialis"
+},
+"medial plantar nerve": {
+"la": "N. plantaris medialis"
+},
+"medial plantar veins": {
+"la": "Vv. plantares mediales"
+},
+"medial process of calcaneal tuberosity": {
+"la": "Processus medialis tuberis calcanei"
+},
+"medial pterygoid muscle": {
+"la": "M. pterygoideus medialis"
+},
+"medial pterygoid plate": {
+"la": "Lamina medialis processus pterygoidei"
+},
+"medial rectus muscle": {
+"la": "M. rectus medialis"
+},
+"medial reticulospinal tract": {
+"la": "Tractus pontoreticulospinalis"
+},
+"medial segment of right lung (sv)": {
+"la": "Segmentum mediale pulmonis dextri (s V)"
+},
+"medial segmental artery of right lung": {
+"la": "A. segmentalis medialis pulmonis dextri"
+},
+"medial segmental bronchus of right lung (bv)": {
+"la": "Bronchus segmentalis medialis pulmonis dextri (B V)"
+},
+"medial subtendinous bursa of gastrocnemius muscle": {
+"la": "Bursa subtendinea m. gastrocnemii medialis"
+},
+"medial supracondylar line": {
+"la": "Linea supracondylaris medialis"
+},
+"medial supracondylar ridge": {
+"la": "Crista supraepicondylaris medialis"
+},
+"medial sural cutaneous nerve": {
+"la": "N. cutaneus surae medialis"
+},
+"medial surface of arytenoid cartilage": {
+"la": "Facies medialis cartilaginis arytenoideae"
+},
+"medial surface of fibula": {
+"la": "Facies medialis fibulae"
+},
+"medial surface of lung": {
+"la": "Facies medialis pulmonis"
+},
+"medial surface of testis": {
+"la": "Facies medialis testis"
+},
+"medial surface of tibia": {
+"la": "Facies medialis tibiae"
+},
+"medial surface of ulna": {
+"la": "Facies medialis ulnae"
+},
+"medial talocalcaneal ligament": {
+"la": "Lig. talocalcaneum mediale"
+},
+"medial tubercle": {
+"la": "Tuberculum mediale"
+},
+"medial vestibulospinal tract": {
+"la": "Tractus vestibulospinalis medialis"
+},
+"median antebrachial vein": {
+"la": "V. mediana antebrachii"
+},
+"median cricothyroid ligament": {
+"la": "Lig. cricothyroideum medianum"
+},
+"median cubital vein": {
+"la": "V. mediana cubiti"
+},
+"median nerve": {
+"la": "N. medianus",
+"tr": "Orta sinir"
+},
+"median sacral artery": {
+"la": "A. sacralis mediana"
+},
+"median sacral crest": {
+"la": "Crista sacralis mediana"
+},
+"median thyrohyoid ligament": {
+"la": "Lig. thyrohyoideum medianum"
+},
+"mediastinal surface of lung": {
+"la": "Facies mediastinalis pulmonis"
+},
+"medulla oblongata": {
+"la": "Medulla oblongata",
+"tr": "Omurilik soğanı"
+},
+"meningeal branch of maxillary nerve": {
+"la": "R. meningeus n. maxillaris"
+},
+"mental branch of inferior alveolar artery": {
+"la": "R. mentalis a. alveolaris inferioris"
+},
+"mental foramen": {
+"la": "Foramen mentale"
+},
+"mental nerve": {
+"la": "N. mentalis"
+},
+"mental protuberance": {
+"la": "Protuberantia mentalis"
+},
+"mental tubercle": {
+"la": "Tuberculum mentale"
+},
+"mentalis muscle": {
+"la": "M. mentalis"
+},
+"meridians of eyeball": {
+"la": "Meridiani bulbi oculi"
+},
+"mesial surface of tooth": {
+"la": "Facies mesialis dentis"
+},
+"meso-appendix": {
+"la": "Mesoappendix"
+},
+"mesocolic taenia": {
+"la": "Taenia mesocolica"
+},
+"mesocolon": {
+"la": "Mesocolon"
+},
+"metacarpal base": {
+"la": "Basis ossis metacarpi"
+},
+"metatarsal interosseous ligaments": {
+"la": "Ligg. metatarsalia interossea"
+},
+"midbrain": {
+"la": "Mesencephalon",
+"tr": "Orta beyin"
+},
+"middle cardiac vein": {
+"la": "V. cardiaca media"
+},
+"middle cells of ethmoid bone": {
+"la": "Cellulae ethmoidales mediae"
+},
+"middle clinoid process": {
+"la": "Processus clinoideus medius"
+},
+"middle colic artery": {
+"la": "A. colica media"
+},
+"middle colic nodes": {
+"la": "Nll. colici medii"
+},
+"middle colic vein": {
+"la": "V. colica media"
+},
+"middle collateral artery": {
+"la": "A. collateralis media"
+},
+"middle facet for calcaneus": {
+"la": "Facies articularis calcanea media"
+},
+"middle frontal gyrus": {
+"la": "Gyrus frontalis medius"
+},
+"middle genicular artery": {
+"la": "A. media genus"
+},
+"middle glenohumeral ligament": {
+"la": "Lig. glenohumerale medium",
+"tr": "Orta glenohumeral bağ"
+},
+"middle layer of thoracolumbar fascia": {
+"la": "Lamina media fasciae thoracolumbalis"
+},
+"middle lobar artery of right lung": {
+"la": "A. lobaris media pulmonis dextri"
+},
+"middle lobar bronchus": {
+"la": "Bronchus lobaris medius"
+},
+"middle lobe of right lung": {
+"la": "Lobus medius pulmonis dextri",
+"tr": "Sağ akciğer orta lobu"
+},
+"middle meningeal artery": {
+"la": "A. meningea media"
+},
+"middle phalanx of fifth finger of foot": {
+"la": "Phalanx media",
+"tr": "Ayak serçe parmağının orta falanksı"
+},
+"middle phalanx of fifth finger of hand": {
+"la": "Phalanx media",
+"tr": "El serçe parmağının orta falanksı"
+},
+"middle phalanx of fourth finger of foot": {
+"la": "Phalanx media",
+"tr": "4. ayak parmağının orta falanksı"
+},
+"middle phalanx of fourth finger of hand": {
+"la": "Phalanx media",
+"tr": "Yüzük parmağının orta falanksı"
+},
+"middle phalanx of second finger of foot": {
+"la": "Phalanx media",
+"tr": "2. ayak parmağının orta falanksı"
+},
+"middle phalanx of second finger of hand": {
+"la": "Phalanx media",
+"tr": "İşaret parmağının orta falanksı"
+},
+"middle phalanx of third finger of foot": {
+"la": "Phalanx media",
+"tr": "3. ayak parmağının orta falanksı"
+},
+"middle phalanx of third finger of hand": {
+"la": "Phalanx media",
+"tr": "Orta parmağın orta falanksı"
+},
+"middle pharyngeal constrictor": {
+"la": "M. constrictor pharyngis medius"
+},
+"middle temporal gyrus": {
+"la": "Gyrus temporalis medius"
+},
+"middle trunk of brachial plexus": {
+"la": "Truncus medius plexus brachialis",
+"tr": "Plexus brachialis orta trunkusu"
+},
+"motor nucleus of facial nerve": {
+"la": "Nucleus n. facialis"
+},
+"motor root of trigeminal nerve": {
+"la": "Radix motoria n. trigemini"
+},
+"mucosa of nasal cavity": {
+"la": "Tunica mucosa nasi",
+"tr": "Burun mukozası"
+},
+"mucosa of stomach": {
+"la": "Tunica mucosa gastris",
+"tr": "Mide mukozası"
+},
+"multifidus colli muscle": {
+"la": "M. multifidus colli"
+},
+"multifidus lumborum muscle": {
+"la": "M. multifidus lumborum"
+},
+"multifidus thoracis muscle": {
+"la": "M. multifidus thoracis"
+},
+"muscular branches of axillary nerve": {
+"la": "Rr. musculares n. axillaris"
+},
+"muscular branches of deep fibular nerve": {
+"la": "Rr. musculares n. fibularis profundi"
+},
+"muscular branches of median nerve": {
+"la": "Rr. musculares n. mediani"
+},
+"muscular branches of radial nerve": {
+"la": "Rr. musculares n. radialis"
+},
+"muscular branches of ulnar nerve": {
+"la": "Rr. musculares n. ulnaris"
+},
+"muscular process": {
+"la": "Processus muscularis"
+},
+"musculocutaneous nerve": {
+"la": "N. musculocutaneus"
+},
+"musculophrenic artery": {
+"la": "A. musculophrenica"
+},
+"musculophrenic veins": {
+"la": "Vv. musculophrenicae"
+},
+"mylohyoid branch of inferior alveolar artery": {
+"la": "R. mylohyoideus a. alveolaris inferioris"
+},
+"mylohyoid line": {
+"la": "Linea mylohyoidea"
+},
+"mylohyoid muscle": {
+"la": "M. mylohyoideus"
+},
+"nasal bone": {
+"la": "Os nasale",
+"tr": "Burun kemiği"
+},
+"nasal margin of frontal bone": {
+"la": "Margo nasalis ossis frontalis"
+},
+"nasal part of frontal bone": {
+"la": "Pars nasalis ossis frontalis"
+},
+"nasal septal cartilage": {
+"la": "Cartilago septi nasi"
+},
+"nasal spine of frontal bone": {
+"la": "Spina nasalis ossis frontalis"
+},
+"nasalis muscle": {
+"la": "M. nasalis"
+},
+"nasolabial node": {
+"la": "Nl. nasolabialis"
+},
+"nasolacrimal duct": {
+"la": "Ductus nasolacrimalis"
+},
+"nasopharynx": {
+"la": "Pars nasalis pharyngis"
+},
+"navicular articular surface": {
+"la": "Facies articularis navicularis"
+},
+"navicular bone": {
+"la": "Os naviculare"
+},
+"neck of femur": {
+"la": "Collum femoris"
+},
+"neck of fibula": {
+"la": "Collum fibulae"
+},
+"neck of gallbladder": {
+"la": "Collum vesicae biliaris"
+},
+"neck of malleus": {
+"la": "Collum mallei"
+},
+"neck of pancreas": {
+"la": "Collum pancreatis"
+},
+"neck of radius": {
+"la": "Collum radii"
+},
+"neck of rib": {
+"la": "Collum costae"
+},
+"neck of scapula": {
+"la": "Collum scapulae"
+},
+"neck of talus": {
+"la": "Collum tali"
+},
+"neck of tooth": {
+"la": "Cervix dentis"
+},
+"nerve to mylohyoid muscle": {
+"la": "N. mylohyoideus"
+},
+"nerve to piriformis muscle": {
+"la": "N. m. piriformis"
+},
+"nerve to quadratus femoris muscle": {
+"la": "N. m. quadrati femoris"
+},
+"neurohypophysis": {
+"la": "Neurohypophysis"
+},
+"ninth rib": {
+"la": "Costa IX",
+"tr": "9. kaburga"
+},
+"node of arch of azygos vein": {
+"la": "Nl. arcus v. azygos"
+},
+"node of ligamentum arteriosum": {
+"la": "Nl. lig. arteriosi"
+},
+"nodule of vermis": {
+"la": "Nodulus"
+},
+"non-coronary leaflet": {
+"la": "Valvula non coronaria (valvae aortae)"
+},
+"notch for ligamentum teres": {
+"la": "Incisura lig. teretis"
+},
+"notch of cardiac apex": {
+"la": "Incisura apicis cordis"
+},
+"nuchal ligament": {
+"la": "Lig. nuchae",
+"tr": "Ense bağı"
+},
+"nucleus ambiguus": {
+"la": "Nucleus ambiguus"
+},
+"nucleus of abducens nerve": {
+"la": "Nucleus n. abducentis"
+},
+"nucleus of accessory nerve": {
+"la": "Nucleus n. accessorii"
+},
+"nucleus of hypoglossal nerve": {
+"la": "Nucleus n. hypoglossi"
+},
+"nucleus of oculomotor nerve": {
+"la": "Nucleus n. oculomotorii"
+},
+"nucleus of solitary tract": {
+"la": "Nuclei tractus solitarii"
+},
+"nucleus of trochlear nerve": {
+"la": "Nucleus n. trochlearis"
+},
+"nucleus proprius": {
+"la": "Nucleus proprius"
+},
+"nucleus pulposus c2-c3": {
+"la": "Nucleus pulposus C2–C3"
+},
+"nucleus pulposus c3-c4": {
+"la": "Nucleus pulposus C3–C4"
+},
+"nucleus pulposus c4-c5": {
+"la": "Nucleus pulposus C4–C5"
+},
+"nucleus pulposus c5-c6": {
+"la": "Nucleus pulposus C5–C6"
+},
+"nucleus pulposus c6-c7": {
+"la": "Nucleus pulposus C6–C7"
+},
+"nucleus pulposus c7-t1": {
+"la": "Nucleus pulposus C7–T1"
+},
+"nucleus pulposus l1-l2": {
+"la": "Nucleus pulposus L1–L2"
+},
+"nucleus pulposus l2-l3": {
+"la": "Nucleus pulposus L2–L3"
+},
+"nucleus pulposus l3-l4": {
+"la": "Nucleus pulposus L3–L4"
+},
+"nucleus pulposus l4-l5": {
+"la": "Nucleus pulposus L4–L5"
+},
+"nucleus pulposus l5-s1": {
+"la": "Nucleus pulposus L5–S1"
+},
+"nucleus pulposus t1-t2": {
+"la": "Nucleus pulposus T1–T2"
+},
+"nucleus pulposus t10-t11": {
+"la": "Nucleus pulposus T10–T11"
+},
+"nucleus pulposus t11-t12": {
+"la": "Nucleus pulposus T11–T12"
+},
+"nucleus pulposus t12-l1": {
+"la": "Nucleus pulposus T12–L1"
+},
+"nucleus pulposus t2-t3": {
+"la": "Nucleus pulposus T2–T3"
+},
+"nucleus pulposus t3-t4": {
+"la": "Nucleus pulposus T3–T4"
+},
+"nucleus pulposus t4-t5": {
+"la": "Nucleus pulposus T4–T5"
+},
+"nucleus pulposus t5-t6": {
+"la": "Nucleus pulposus T5–T6"
+},
+"nucleus pulposus t6-t7": {
+"la": "Nucleus pulposus T6–T7"
+},
+"nucleus pulposus t7-t8": {
+"la": "Nucleus pulposus T7–T8"
+},
+"nucleus pulposus t8-t9": {
+"la": "Nucleus pulposus T8–T9"
+},
+"nucleus pulposus t9-t10": {
+"la": "Nucleus pulposus T9–T10"
+},
+"oblique cord": {
+"la": "Chorda obliqua"
+},
+"oblique fissure of left lung": {
+"la": "Fissura obliqua pulmonis sinistri"
+},
+"oblique fissure of right lung": {
+"la": "Fissura obliqua pulmonis dextri"
+},
+"oblique head of adductor hallucis": {
+"la": "M. adductor hallucis – caput obliquum"
+},
+"oblique head of adductor pollicis": {
+"la": "M. adductor pollicis – caput obliquum"
+},
+"oblique line of mandible": {
+"la": "Linea obliqua mandibulae"
+},
+"oblique line of thyroid cartilage": {
+"la": "Linea obliqua cartilaginis thyroideae"
+},
+"oblique part of cricothyroid muscle": {
+"la": "M. cricothyroideus – pars obliqua"
+},
+"oblique popliteal ligament": {
+"la": "Lig. popliteum obliquum"
+},
+"obliquus inferior capitis muscle": {
+"la": "M. obliquus capitis inferior"
+},
+"obliquus superior capitis muscle": {
+"la": "M. obliquus capitis superior"
+},
+"oblong fovea": {
+"la": "Fovea oblonga"
+},
+"obturator artery": {
+"la": "A. obturatoria"
+},
+"obturator crest": {
+"la": "Crista obturatoria"
+},
+"obturator externus": {
+"la": "M. obturatorius externus"
+},
+"obturator foramen": {
+"la": "Foramen obturatum"
+},
+"obturator groove": {
+"la": "Sulcus obturatorius"
+},
+"obturator internus": {
+"la": "M. obturatorius internus"
+},
+"obturator membrane": {
+"la": "Membrana obturatoria"
+},
+"obturator nerve": {
+"la": "N. obturatorius"
+},
+"obturator nodes": {
+"la": "Nll. obturatorii"
+},
+"occipital angle of parietal bone": {
+"la": "Angulus occipitalis ossis parietalis"
+},
+"occipital artery": {
+"la": "A. occipitalis"
+},
+"occipital bone": {
+"la": "Os occipitale",
+"tr": "Art kafa kemiği"
+},
+"occipital border of parietal bone": {
+"la": "Margo occipitalis ossis parietalis"
+},
+"occipital condyle": {
+"la": "Condylus occipitalis"
+},
+"occipital margin of temporal bone": {
+"la": "Margo occipitalis ossis temporalis"
+},
+"occipital nodes": {
+"la": "Nll. occipitales",
+"tr": "Oksipital lenf düğümleri"
+},
+"occipital plane": {
+"la": "Planum occipitale"
+},
+"occipital pole": {
+"la": "Polus occipitalis"
+},
+"occipital sinus": {
+"la": "Sinus occipitalis"
+},
+"occipital vein": {
+"la": "V. occipitalis"
+},
+"occlusal surface of tooth": {
+"la": "Facies occlusalis dentis"
+},
+"oculomotor nerve (iii)": {
+"la": "N. oculomotorius (III)",
+"tr": "3. kranial sinir"
+},
+"oesophageal impression of liver": {
+"la": "Impressio oesophagea hepatis"
+},
+"oesophagus": {
+"la": "Oesophagus",
+"tr": "Yemek borusu"
+},
+"olecranon": {
+"la": "Olecranon"
+},
+"olecranon fossa": {
+"la": "Fossa olecrani"
+},
+"olfactory nerve (i)": {
+"la": "Nn. olfactorii (I)",
+"tr": "1. kranial sinir"
+},
+"olfactory sulcus": {
+"la": "Sulcus olfactorius"
+},
+"olive": {
+"la": "Oliva"
+},
+"omental taenia": {
+"la": "Taenia omentalis"
+},
+"omental tuberosity of liver": {
+"la": "Tuber omentale hepatis"
+},
+"omohyoid muscle": {
+"la": "M. omohyoideus"
+},
+"opening of frontal sinus": {
+"la": "Apertura sinus frontalis"
+},
+"opercular part of inferior frontal gyrus": {
+"la": "Pars opercularis gyri frontalis inferioris"
+},
+"ophthalmic artery": {
+"la": "A. ophthalmica"
+},
+"ophthalmic nerve": {
+"la": "N. ophthalmicus"
+},
+"opponens digiti minimi muscle of foot": {
+"la": "M. opponens digiti minimi (pedis)"
+},
+"opponens digiti minimi muscle of hand": {
+"la": "M. opponens digiti minimi (manus)"
+},
+"opponens pollicis muscle": {
+"la": "M. opponens pollicis"
+},
+"optic axis": {
+"la": "Axis opticus"
+},
+"optic canal": {
+"la": "Canalis opticus"
+},
+"optic chiasm": {
+"la": "Chiasma opticum",
+"tr": "Optik kiazma"
+},
+"optic nerve (ii)": {
+"la": "N. opticus (II)",
+"tr": "2. kranial sinir"
+},
+"optic tract": {
+"la": "Tractus opticus"
+},
+"orbicularis oris muscle": {
+"la": "M. orbicularis oris"
+},
+"orbital gyri": {
+"la": "Gyri orbitales"
+},
+"orbital part of  inferior frontal gyrus": {
+"la": "Pars orbitalis gyri frontalis inferioris"
+},
+"orbital part of frontal bone": {
+"la": "Pars orbitalis ossis frontalis"
+},
+"orbital part of inferior frontal gyrus": {
+"la": "Pars orbitalis gyri frontalis inferioris"
+},
+"orbital part of orbicularis oculi": {
+"la": "M. orbicularis oculi – pars orbitalis"
+},
+"orbital plate of frontal bone": {
+"la": "Lamina orbitalis ossis frontalis"
+},
+"orbital surface of frontal bone": {
+"la": "Facies orbitalis ossis frontalis"
+},
+"orbital surface of greater wing": {
+"la": "Facies orbitalis alae majoris"
+},
+"oropharynx": {
+"la": "Pars oralis pharyngis"
+},
+"outer lip of iliac crest": {
+"la": "Labium externum cristae iliacae"
+},
+"palatine bone": {
+"la": "Os palatinum",
+"tr": "Damak kemiği"
+},
+"palatine tonsil": {
+"la": "Tonsilla palatina",
+"tr": "Bademcik"
+},
+"palatopharyngeus muscle": {
+"la": "M. palatopharyngeus"
+},
+"palmar aponeurosis": {
+"la": "Aponeurosis palmaris",
+"tr": "Palmar aponevroz"
+},
+"palmar branch of median nerve": {
+"la": "R. palmaris n. mediani"
+},
+"palmar branch of ulnar nerve": {
+"la": "R. palmaris n. ulnaris"
+},
+"palmar capitohamate ligament": {
+"la": "Lig. capitohamatum palmare"
+},
+"palmar carpal branch of radial artery": {
+"la": "R. carpalis palmaris a. radialis"
+},
+"palmar carpometacarpal ligaments": {
+"la": "Ligg. carpometacarpalia palmaria"
+},
+"palmar digital veins": {
+"la": "Vv. digitales palmares"
+},
+"palmar interossei muscles": {
+"la": "Mm. interossei palmares"
+},
+"palmar interphalangeal ligaments": {
+"la": "Ligg. palmaria artt. interphalangearum manus"
+},
+"palmar lunotriquetral ligament": {
+"la": "Lig. lunotriquetrum palmare"
+},
+"palmar metacarpal arteries": {
+"la": "Aa. metacarpales palmares"
+},
+"palmar metacarpal ligaments": {
+"la": "Ligg. metacarpalia palmaria"
+},
+"palmar radio-ulnar ligament": {
+"la": "Lig. radioulnare palmare"
+},
+"palmar scaphotriquetral ligament": {
+"la": "Lig. scaphotriquetrum palmare"
+},
+"palmar trapezoideocapitate ligament": {
+"la": "Lig. trapezoideocapitatum palmare"
+},
+"palmaris longus muscle": {
+"la": "M. palmaris longus"
+},
+"palpebral part of orbicularis oculi": {
+"la": "M. orbicularis oculi – pars palpebralis"
+},
+"pancreas": {
+"la": "Pancreas",
+"tr": "Pankreas"
+},
+"pancreatic duct": {
+"la": "Ductus pancreaticus"
+},
+"pancreatic notch": {
+"la": "Incisura pancreatis"
+},
+"papillary process": {
+"la": "Processus papillaris"
+},
+"paracentral sulcus": {
+"la": "Sulcus paracentralis"
+},
+"pararectal nodes": {
+"la": "Nll. pararectales"
+},
+"parasternal nodes": {
+"la": "Nll. parasternales",
+"tr": "Parasternal lenf düğümleri"
+},
+"paratracheal cervical nodes": {
+"la": "Nll. paratracheales colli"
+},
+"paratracheal thoracic nodes": {
+"la": "Nll. paratracheales thoracis"
+},
+"parietal bone": {
+"la": "Os parietale",
+"tr": "Yan kafa kemiği"
+},
+"parietal eminence": {
+"la": "Tuber parietale"
+},
+"parietal foramen": {
+"la": "Foramen parietale"
+},
+"parietal margin of frontal bone": {
+"la": "Margo parietalis ossis frontalis"
+},
+"parietal margin of greater wing": {
+"la": "Margo parietalis alae majoris"
+},
+"parieto-occipital sulcus": {
+"la": "Sulcus parietooccipitalis"
+},
+"parotid duct": {
+"la": "Ductus parotideus"
+},
+"parotid gland": {
+"la": "Glandula parotidea",
+"tr": "Kulak altı tükürük bezi"
+},
+"pars distalis of hypophysis": {
+"la": "Pars distalis hypophysis"
+},
+"pars interarticularis of vertebral arch": {
+"la": "Pars interarticularis arcus vertebrae"
+},
+"pars intermedia of hypophysis": {
+"la": "Pars intermedia hypophysis"
+},
+"pars nervosa of hypophysis": {
+"la": "Pars nervosa hypophysis"
+},
+"pars tubelaris of hypophysis": {
+"la": "Pars tuberalis hypophysis"
+},
+"patella": {
+"la": "Patella",
+"tr": "Diz kapağı"
+},
+"patellar anastomosis": {
+"la": "Rete patellare"
+},
+"patellar ligament": {
+"la": "Lig. patellae",
+"tr": "Patella bağı"
+},
+"patellar surface of femur": {
+"la": "Facies patellaris femoris"
+},
+"pecten pubis": {
+"la": "Pecten ossis pubis"
+},
+"pectineal line of femur": {
+"la": "Linea pectinea femoris"
+},
+"pectineus muscle": {
+"la": "M. pectineus"
+},
+"pectoral branches of thoraco-acromial artery": {
+"la": "Rr. pectorales a. thoracoacromialis"
+},
+"pectoral fascia": {
+"la": "Fascia pectoralis"
+},
+"pectoralis major muscle": {
+"la": "M. pectoralis major"
+},
+"pectoralis minor muscle": {
+"la": "M. pectoralis minor"
+},
+"pedicle of vertebral arch": {
+"la": "Pediculus arcus vertebrae"
+},
+"peduncle of flocculus": {
+"la": "Pedunculus flocculi"
+},
+"pelvic surface of sacrum": {
+"la": "Facies pelvica ossis sacri"
+},
+"perforating branches of plantar metatarsal arteries": {
+"la": "Rr. perforantes aa. metatarsalium plantarium"
+},
+"perforating femoral arteries": {
+"la": "Aa. perforantes"
+},
+"perforating veins": {
+"la": "Vv. perforantes"
+},
+"pericallosal artery": {
+"la": "A. pericallosa"
+},
+"petrous part of temporal bone": {
+"la": "Pars petrosa ossis temporalis"
+},
+"pharyngeal tubercle": {
+"la": "Tuberculum pharyngeum"
+},
+"pineal gland": {
+"la": "Glandula pinealis"
+},
+"piriformis fascia": {
+"la": "Fascia m. piriformis"
+},
+"piriformis muscle": {
+"la": "M. piriformis"
+},
+"pisiform bone": {
+"la": "Os pisiforme"
+},
+"pisohamate ligament": {
+"la": "Lig. pisohamatum"
+},
+"pisometacarpal ligament": {
+"la": "Lig. pisometacarpale"
+},
+"pisotriquetral ligament": {
+"la": "Lig. pisotriquetrum"
+},
+"plantar aponeurosis": {
+"la": "Aponeurosis plantaris",
+"tr": "Plantar fasya"
+},
+"plantar calcaneocuboid ligament": {
+"la": "Lig. calcaneocuboideum plantare"
+},
+"plantar calcaneonavicular ligament": {
+"la": "Lig. calcaneonaviculare plantare"
+},
+"plantar cuboideonavicular ligament": {
+"la": "Lig. cuboideonaviculare plantare"
+},
+"plantar cuneocuboid ligament": {
+"la": "Lig. cuneocuboideum plantare"
+},
+"plantar cuneonavicular ligaments": {
+"la": "Ligg. cuneonavicularia plantaria"
+},
+"plantar digital veins": {
+"la": "Vv. digitales plantares"
+},
+"plantar intercuneiform ligaments": {
+"la": "Ligg. intercuneiformia plantaria"
+},
+"plantar interossei muscles": {
+"la": "Mm. interossei plantares"
+},
+"plantar interphalangeal ligaments": {
+"la": "Ligg. plantaria artt. interphalangearum pedis"
+},
+"plantar metatarsal arteries": {
+"la": "Aa. metatarsales plantares"
+},
+"plantar metatarsal ligaments": {
+"la": "Ligg. metatarsalia plantaria"
+},
+"plantar metatarsal veins": {
+"la": "Vv. metatarsales plantares"
+},
+"plantar metatarsophalangeal ligaments": {
+"la": "Ligg. plantaria artt. metatarsophalangearum"
+},
+"plantar tarsometatarsal ligaments": {
+"la": "Ligg. tarsometatarsalia plantaria"
+},
+"plantar tendon sheath of fibularis longus muscle": {
+"la": "Vagina plantaris tendinis m. fibularis longi"
+},
+"plantar venous arch": {
+"la": "Arcus venosus plantaris"
+},
+"plantaris muscle": {
+"la": "M. plantaris"
+},
+"platysma": {
+"la": "Platysma"
+},
+"pleura": {
+"la": "Pleura",
+"tr": "Plevra"
+},
+"pons": {
+"la": "Pons"
+},
+"popliteal artery": {
+"la": "A. poplitea"
+},
+"popliteal surface of femur": {
+"la": "Facies poplitea femoris"
+},
+"popliteal vein": {
+"la": "V. poplitea"
+},
+"popliteofibular ligament": {
+"la": "Lig. popliteofibulare"
+},
+"popliteus muscle": {
+"la": "M. popliteus"
+},
+"porta hepatis": {
+"la": "Porta hepatis"
+},
+"postcentral gyrus": {
+"la": "Gyrus postcentralis"
+},
+"postcentral sulcus": {
+"la": "Sulcus postcentralis"
+},
+"posterior antebrachial cutaneous nerve": {
+"la": "N. cutaneus antebrachii posterior"
+},
+"posterior arch of atlas": {
+"la": "Arcus posterior atlantis"
+},
+"posterior articular facet of dens axis": {
+"la": "Facies articularis posterior dentis axis"
+},
+"posterior auricular vein": {
+"la": "V. auricularis posterior"
+},
+"posterior axillary nodes": {
+"la": "Nll. axillares posteriores",
+"tr": "Arka koltuk altı lenf düğümleri"
+},
+"posterior basal segment of left lung (sx)": {
+"la": "Segmentum basale posterius pulmonis sinistri (s X)"
+},
+"posterior basal segment of right lung (sx)": {
+"la": "Segmentum basale posterius pulmonis dextri (s X)"
+},
+"posterior basal segmental artery of left lung": {
+"la": "A. segmentalis basalis posterior pulmonis sinistri"
+},
+"posterior basal segmental artery of right lung": {
+"la": "A. segmentalis basalis posterior pulmonis dextri"
+},
+"posterior basal segmental bronchus of left lung (bx)": {
+"la": "Bronchus segmentalis basalis posterior pulmonis sinistri (B X)"
+},
+"posterior basal segmental bronchus of right lung (bx)": {
+"la": "Bronchus segmentalis basalis posterior pulmonis dextri (B X)"
+},
+"posterior belly of digastric muscle": {
+"la": "M. digastricus – venter posterior"
+},
+"posterior bony ampulla": {
+"la": "Ampulla ossea posterior"
+},
+"posterior border of fibula": {
+"la": "Margo posterior fibulae"
+},
+"posterior border of radius": {
+"la": "Margo posterior radii"
+},
+"posterior border of testis": {
+"la": "Margo posterior testis"
+},
+"posterior border of ulna": {
+"la": "Margo posterior ulnae"
+},
+"posterior branch of medial antebrachial cutaneous nerve": {
+"la": "R. posterior n. cutanei antebrachii medialis"
+},
+"posterior branch of obturator nerve": {
+"la": "R. posterior n. obturatorii"
+},
+"posterior branch of renal artery": {
+"la": "R. posterior a. renalis"
+},
+"posterior calcaneal articular facet": {
+"la": "Facies articularis calcanea posterior"
+},
+"posterior cells of ethmoid bone": {
+"la": "Cellulae ethmoidales posteriores"
+},
+"posterior cerebral artery": {
+"la": "A. cerebri posterior"
+},
+"posterior circumflex humeral artery": {
+"la": "A. circumflexa humeri posterior"
+},
+"posterior circumflex humeral vein": {
+"la": "V. circumflexa humeri posterior"
+},
+"posterior clinoid process": {
+"la": "Processus clinoideus posterior"
+},
+"posterior cochlear nucleus": {
+"la": "Nucleus cochlearis posterior"
+},
+"posterior commissure": {
+"la": "Commissura posterior"
+},
+"posterior communicating artery": {
+"la": "A. communicans posterior"
+},
+"posterior cord of brachial plexus": {
+"la": "Fasciculus posterior plexus brachialis",
+"tr": "Plexus brachialis arka kordu"
+},
+"posterior crico-arytenoid muscle": {
+"la": "M. cricoarytenoideus posterior"
+},
+"posterior cruciate ligament": {
+"la": "Lig. cruciatum posterius",
+"tr": "Arka çapraz bağ"
+},
+"posterior deep temporal artery": {
+"la": "A. temporalis profunda posterior"
+},
+"posterior division of inferior trunk of brachial plexus": {
+"la": "Divisio posterior trunci inferioris plexus brachialis"
+},
+"posterior division of middle trunk of brachial plexus": {
+"la": "Divisio posterior trunci medii plexus brachialis"
+},
+"posterior division of superior trunk of brachial plexus": {
+"la": "Divisio posterior trunci superioris plexus brachialis"
+},
+"posterior ethmoidal artery": {
+"la": "A. ethmoidalis posterior"
+},
+"posterior extremity of spleen": {
+"la": "Extremitas posterior splenis"
+},
+"posterior fasciculus proprius": {
+"la": "Fasciculus proprius posterior"
+},
+"posterior femoral cutaneous nerve": {
+"la": "N. cutaneus femoris posterior"
+},
+"posterior gluteal line": {
+"la": "Linea glutea posterior"
+},
+"posterior horn of spinal cord": {
+"la": "Cornu posterius medullae spinalis",
+"tr": "Omuriliğin arka boynuzu"
+},
+"posterior inferior cerebellar artery": {
+"la": "A. inferior posterior cerebelli"
+},
+"posterior inferior iliac spine": {
+"la": "Spina iliaca posterior inferior"
+},
+"posterior intercavernous sinus": {
+"la": "Sinus intercavernosus posterior"
+},
+"posterior intercondylar area": {
+"la": "Area intercondylaris posterior"
+},
+"posterior intercostal arteries": {
+"la": "Aa. intercostales posteriores"
+},
+"posterior intermuscular septum of leg": {
+"la": "Septum intermusculare cruris posterius"
+},
+"posterior interosseous artery": {
+"la": "A. interossea posterior"
+},
+"posterior interosseous nerve of forearm": {
+"la": "N. interosseus antebrachii posterior"
+},
+"posterior lateral segment of liver (vii)": {
+"la": "Segmentum posterius laterale dextrum (VII)"
+},
+"posterior layer of thoracolumbar fascia": {
+"la": "Lamina posterior fasciae thoracolumbalis"
+},
+"posterior leaflet of left atrioventricular valve": {
+"la": "Cuspis posterior valvae atrioventricularis sinistrae"
+},
+"posterior ligament of fibular head": {
+"la": "Lig. capitis fibulae posterius"
+},
+"posterior limb of stapes": {
+"la": "Crus posterius stapedis"
+},
+"posterior longitudinal ligament": {
+"la": "Lig. longitudinale posterius",
+"tr": "Arka uzunlamasına bağ"
+},
+"posterior medial segment of liver (viii)": {
+"la": "Segmentum posterius mediale dextrum (VIII)"
+},
+"posterior median sulcus of medulla oblongata": {
+"la": "Sulcus medianus posterior medullae oblongatae"
+},
+"posterior meniscotibial ligament (lateral meniscus)": {
+"la": "Lig. meniscotibiale posterius (menisci lateralis)"
+},
+"posterior meniscotibial ligament (medial meniscus)": {
+"la": "Lig. meniscotibiale posterius (menisci medialis)"
+},
+"posterior nucleus of vagus nerve": {
+"la": "Nucleus posterior n. vagi"
+},
+"posterior obturator tubercle": {
+"la": "Tuberculum obturatorium posterius"
+},
+"posterior parietal artery": {
+"la": "A. parietalis posterior"
+},
+"posterior part of liver": {
+"la": "Pars posterior hepatis"
+},
+"posterior pole of eyeball": {
+"la": "Polus posterior bulbi oculi"
+},
+"posterior process of talus": {
+"la": "Processus posterior tali"
+},
+"posterior quadrangular lobule": {
+"la": "Lobulus quadrangularis posterior"
+},
+"posterior root of spinal nerve": {
+"la": "Radix posterior n. spinalis",
+"tr": "Spinal sinir arka kökü"
+},
+"posterior sacral foramina": {
+"la": "Foramina sacralia posteriora"
+},
+"posterior sacro-iliac ligament": {
+"la": "Lig. sacroiliacum posterius"
+},
+"posterior segment of eyeball": {
+"la": "Segmentum posterius bulbi oculi"
+},
+"posterior segment of liver (i)": {
+"la": "Segmentum posterius; Lobus caudatus (I)"
+},
+"posterior segment of right lung (sii)": {
+"la": "Segmentum posterius pulmonis dextri (s II)"
+},
+"posterior segmental artery of left lung": {
+"la": "A. segmentalis posterior pulmonis sinistri"
+},
+"posterior segmental artery of right lung": {
+"la": "A. segmentalis posterior pulmonis dextri"
+},
+"posterior segmental bronchus of right lung (bii)": {
+"la": "Bronchus segmentalis posterior pulmonis dextri (B II)"
+},
+"posterior semicircular canal": {
+"la": "Canalis semicircularis posterior"
+},
+"posterior septal branches of sphenopalatine artery": {
+"la": "Rr. septales posteriores a. sphenopalatinae"
+},
+"posterior spinocerebellar tract": {
+"la": "Tractus spinocerebellaris posterior"
+},
+"posterior sternoclavicular ligament": {
+"la": "Lig. sternoclaviculare posterius"
+},
+"posterior superior alveolar artery": {
+"la": "A. alveolaris superior posterior"
+},
+"posterior superior iliac spine": {
+"la": "Spina iliaca posterior superior"
+},
+"posterior surface of arytenoid cartilage": {
+"la": "Facies posterior cartilaginis arytenoideae"
+},
+"posterior surface of cornea": {
+"la": "Facies posterior corneae"
+},
+"posterior surface of fibula": {
+"la": "Facies posterior fibulae"
+},
+"posterior surface of humerus": {
+"la": "Facies posterior humeri"
+},
+"posterior surface of iris": {
+"la": "Facies posterior iridis"
+},
+"posterior surface of kidney": {
+"la": "Facies posterior renis"
+},
+"posterior surface of liver": {
+"la": "Facies posterior hepatis"
+},
+"posterior surface of pancreas": {
+"la": "Facies posterior pancreatis"
+},
+"posterior surface of petrous part": {
+"la": "Facies posterior partis petrosae"
+},
+"posterior surface of radius": {
+"la": "Facies posterior radii"
+},
+"posterior surface of scapula": {
+"la": "Facies posterior scapulae"
+},
+"posterior surface of suprarenal gland": {
+"la": "Facies posterior glandulae suprarenalis"
+},
+"posterior surface of tibia": {
+"la": "Facies posterior tibiae"
+},
+"posterior surface of ulna": {
+"la": "Facies posterior ulnae"
+},
+"posterior talocalcaneal ligament": {
+"la": "Lig. talocalcaneum posterius"
+},
+"posterior talofibular ligament": {
+"la": "Lig. talofibulare posterius",
+"tr": "Arka talofibular bağ"
+},
+"posterior temporal branch": {
+"la": "R. temporalis posterior"
+},
+"posterior tibial artery": {
+"la": "A. tibialis posterior"
+},
+"posterior tibial node": {
+"la": "Nl. tibialis posterior"
+},
+"posterior tibial veins": {
+"la": "Vv. tibiales posteriores"
+},
+"posterior tibiofibular ligament": {
+"la": "Lig. tibiofibulare posterius"
+},
+"posterior tibiotalar ligament": {
+"la": "Lig. deltoideum – pars tibiotalaris posterior"
+},
+"posterior tubercle of atlas": {
+"la": "Tuberculum posterius atlantis"
+},
+"posterior tubercle of transverse process": {
+"la": "Tuberculum posterius processus transversi"
+},
+"posterior vein of right lung": {
+"la": "V. posterior pulmonis dextri"
+},
+"posterior wall of stomach": {
+"la": "Paries posterior gastris"
+},
+"posterolateral sulcus of medulla oblongata": {
+"la": "Sulcus posterolateralis medullae oblongatae"
+},
+"posterolateral tract": {
+"la": "Tractus posterolateralis"
+},
+"posteromedial surface of fibula": {
+"la": "Facies posteromedialis fibulae"
+},
+"postvesical nodes": {
+"la": "Nll. postvesicales"
+},
+"pre-aortic nodes": {
+"la": "Nll. preaortici"
+},
+"pre-auricular nodes": {
+"la": "Nll. preauriculares"
+},
+"precaecal nodes": {
+"la": "Nll. precaecales"
+},
+"precaval nodes": {
+"la": "Nll. precavales"
+},
+"precentral gyrus": {
+"la": "Gyrus precentralis"
+},
+"precuneus": {
+"la": "Precuneus"
+},
+"prefrontal artery": {
+"la": "A. prefrontalis"
+},
+"prepericardial nodes": {
+"la": "Nll. prepericardiaci"
+},
+"pretracheal nodes": {
+"la": "Nll. pretracheales"
+},
+"prevertebral nodes": {
+"la": "Nll. prevertebrales"
+},
+"prevesical nodes": {
+"la": "Nll. prevesicales"
+},
+"procerus muscle": {
+"la": "M. procerus"
+},
+"promontory": {
+"la": "Promontorium"
+},
+"pronator quadratus": {
+"la": "M. pronator quadratus"
+},
+"pronator teres": {
+"la": "M. pronator teres"
+},
+"pronator tuberosity": {
+"la": "Tuberositas pronatoria"
+},
+"proper hepatic artery": {
+"la": "A. hepatica propria"
+},
+"proper palmar digital arteries": {
+"la": "Aa. digitales palmares propriae"
+},
+"proper palmar digital branches of median nerve": {
+"la": "Nn. digitales palmares proprii n. mediani"
+},
+"proper palmar digital branches of ulnar nerve": {
+"la": "Nn. digitales palmares proprii n. ulnaris"
+},
+"proper plantar digital arteries": {
+"la": "Aa. digitales plantares propriae"
+},
+"proper plantar digital branches of lateral plantar nerve": {
+"la": "Nn. digitales plantares proprii n. plantaris lateralis"
+},
+"proper plantar digital branches of medial plantar nerve": {
+"la": "Nn. digitales plantares proprii n. plantaris medialis"
+},
+"prostate": {
+"la": "Prostata",
+"tr": "Prostat"
+},
+"proximal deep inguinal node": {
+"la": "Nl. inguinalis profundus proximalis"
+},
+"proximal lateral striate branches": {
+"la": "Rr. proximales laterales striati"
+},
+"proximal phalanx of fifth finger of foot": {
+"la": "Phalanx proximalis",
+"tr": "Ayak serçe parmağının proksimal falanksı"
+},
+"proximal phalanx of fifth finger of hand": {
+"la": "Phalanx proximalis",
+"tr": "El serçe parmağının proksimal falanksı"
+},
+"proximal phalanx of first finger of foot": {
+"la": "Phalanx proximalis",
+"tr": "Ayak başparmağının proksimal falanksı"
+},
+"proximal phalanx of first finger of hand": {
+"la": "Phalanx proximalis",
+"tr": "El başparmağının proksimal falanksı"
+},
+"proximal phalanx of fourth finger of foot": {
+"la": "Phalanx proximalis",
+"tr": "4. ayak parmağının proksimal falanksı"
+},
+"proximal phalanx of fourth finger of hand": {
+"la": "Phalanx proximalis",
+"tr": "Yüzük parmağının proksimal falanksı"
+},
+"proximal phalanx of second finger of foot": {
+"la": "Phalanx proximalis",
+"tr": "2. ayak parmağının proksimal falanksı"
+},
+"proximal phalanx of second finger of hand": {
+"la": "Phalanx proximalis",
+"tr": "İşaret parmağının proksimal falanksı"
+},
+"proximal phalanx of third finger of foot": {
+"la": "Phalanx proximalis",
+"tr": "3. ayak parmağının proksimal falanksı"
+},
+"proximal phalanx of third finger of hand": {
+"la": "Phalanx proximalis",
+"tr": "Orta parmağın proksimal falanksı"
+},
+"psoas major": {
+"la": "M. psoas major"
+},
+"pterygoid canal": {
+"la": "Canalis pterygoideus"
+},
+"pterygoid fossa": {
+"la": "Fossa pterygoidea"
+},
+"pterygoid hamulus": {
+"la": "Hamulus pterygoideus"
+},
+"pterygoid notch": {
+"la": "Incisura pterygoidea"
+},
+"pterygoid process": {
+"la": "Processus pterygoideus"
+},
+"pterygospinous ligament": {
+"la": "Lig. pterygospinale"
+},
+"pterygospinous process": {
+"la": "Processus pterygospinosus"
+},
+"pubic crest": {
+"la": "Crista pubica"
+},
+"pubic symphysis": {
+"la": "Symphysis pubica"
+},
+"pubic tubercle": {
+"la": "Tuberculum pubicum"
+},
+"pubis": {
+"la": "Os pubis"
+},
+"pubo-analis muscle": {
+"la": "M. puboanalis"
+},
+"pubococcygeus muscle": {
+"la": "M. pubococcygeus"
+},
+"pubofemoral ligament": {
+"la": "Lig. pubofemorale"
+},
+"pudendal nerve": {
+"la": "N. pudendus"
+},
+"pulmonary trunk": {
+"la": "Truncus pulmonalis"
+},
+"pupil": {
+"la": "Pupilla"
+},
+"pupillary margin of iris": {
+"la": "Margo pupillaris iridis"
+},
+"putamen": {
+"la": "Putamen"
+},
+"pyloric antrum": {
+"la": "Antrum pyloricum"
+},
+"pyloric part": {
+"la": "Pars pylorica"
+},
+"pyramid of medulla oblongata": {
+"la": "Pyramis medullae oblongatae"
+},
+"pyramidal lobe": {
+"la": "Lobus pyramidalis"
+},
+"pyramidalis muscle": {
+"la": "M. pyramidalis"
+},
+"pyramis of vermis": {
+"la": "Pyramis vermis"
+},
+"quadrangular membrane": {
+"la": "Membrana quadrangularis"
+},
+"quadrate ligament": {
+"la": "Lig. quadratum"
+},
+"quadrate lobe": {
+"la": "Lobus quadratus"
+},
+"quadrate tubercle": {
+"la": "Tuberculum quadratum"
+},
+"quadratus femoris muscle": {
+"la": "M. quadratus femoris"
+},
+"quadratus lumborum muscle": {
+"la": "M. quadratus lumborum"
+},
+"quadratus plantae muscle": {
+"la": "M. quadratus plantae"
+},
+"quadriceps femoris muscle": {
+"la": "M. quadriceps femoris"
+},
+"radial artery": {
+"la": "A. radialis"
+},
+"radial collateral artery": {
+"la": "A. collateralis radialis"
+},
+"radial collateral ligament": {
+"la": "Lig. collaterale radiale"
+},
+"radial collateral ligament of wrist joint": {
+"la": "Lig. collaterale carpi radiale"
+},
+"radial fossa": {
+"la": "Fossa radialis"
+},
+"radial groove": {
+"la": "Sulcus n. radialis"
+},
+"radial head of flexor digitorum superficialis": {
+"la": "M. flexor digitorum superficialis – caput radiale"
+},
+"radial nerve": {
+"la": "N. radialis",
+"tr": "Döner sinir"
+},
+"radial notch": {
+"la": "Incisura radialis"
+},
+"radial styloid process": {
+"la": "Processus styloideus radii"
+},
+"radial tuberosity": {
+"la": "Tuberositas radii"
+},
+"radial veins": {
+"la": "Vv. radiales"
+},
+"radiate carpal ligament": {
+"la": "Lig. carpi radiatum"
+},
+"radiate ligament of head of rib": {
+"la": "Lig. capitis costae radiatum"
+},
+"radiocapitate ligament": {
+"la": "Lig. radiocapitatum"
+},
+"radioscaphocapitate ligament": {
+"la": "Lig. radioscaphocapitatum"
+},
+"radius": {
+"la": "Radius",
+"tr": "Döner kemik"
+},
+"ramus of ischium": {
+"la": "R. ossis ischii"
+},
+"rectus abdominis muscle": {
+"la": "M. rectus abdominis"
+},
+"rectus anterior capitis muscle": {
+"la": "M. rectus capitis anterior"
+},
+"rectus femoris muscle": {
+"la": "M. rectus femoris"
+},
+"rectus lateralis capitis muscle": {
+"la": "M. rectus capitis lateralis"
+},
+"rectus posterior major capitis muscle": {
+"la": "M. rectus capitis posterior major"
+},
+"rectus posterior minor capitis muscle": {
+"la": "M. rectus capitis posterior minor"
+},
+"recurrent interosseous artery": {
+"la": "A. interossea recurrens"
+},
+"red nucleus": {
+"la": "Nucleus ruber"
+},
+"renal impression of liver": {
+"la": "Impressio renalis hepatis"
+},
+"renal impression of spleen": {
+"la": "Facies renalis splenis"
+},
+"renal pelvis": {
+"la": "Pelvis renalis",
+"tr": "Böbrek havuzu"
+},
+"renal sinus": {
+"la": "Sinus renalis"
+},
+"renal surface of suprarenal gland": {
+"la": "Facies renalis glandulae suprarenalis"
+},
+"retina": {
+"la": "Retina"
+},
+"retro-aortic nodes": {
+"la": "Nll. retroaortici"
+},
+"retro-olivary groove": {
+"la": "Sulcus retroolivaris"
+},
+"retrocaecal nodes": {
+"la": "Nll. retrocaecales"
+},
+"retrocaval nodes": {
+"la": "Nll. retrocavales"
+},
+"retromandibular vein": {
+"la": "V. retromandibularis"
+},
+"retropharyngeal nodes": {
+"la": "Nll. retropharyngeales"
+},
+"retropyloric nodes": {
+"la": "Nll. retropylorici"
+},
+"rhomboid major muscle": {
+"la": "M. rhomboideus major"
+},
+"rhomboid minor muscle": {
+"la": "M. rhomboideus minor"
+},
+"rib": {
+"la": "Costa"
+},
+"right ascending lumbar vein": {
+"la": "V. lumbalis ascendens dextra"
+},
+"right atrium": {
+"la": "Atrium dextrum",
+"tr": "Sağ kulakçık"
+},
+"right border of heart": {
+"la": "Margo dexter cordis"
+},
+"right brachiocephalic vein": {
+"la": "V. brachiocephalica dextra"
+},
+"right colic artery": {
+"la": "A. colica dextra"
+},
+"right colic nodes": {
+"la": "Nll. colici dextri"
+},
+"right colic vein": {
+"la": "V. colica dextra"
+},
+"right common carotid artery": {
+"la": "A. carotis communis dextra",
+"tr": "Sağ ana karotis arter"
+},
+"right coronary artery": {
+"la": "A. coronaria dextra"
+},
+"right coronary leaflet": {
+"la": "Valvula coronaria dextra (valvae aortae)"
+},
+"right gastric nodes": {
+"la": "Nll. gastrici dextri"
+},
+"right gastro-omental nodes": {
+"la": "Nll. gastroomentales dextri"
+},
+"right gastro-omental vein": {
+"la": "V. gastroomentalis dextra"
+},
+"right inferior lobar bronchus": {
+"la": "Bronchus lobaris inferior dexter"
+},
+"right inferior pulmonary vein": {
+"la": "V. pulmonalis dextra inferior"
+},
+"right lateral division of liver": {
+"la": "Divisio lateralis dextra hepatis"
+},
+"right lobe of liver": {
+"la": "Lobus hepatis dexter"
+},
+"right lobe of thymus": {
+"la": "Lobus dexter thymi",
+"tr": "Timusun sağ lobu"
+},
+"right main bronchus": {
+"la": "Bronchus principalis dexter",
+"tr": "Sağ ana bronş"
+},
+"right medial division of liver": {
+"la": "Divisio medialis dextra hepatis"
+},
+"right part of liver": {
+"la": "Pars hepatis dextra"
+},
+"right portal fissure": {
+"la": "Fissura portalis dextra"
+},
+"right pulmonary artery": {
+"la": "A. pulmonalis dextra"
+},
+"right renal artery": {
+"la": "A. renalis dextra"
+},
+"right renal vein": {
+"la": "V. renalis dextra"
+},
+"right semilunar leaflet of pulmonary valve": {
+"la": "Valvula semilunaris dextra valvae trunci pulmonalis"
+},
+"right subclavian artery": {
+"la": "A. subclavia dextra"
+},
+"right subclavian vein": {
+"la": "V. subclavia dextra"
+},
+"right subcostal vein": {
+"la": "V. subcostalis dextra"
+},
+"right superior intercostal vein": {
+"la": "V. intercostalis superior dextra"
+},
+"right superior lobar bronchus": {
+"la": "Bronchus lobaris superior dexter"
+},
+"right superior phrenic vein": {
+"la": "V. phrenica superior dextra"
+},
+"right superior pulmonary vein": {
+"la": "V. pulmonalis dextra superior"
+},
+"right surface of heart": {
+"la": "Facies dextra cordis"
+},
+"right surface of liver": {
+"la": "Facies dextra hepatis"
+},
+"right testicular artery": {
+"la": "A. testicularis dextra"
+},
+"right testicular vein": {
+"la": "V. testicularis dextra"
+},
+"right ventricle": {
+"la": "Ventriculus dexter",
+"tr": "Sağ karıncık"
+},
+"risorius muscle": {
+"la": "M. risorius"
+},
+"root apex": {
+"la": "Apex radicis dentis"
+},
+"root of lung": {
+"la": "Radix pulmonis"
+},
+"root of tooth": {
+"la": "Radix dentis"
+},
+"roots of brachial plexus": {
+"la": "Radices plexus brachialis",
+"tr": "Plexus brachialis kökleri"
+},
+"rotatores": {
+"la": "Mm. rotatores"
+},
+"rubrospinal tract": {
+"la": "Tractus rubrospinalis"
+},
+"sacral canal": {
+"la": "Canalis sacralis"
+},
+"sacral hiatus": {
+"la": "Hiatus sacralis"
+},
+"sacral horn": {
+"la": "Cornu sacrale"
+},
+"sacral tuberosity": {
+"la": "Tuberositas ossis sacri"
+},
+"sacropelvic surface of ilium": {
+"la": "Facies sacropelvica ossis ilii"
+},
+"sacrospinous ligament": {
+"la": "Lig. sacrospinale"
+},
+"sacrotuberous ligament": {
+"la": "Lig. sacrotuberale"
+},
+"sacrum": {
+"la": "Os sacrum",
+"tr": "Sağrı kemiği"
+},
+"sagittal border of parietal bone": {
+"la": "Margo sagittalis ossis parietalis"
+},
+"saphenous nerve": {
+"la": "N. saphenus"
+},
+"sartorius muscle": {
+"la": "M. sartorius"
+},
+"scalenus anterior muscle": {
+"la": "M. scalenus anterior"
+},
+"scalenus medius muscle": {
+"la": "M. scalenus medius"
+},
+"scalenus posterior muscle": {
+"la": "M. scalenus posterior"
+},
+"scaphocapitate ligament": {
+"la": "Lig. scaphocapitatum"
+},
+"scaphoid bone": {
+"la": "Os scaphoideum"
+},
+"scaphoid fossa": {
+"la": "Fossa scaphoidea"
+},
+"scapholunate interosseous ligament": {
+"la": "Lig. scapholunatum interosseum"
+},
+"scaphotrapeziotrapezoidal ligament": {
+"la": "Lig. scaphotrapeziotrapezoideum"
+},
+"scapula": {
+"la": "Scapula",
+"tr": "Kürek kemiği"
+},
+"scapular notch": {
+"la": "Incisura scapulae"
+},
+"scapular spinal part of deltoid muscle": {
+"la": "M. deltoideus – pars spinalis"
+},
+"sciatic bursa of gluteus maximus muscle": {
+"la": "Bursa ischiadica m. glutei maximi"
+},
+"sciatic bursa of obturator internus": {
+"la": "Bursa ischiadica m. obturatorii interni"
+},
+"sciatic nerve": {
+"la": "N. ischiadicus",
+"tr": "Siyatik sinir"
+},
+"sclera": {
+"la": "Sclera",
+"tr": "Sklera"
+},
+"second metacarpal bone": {
+"la": "Os metacarpale II",
+"tr": "2. el tarak kemiği"
+},
+"second metatarsal bone": {
+"la": "Os metatarsale II",
+"tr": "2. ayak tarak kemiği"
+},
+"second posterior intercostal artery": {
+"la": "A. intercostalis posterior secunda"
+},
+"second rib": {
+"la": "Costa II",
+"tr": "2. kaburga"
+},
+"sella turcica": {
+"la": "Sella turcica"
+},
+"semimembranosus bursa": {
+"la": "Bursa m. semimembranosi"
+},
+"semimembranosus muscle": {
+"la": "M. semimembranosus"
+},
+"seminal gland": {
+"la": "Glandula seminalis"
+},
+"semispinalis colli muscle": {
+"la": "M. semispinalis colli"
+},
+"semispinalis thoracis muscle": {
+"la": "M. semispinalis thoracis"
+},
+"semitendinosus muscle": {
+"la": "M. semitendinosus"
+},
+"sensory root of trigeminal nerve": {
+"la": "Radix sensoria n. trigemini"
+},
+"septal branches of anterior interventricular artery": {
+"la": "Rr. interventriculares septales"
+},
+"septal leaflet of right atrioventricular valve": {
+"la": "Cuspis septalis valvae atrioventricularis dextrae"
+},
+"septal nuclei": {
+"la": "Nuclei septales"
+},
+"septal papillary muscle of right ventricle": {
+"la": "M. papillaris septalis ventriculi dextri"
+},
+"septum of frontal sinuses": {
+"la": "Septum sinuum frontalium"
+},
+"septum of sphenoidal sinuses": {
+"la": "Septum sinuum sphenoidalium"
+},
+"septum pellucidum": {
+"la": "Septum pellucidum"
+},
+"serratus anterior muscle": {
+"la": "M. serratus anterior"
+},
+"serratus posterior inferior muscle": {
+"la": "M. serratus posterior inferior"
+},
+"serratus posterior superior muscle": {
+"la": "M. serratus posterior superior"
+},
+"sesamoid bones of foot": {
+"la": "Ossa sesamoidea (pedis)"
+},
+"seventh rib": {
+"la": "Costa VII",
+"tr": "7. kaburga"
+},
+"short head of biceps brachii": {
+"la": "M. biceps brachii – caput breve"
+},
+"short head of biceps femoris": {
+"la": "M. biceps femoris – caput breve"
+},
+"short posterior ciliary arteries": {
+"la": "Aa. ciliares posteriores breves"
+},
+"sigmoid arteries": {
+"la": "Aa. sigmoideae"
+},
+"sigmoid colon": {
+"la": "Colon sigmoideum",
+"tr": "Sigmoid kolon"
+},
+"sigmoid nodes": {
+"la": "Nll. sigmoidei"
+},
+"sigmoid sinus": {
+"la": "Sinus sigmoideus"
+},
+"sigmoid veins": {
+"la": "Vv. sigmoideae"
+},
+"simple bony limb": {
+"la": "Crus osseum simplex"
+},
+"sinus of frontal bone": {
+"la": "Sinus frontalis",
+"tr": "Alın sinüsü"
+},
+"sinus of sphenoid bone": {
+"la": "Sinus sphenoidalis",
+"tr": "Sfenoid sinüs"
+},
+"sixth rib": {
+"la": "Costa VI",
+"tr": "6. kaburga"
+},
+"small saphenous vein": {
+"la": "V. saphena parva",
+"tr": "Küçük safen ven"
+},
+"soft palate": {
+"la": "Palatum molle",
+"tr": "Yumuşak damak"
+},
+"soleal line": {
+"la": "Linea m. solei"
+},
+"soleus muscle": {
+"la": "M. soleus"
+},
+"sphenoid bone": {
+"la": "Os sphenoidale",
+"tr": "Kama kemiği"
+},
+"sphenoidal angle of parietal bone": {
+"la": "Angulus sphenoidalis ossis parietalis"
+},
+"sphenoidal crest": {
+"la": "Crista sphenoidalis"
+},
+"sphenoidal lingula": {
+"la": "Lingula sphenoidalis"
+},
+"sphenoidal margin of frontal bone": {
+"la": "Margo sphenoidalis ossis frontalis"
+},
+"sphenoidal yoke": {
+"la": "Jugum sphenoidale"
+},
+"sphenomandibular ligament": {
+"la": "Lig. sphenomandibulare"
+},
+"sphincter pupillae": {
+"la": "M. sphincter pupillae"
+},
+"spinal branch of iliolumbar artery": {
+"la": "R. spinalis a. iliolumbalis"
+},
+"spinal dura": {
+"la": "Dura mater spinalis",
+"tr": "Omurilik sert zarı"
+},
+"spinal ganglion": {
+"la": "Ganglion spinale"
+},
+"spinalis capitis muscle": {
+"la": "M. spinalis capitis"
+},
+"spinalis colli muscle": {
+"la": "M. spinalis colli"
+},
+"spinalis thoracis muscle": {
+"la": "M. spinalis thoracis"
+},
+"spine of scapula": {
+"la": "Spina scapulae"
+},
+"spine of sphenoid bone": {
+"la": "Spina ossis sphenoidalis"
+},
+"spinoglenoid notch": {
+"la": "Incisura spinoglenoidea"
+},
+"spinotectal tract": {
+"la": "Tractus spinotectalis"
+},
+"spinous process": {
+"la": "Processus spinosus"
+},
+"spiral canal of cochlea": {
+"la": "Canalis spiralis cochleae"
+},
+"spleen": {
+"la": "Splen (Lien)",
+"tr": "Dalak"
+},
+"splenic artery": {
+"la": "A. splenica"
+},
+"splenic nodes": {
+"la": "Nll. splenici"
+},
+"splenic vein": {
+"la": "V. splenica"
+},
+"splenius capitis muscle": {
+"la": "M. splenius capitis"
+},
+"splenius colli muscle": {
+"la": "M. splenius colli"
+},
+"squamosal border of parietal bone": {
+"la": "Margo squamosus ossis parietalis"
+},
+"squamosal margin of greater wing": {
+"la": "Margo squamosus alae majoris"
+},
+"squamous part of frontal bone": {
+"la": "Squama frontalis"
+},
+"squamous part of occipital bone": {
+"la": "Squama occipitalis"
+},
+"squamous part of temporal bone": {
+"la": "Pars squamosa ossis temporalis"
+},
+"stapes": {
+"la": "Stapes",
+"tr": "Üzengi kemiği"
+},
+"sternal angle": {
+"la": "Angulus sterni"
+},
+"sternal articular surface": {
+"la": "Facies articularis sternalis"
+},
+"sternal end": {
+"la": "Extremitas sternalis"
+},
+"sternocleidomastoid muscle": {
+"la": "M. sternocleidomastoideus"
+},
+"sternocostal head of pectoralis major muscle": {
+"la": "M. pectoralis major – pars sternocostalis"
+},
+"sternohyoid muscle": {
+"la": "M. sternohyoideus"
+},
+"sternothyroid muscle": {
+"la": "M. sternothyroideus"
+},
+"sternum": {
+"la": "Sternum"
+},
+"stomach": {
+"la": "Gaster",
+"tr": "Mide"
+},
+"straight gyrus (gyrus rectus)": {
+"la": "Gyrus rectus"
+},
+"straight part of cricothyroid muscle": {
+"la": "M. cricothyroideus – pars recta"
+},
+"straight sinus": {
+"la": "Sinus rectus"
+},
+"stria medullaris thalami": {
+"la": "Stria medullaris thalami"
+},
+"stria terminalis": {
+"la": "Stria terminalis"
+},
+"stylohyoid ligament": {
+"la": "Lig. stylohyoideum"
+},
+"stylohyoid muscle": {
+"la": "M. stylohyoideus"
+},
+"styloid process of temporal bone": {
+"la": "Processus styloideus ossis temporalis"
+},
+"styloid process of third metacarpal bone": {
+"la": "Processus styloideus ossis metacarpi III"
+},
+"stylomandibular ligament": {
+"la": "Lig. stylomandibulare"
+},
+"stylopharyngeus muscle": {
+"la": "M. stylopharyngeus"
+},
+"subacromial bursa": {
+"la": "Bursa subacromialis",
+"tr": "Subakromiyal bursa"
+},
+"subaortic nodes": {
+"la": "Nll. subaortici"
+},
+"subclavian nerve": {
+"la": "N. subclavius"
+},
+"subclavius muscle": {
+"la": "M. subclavius"
+},
+"subcostal artery": {
+"la": "A. subcostalis"
+},
+"subcutaneous acromial bursa": {
+"la": "Bursa subcutanea acromialis"
+},
+"subcutaneous bursa of lateral malleolus": {
+"la": "Bursa subcutanea malleoli lateralis"
+},
+"subcutaneous bursa of medial malleolus": {
+"la": "Bursa subcutanea malleoli medialis"
+},
+"subcutaneous bursa of tuberosity of tibia": {
+"la": "Bursa subcutanea tuberositatis tibiae"
+},
+"subcutaneous calcaneal bursa": {
+"la": "Bursa subcutanea calcanea"
+},
+"subcutaneous infrapatellar bursa": {
+"la": "Bursa subcutanea infrapatellaris"
+},
+"subcutaneous prepatellar bursa": {
+"la": "Bursa subcutanea prepatellaris"
+},
+"subcutaneous trochanteric bursa": {
+"la": "Bursa subcutanea trochanterica"
+},
+"subdeltoid bursa": {
+"la": "Bursa subdeltoidea",
+"tr": "Subdeltoid bursa"
+},
+"subfacial prepatellar bursa": {
+"la": "Bursa subfascialis prepatellaris"
+},
+"sublime tubercle": {
+"la": "Tuberculum sublime"
+},
+"sublingual fossa": {
+"la": "Fovea sublingualis"
+},
+"sublingual gland": {
+"la": "Glandula sublingualis",
+"tr": "Dil altı tükürük bezi"
+},
+"submandibular duct": {
+"la": "Ductus submandibularis"
+},
+"submandibular gland": {
+"la": "Glandula submandibularis",
+"tr": "Çene altı tükürük bezi"
+},
+"submandibular nodes": {
+"la": "Nll. submandibulares",
+"tr": "Submandibular lenf düğümleri"
+},
+"submental artery": {
+"la": "A. submentalis"
+},
+"submental nodes": {
+"la": "Nll. submentales",
+"tr": "Submental lenf düğümleri"
+},
+"submental vein": {
+"la": "V. submentalis"
+},
+"subparietal sulcus": {
+"la": "Sulcus subparietalis"
+},
+"subpyloric nodes": {
+"la": "Nll. subpylorici"
+},
+"subscapular artery": {
+"la": "A. subscapularis"
+},
+"subscapular fossa": {
+"la": "Fossa subscapularis"
+},
+"subscapular vein": {
+"la": "V. subscapularis"
+},
+"subscapularis muscle": {
+"la": "M. subscapularis"
+},
+"subtendinous bursa of iliacus muscle": {
+"la": "Bursa subtendinea iliaca"
+},
+"subtendinous bursa of infraspinatus muscle": {
+"la": "Bursa subtendinea m. infraspinati"
+},
+"subtendinous bursa of obturator internus": {
+"la": "Bursa subtendinea m. obturatorii interni"
+},
+"subtendinous bursa of sartorius muscle": {
+"la": "Bursae subtendineae m. sartorii"
+},
+"subtendinous bursa of teres major muscle": {
+"la": "Bursa subtendinea m. teretis majoris"
+},
+"subtendinous bursa of tibialis anterior": {
+"la": "Bursa subtendinea m. tibialis anterioris"
+},
+"subtendinous bursa of trapezius muscle": {
+"la": "Bursa subtendinea m. trapezii"
+},
+"subtendinous bursa of triceps brachii muscle": {
+"la": "Bursa subtendinea m. tricipitis brachii"
+},
+"subtendinous prepatellar bursa": {
+"la": "Bursa subtendinea prepatellaris"
+},
+"sulcus of auditory tube": {
+"la": "Sulcus tubae auditivae"
+},
+"sulcus sclerae": {
+"la": "Sulcus sclerae"
+},
+"superciliary arch": {
+"la": "Arcus superciliaris"
+},
+"superficial anterior cervical nodes": {
+"la": "Nll. cervicales anteriores superficiales"
+},
+"superficial branch of medial plantar artery": {
+"la": "R. superficialis a. plantaris medialis"
+},
+"superficial branch of radial nerve": {
+"la": "R. superficialis n. radialis"
+},
+"superficial branch of transverse cervical artery": {
+"la": "R. superficialis a. transversae colli"
+},
+"superficial branch of ulnar nerve": {
+"la": "R. superficialis n. ulnaris"
+},
+"superficial dorsal veins of penis": {
+"la": "Vv. dorsales superficiales penis"
+},
+"superficial epigastric artery": {
+"la": "A. epigastrica superficialis"
+},
+"superficial epigastric vein": {
+"la": "V. epigastrica superficialis"
+},
+"superficial external pudendal artery": {
+"la": "A. pudenda externa superficialis"
+},
+"superficial fibular nerve": {
+"la": "N. fibularis superficialis"
+},
+"superficial head of flexor pollicis brevis": {
+"la": "M. flexor pollicis brevis – caput superficiale"
+},
+"superficial investing cervical fascia": {
+"la": "Lamina superficialis fasciae cervicalis"
+},
+"superficial lateral cervical nodes": {
+"la": "Nll. cervicales laterales superficiales"
+},
+"superficial layer of temporal fascia": {
+"la": "Lamina superficialis fasciae temporalis"
+},
+"superficial palmar arch": {
+"la": "Arcus palmaris superficialis"
+},
+"superficial parotid nodes": {
+"la": "Nll. parotidei superficiales"
+},
+"superficial part of masseter": {
+"la": "M. masseter – pars superficialis"
+},
+"superficial part of tibial collateral ligament": {
+"la": "Lig. collaterale tibiale – pars superficialis",
+"tr": "İç yan bağın yüzeyel kısmı"
+},
+"superficial popliteal nodes": {
+"la": "Nll. poplitei superficiales",
+"tr": "Yüzeyel popliteal lenf düğümleri"
+},
+"superficial temporal artery": {
+"la": "A. temporalis superficialis"
+},
+"superficial temporal veins": {
+"la": "Vv. temporales superficiales"
+},
+"superficial transverse metacarpal ligament": {
+"la": "Lig. metacarpale transversum superficiale"
+},
+"superficial transverse metatarsal ligament": {
+"la": "Lig. metatarsale transversum superficiale"
+},
+"superficial venous palmar arch": {
+"la": "Arcus venosus palmaris superficialis"
+},
+"superior angle of scapula": {
+"la": "Angulus superior scapulae"
+},
+"superior articular facet of vertebra": {
+"la": "Facies articularis superior vertebrae"
+},
+"superior articular process of sacrum": {
+"la": "Processus articularis superior ossis sacri"
+},
+"superior articular process of vertebra": {
+"la": "Processus articularis superior vertebrae"
+},
+"superior articular surface of atlas": {
+"la": "Facies articularis superior atlantis"
+},
+"superior articular surface of lateral condyle": {
+"la": "Facies articularis superior condyli lateralis"
+},
+"superior articular surfaces of tibia": {
+"la": "Facies articulares superiores tibiae"
+},
+"superior basal vein of left lung": {
+"la": "V. basalis superior pulmonis sinistri"
+},
+"superior basal vein of right lung": {
+"la": "V. basalis superior pulmonis dextri"
+},
+"superior border of pancreas": {
+"la": "Margo superior pancreatis"
+},
+"superior border of scapula": {
+"la": "Margo superior scapulae"
+},
+"superior border of spleen": {
+"la": "Margo superior splenis"
+},
+"superior border of suprarenal gland": {
+"la": "Margo superior glandulae suprarenalis"
+},
+"superior bursa of biceps femoris muscle": {
+"la": "Bursa m. bicipitis femoris superior"
+},
+"superior cerebellar artery": {
+"la": "A. superior cerebelli"
+},
+"superior cerebellar peduncle": {
+"la": "Pedunculus cerebellaris superior"
+},
+"superior colliculus": {
+"la": "Colliculus superior"
+},
+"superior costal facet": {
+"la": "Fovea costalis superior"
+},
+"superior diaphragmatic nodes": {
+"la": "Nll. phrenici superiores"
+},
+"superior epigastric artery": {
+"la": "A. epigastrica superior"
+},
+"superior epigastric veins": {
+"la": "Vv. epigastricae superiores"
+},
+"superior extensor retinaculum of ankle": {
+"la": "Retinaculum mm. extensorum superius"
+},
+"superior fibular retinaculum": {
+"la": "Retinaculum mm. fibularium superius"
+},
+"superior frontal gyrus": {
+"la": "Gyrus frontalis superior"
+},
+"superior frontal sulcus": {
+"la": "Sulcus frontalis superior"
+},
+"superior gemellus muscle": {
+"la": "M. gemellus superior"
+},
+"superior glenohumeral ligament": {
+"la": "Lig. glenohumerale superius",
+"tr": "Üst glenohumeral bağ"
+},
+"superior gluteal artery": {
+"la": "A. glutea superior"
+},
+"superior gluteal nerve": {
+"la": "N. gluteus superior"
+},
+"superior gluteal nodes": {
+"la": "Nll. gluteales superiores"
+},
+"superior gluteal veins": {
+"la": "Vv. gluteae superiores"
+},
+"superior head of lateral pterygoid muscle": {
+"la": "M. pterygoideus lateralis – caput superius"
+},
+"superior horn of thyroid cartilage": {
+"la": "Cornu superius cartilaginis thyroideae"
+},
+"superior labial artery": {
+"la": "A. labialis superior"
+},
+"superior labial vein": {
+"la": "V. labialis superior"
+},
+"superior lateral brachial cutaneous nerve": {
+"la": "N. cutaneus brachii lateralis superior"
+},
+"superior lateral genicular artery": {
+"la": "A. superior lateralis genus"
+},
+"superior lingular artery of left lung": {
+"la": "A. lingularis superior"
+},
+"superior lingular segment of left lung (siv)": {
+"la": "Segmentum lingulare superius pulmonis sinistri (s IV)"
+},
+"superior lingular segmental bronchus of left lung (biv)": {
+"la": "Bronchus lingularis superior (B IV)"
+},
+"superior lobar artery of right lung": {
+"la": "A. lobaris superior pulmonis dextri"
+},
+"superior lobe of left lung": {
+"la": "Lobus superior pulmonis sinistri",
+"tr": "Sol akciğer üst lobu"
+},
+"superior lobe of right lung": {
+"la": "Lobus superior pulmonis dextri",
+"tr": "Sağ akciğer üst lobu"
+},
+"superior medial genicular artery": {
+"la": "A. superior medialis genus"
+},
+"superior mental spine": {
+"la": "Spina mentalis superior"
+},
+"superior mesenteric artery": {
+"la": "A. mesenterica superior"
+},
+"superior mesenteric vein": {
+"la": "V. mesenterica superior"
+},
+"superior nuchal line": {
+"la": "Linea nuchalis superior"
+},
+"superior oblique muscle": {
+"la": "M. obliquus superior"
+},
+"superior ophthalmic vein": {
+"la": "V. ophthalmica superior"
+},
+"superior pancreatic nodes": {
+"la": "Nll. pancreatici superiores"
+},
+"superior pancreaticoduodenal nodes": {
+"la": "Nll. pancreaticoduodenales superiores"
+},
+"superior parathyroid gland": {
+"la": "Glandula parathyroidea superior",
+"tr": "Üst paratiroid bezi"
+},
+"superior parietal lobule": {
+"la": "Lobulus parietalis superior"
+},
+"superior petrosal sinus": {
+"la": "Sinus petrosus superior"
+},
+"superior pharyngeal constrictor": {
+"la": "M. constrictor pharyngis superior"
+},
+"superior phrenic arteries": {
+"la": "Aa. phrenicae superiores"
+},
+"superior pole of kidney": {
+"la": "Polus superior renis"
+},
+"superior pole of testis": {
+"la": "Polus superior testis"
+},
+"superior pubic ligament": {
+"la": "Lig. pubicum superius"
+},
+"superior pubic ramus": {
+"la": "R. superior ossis pubis"
+},
+"superior rectus muscle": {
+"la": "M. rectus superior"
+},
+"superior sagittal sinus": {
+"la": "Sinus sagittalis superior"
+},
+"superior salivatory nucleus": {
+"la": "Nucleus salivatorius superior"
+},
+"superior segment of left lung (svi)": {
+"la": "Segmentum superius pulmonis sinistri (s VI)"
+},
+"superior segment of right lung (svi)": {
+"la": "Segmentum superius pulmonis dextri (s VI)"
+},
+"superior segmental artery of left lung": {
+"la": "A. segmentalis superior pulmonis sinistri"
+},
+"superior segmental artery of right lung": {
+"la": "A. segmentalis superior pulmonis dextri"
+},
+"superior segmental bronchus of left lung (bvi)": {
+"la": "Bronchus segmentalis superior pulmonis sinistri (B VI)"
+},
+"superior segmental bronchus of right lung (bvi)": {
+"la": "Bronchus segmentalis superior pulmonis dextri (B VI)"
+},
+"superior semilunar lobule": {
+"la": "Lobulus semilunaris superior"
+},
+"superior surface of liver": {
+"la": "Facies superior hepatis"
+},
+"superior tarsus": {
+"la": "Tarsus superior"
+},
+"superior temporal line": {
+"la": "Linea temporalis superior"
+},
+"superior temporal sulcus": {
+"la": "Sulcus temporalis superior"
+},
+"superior thyroid notch": {
+"la": "Incisura thyroidea superior"
+},
+"superior thyroid tubercle": {
+"la": "Tuberculum thyroideum superius"
+},
+"superior thyroid vein": {
+"la": "V. thyroidea superior"
+},
+"superior tracheobronchial nodes": {
+"la": "Nll. tracheobronchiales superiores"
+},
+"superior transverse scapular ligament": {
+"la": "Lig. transversum scapulae superius"
+},
+"superior trunk of brachial plexus": {
+"la": "Truncus superior plexus brachialis",
+"tr": "Plexus brachialis üst trunkusu"
+},
+"superior ulnar collateral artery": {
+"la": "A. collateralis ulnaris superior"
+},
+"superior vein of left lung": {
+"la": "V. superior pulmonis sinistri"
+},
+"superior vein of right lung": {
+"la": "V. superior pulmonis dextri"
+},
+"superior vena cava": {
+"la": "V. cava superior",
+"tr": "Üst ana toplardamar"
+},
+"superior vertebral notch": {
+"la": "Incisura vertebralis superior"
+},
+"superolateral superficial inguinal nodes": {
+"la": "Nll. inguinales superficiales superolaterales"
+},
+"superomedial superficial inguinal nodes": {
+"la": "Nll. inguinales superficiales superomediales"
+},
+"supinator": {
+"la": "M. supinator"
+},
+"supinator crest": {
+"la": "Crista m. supinatoris"
+},
+"supra-acetabular groove": {
+"la": "Sulcus supraacetabularis"
+},
+"supra-orbital artery": {
+"la": "A. supraorbitalis"
+},
+"supra-orbital notch": {
+"la": "Incisura supraorbitalis"
+},
+"supraclavicular nodes": {
+"la": "Nll. supraclaviculares",
+"tr": "Supraklaviküler lenf düğümleri"
+},
+"supraglenoid tubercle": {
+"la": "Tuberculum supraglenoidale"
+},
+"supramarginal gyrus": {
+"la": "Gyrus supramarginalis"
+},
+"suprapatellar bursa": {
+"la": "Bursa suprapatellaris",
+"tr": "Suprapatellar bursa"
+},
+"suprapyloric node": {
+"la": "Nl. suprapyloricus"
+},
+"suprarenal gland": {
+"la": "Glandula suprarenalis",
+"tr": "Böbrek üstü bezi"
+},
+"suprarenal impression of liver": {
+"la": "Impressio suprarenalis hepatis"
+},
+"suprascapular artery": {
+"la": "A. suprascapularis"
+},
+"suprascapular nerve": {
+"la": "N. suprascapularis"
+},
+"suprascapular vein": {
+"la": "V. suprascapularis"
+},
+"supraspinatus muscle": {
+"la": "M. supraspinatus"
+},
+"supraspinous fossa": {
+"la": "Fossa supraspinata"
+},
+"supraspinous ligament": {
+"la": "Lig. supraspinale"
+},
+"suprastyloid crest": {
+"la": "Crista suprastyloidea"
+},
+"supratrochlear artery": {
+"la": "A. supratrochlearis"
+},
+"supratrochlear nodes": {
+"la": "Nll. supratrochleares"
+},
+"supreme intercostal artery": {
+"la": "A. intercostalis suprema"
+},
+"supreme nuchal line": {
+"la": "Linea nuchalis suprema"
+},
+"sural communicating branch of common fibular nerve": {
+"la": "R. communicans fibularis n. fibularis communis"
+},
+"sural nerve": {
+"la": "N. suralis"
+},
+"surgical neck of humerus": {
+"la": "Collum chirurgicum humeri"
+},
+"suspensory ligament of eyeball": {
+"la": "Lig. suspensorium bulbi"
+},
+"sustentaculum tali": {
+"la": "Sustentaculum tali"
+},
+"sympathetic nerves": {
+"la": "Nn. sympathici",
+"tr": "Sempatik sinirler"
+},
+"sympathetic trunk": {
+"la": "Truncus sympathicus",
+"tr": "Sempatik zincir"
+},
+"symphysial surface of pubis": {
+"la": "Facies symphysialis ossis pubis"
+},
+"synovial sheaths of digits of hand": {
+"la": "Vaginae synoviales digitorum manus"
+},
+"tail of pancreas": {
+"la": "Cauda pancreatis"
+},
+"talar sulcus": {
+"la": "Sulcus tali"
+},
+"talocalcaneal interosseous ligament": {
+"la": "Lig. talocalcaneum interosseum"
+},
+"talonavicular ligament": {
+"la": "Lig. talonaviculare"
+},
+"talus": {
+"la": "Talus",
+"tr": "Aşık kemiği"
+},
+"tarsal sinus": {
+"la": "Sinus tarsi"
+},
+"tectospinal tract": {
+"la": "Tractus tectospinalis"
+},
+"tegmen tympani": {
+"la": "Tegmen tympani"
+},
+"temporal bone": {
+"la": "Os temporale",
+"tr": "Şakak kemiği"
+},
+"temporal line": {
+"la": "Linea temporalis"
+},
+"temporal plane": {
+"la": "Planum temporale"
+},
+"temporal pole": {
+"la": "Polus temporalis"
+},
+"temporal surface of frontal bone": {
+"la": "Facies temporalis ossis frontalis"
+},
+"temporal surface of greater wing": {
+"la": "Facies temporalis alae majoris"
+},
+"temporalis muscle": {
+"la": "M. temporalis"
+},
+"temporo-occipital branch": {
+"la": "R. temporooccipitalis"
+},
+"temporoparietalis muscle": {
+"la": "M. temporoparietalis"
+},
+"tendinous arch of levator ani": {
+"la": "Arcus tendineus m. levatoris ani"
+},
+"tendon sheath - abd. pollicis longus - ext. pollicis brevis": {
+"la": "Vagina tendinum mm. abductoris longi et extensoris pollicis brevis"
+},
+"tendon sheath of extensor carpi ulnaris": {
+"la": "Vagina tendinis m. extensoris carpi ulnaris"
+},
+"tendon sheath of extensor digiti minimi manus": {
+"la": "Vagina tendinis m. extensoris digiti minimi"
+},
+"tendon sheath of extensor digitorum and extensor indicis": {
+"la": "Vagina tendinum mm. extensoris digitorum et extensoris indicis"
+},
+"tendon sheath of extensor digitorum longus": {
+"la": "Vagina tendinum m. extensoris digitorum longi"
+},
+"tendon sheath of extensor hallucis longus": {
+"la": "Vagina tendinis m. extensoris hallucis longi"
+},
+"tendon sheath of extensor pollicis longus": {
+"la": "Vagina tendinis m. extensoris pollicis longi"
+},
+"tendon sheath of extensors carpi radialis": {
+"la": "Vagina tendinum mm. extensorum carpi radialium"
+},
+"tendon sheath of flexor carpi radialis": {
+"la": "Vagina tendinis m. flexoris carpi radialis"
+},
+"tendon sheath of flexor digitorum longus": {
+"la": "Vagina tendinum m. flexoris digitorum longi"
+},
+"tendon sheath of flexor hallucis longus": {
+"la": "Vagina tendinis m. flexoris hallucis longi"
+},
+"tendon sheath of flexor pollicis longus": {
+"la": "Vagina tendinis m. flexoris pollicis longi"
+},
+"tendon sheath of tibialis anterior": {
+"la": "Vagina tendinis m. tibialis anterioris"
+},
+"tendon sheath of tibialis posterior muscle": {
+"la": "Vagina tendinis m. tibialis posterioris"
+},
+"tensor fasciae latae": {
+"la": "M. tensor fasciae latae"
+},
+"tenth rib": {
+"la": "Costa X",
+"tr": "10. kaburga"
+},
+"tentorium cerebelli": {
+"la": "Tentorium cerebelli"
+},
+"teres major muscle": {
+"la": "M. teres major"
+},
+"teres minor muscle": {
+"la": "M. teres minor"
+},
+"testis": {
+"la": "Testis"
+},
+"thalamus": {
+"la": "Thalamus",
+"tr": "Talamus"
+},
+"third metacarpal bone": {
+"la": "Os metacarpale III",
+"tr": "3. el tarak kemiği"
+},
+"third metatarsal bone": {
+"la": "Os metatarsale III",
+"tr": "3. ayak tarak kemiği"
+},
+"third rib": {
+"la": "Costa III",
+"tr": "3. kaburga"
+},
+"third trochanter": {
+"la": "Trochanter tertius"
+},
+"third ventricle": {
+"la": "Ventriculus tertius",
+"tr": "Üçüncü karıncık"
+},
+"thoracic aorta": {
+"la": "Aorta thoracica",
+"tr": "Göğüs aortası"
+},
+"thoracic vertebra": {
+"la": "Vertebra thoracica"
+},
+"thoraco-acromial artery": {
+"la": "A. thoracoacromialis"
+},
+"thoracodorsal artery": {
+"la": "A. thoracodorsalis"
+},
+"thoracodorsal nerve": {
+"la": "N. thoracodorsalis"
+},
+"thoracodorsal vein": {
+"la": "V. thoracodorsalis"
+},
+"thyro-epiglottic part of thyro-arytenoid muscle": {
+"la": "M. thyroarytenoideus – pars thyroepiglottica"
+},
+"thyrocervical trunk": {
+"la": "Truncus thyrocervicalis"
+},
+"thyrohyoid muscle": {
+"la": "M. thyrohyoideus"
+},
+"thyroid articular surface": {
+"la": "Facies articularis thyroidea"
+},
+"thyroid cartilage": {
+"la": "Cartilago thyroidea"
+},
+"thyroid gland": {
+"la": "Glandula thyroidea",
+"tr": "Tiroid bezi"
+},
+"thyroid nodes": {
+"la": "Nll. thyroidei"
+},
+"tibia": {
+"la": "Tibia",
+"tr": "Kaval kemiği"
+},
+"tibial nerve": {
+"la": "N. tibialis"
+},
+"tibial tuberosity": {
+"la": "Tuberositas tibiae"
+},
+"tibialis anterior muscle": {
+"la": "M. tibialis anterior"
+},
+"tibialis posterior muscle": {
+"la": "M. tibialis posterior"
+},
+"tibiocalcaneal ligament": {
+"la": "Lig. deltoideum – pars tibiocalcanea"
+},
+"tibionavicular ligament": {
+"la": "Lig. deltoideum – pars tibionavicularis"
+},
+"tongue": {
+"la": "Lingua",
+"tr": "Dil"
+},
+"tonsil of cerebellum": {
+"la": "Tonsilla cerebelli"
+},
+"trachea": {
+"la": "Trachea",
+"tr": "Soluk borusu"
+},
+"transversalis fascia": {
+"la": "Fascia transversalis"
+},
+"transverse acetabular ligament": {
+"la": "Lig. transversum acetabuli"
+},
+"transverse arytenoid muscle": {
+"la": "M. arytenoideus transversus"
+},
+"transverse cervical artery": {
+"la": "A. transversa colli"
+},
+"transverse colon": {
+"la": "Colon transversum",
+"tr": "Transvers kolon"
+},
+"transverse costal facet": {
+"la": "Fovea costalis processus transversi"
+},
+"transverse facial artery": {
+"la": "A. transversa faciei"
+},
+"transverse head of adductor hallucis": {
+"la": "M. adductor hallucis – caput transversum"
+},
+"transverse head of adductor pollicis": {
+"la": "M. adductor pollicis – caput transversum"
+},
+"transverse humeral ligament": {
+"la": "Lig. transversum humeri"
+},
+"transverse ligament of knee": {
+"la": "Lig. transversum genus",
+"tr": "Dizin enine bağı"
+},
+"transverse ligament tubercle": {
+"la": "Tuberculum lig. transversi"
+},
+"transverse occipital sulcus": {
+"la": "Sulcus occipitalis transversus"
+},
+"transverse part of iliofemoral ligament": {
+"la": "Lig. iliofemorale – pars transversa"
+},
+"transverse part of trapezius muscle": {
+"la": "M. trapezius – pars transversa"
+},
+"transverse process": {
+"la": "Processus transversus"
+},
+"transverse ridges": {
+"la": "Lineae transversae"
+},
+"transverse sinus": {
+"la": "Sinus transversus"
+},
+"transverse temporal gyri": {
+"la": "Gyri temporales transversi"
+},
+"transverse tibiofibular ligament": {
+"la": "Lig. tibiofibulare transversum"
+},
+"transversus abdominis muscle": {
+"la": "M. transversus abdominis"
+},
+"transversus thoracis muscle": {
+"la": "M. transversus thoracis"
+},
+"trapeziotrapezoidal interosseous ligament": {
+"la": "Lig. trapeziotrapezoideum interosseum"
+},
+"trapezium bone": {
+"la": "Os trapezium"
+},
+"trapezoid bone": {
+"la": "Os trapezoideum"
+},
+"trapezoid ligament": {
+"la": "Lig. trapezoideum"
+},
+"trapezoid line": {
+"la": "Linea trapezoidea"
+},
+"trapezoideocapitate interosseous ligament": {
+"la": "Lig. trapezoideocapitatum interosseum"
+},
+"triangular fovea": {
+"la": "Fovea triangularis"
+},
+"triangular part of inferior frontal gyrus": {
+"la": "Pars triangularis gyri frontalis inferioris"
+},
+"triceps brachii muscle": {
+"la": "M. triceps brachii"
+},
+"triceps surae muscle": {
+"la": "M. triceps surae"
+},
+"trigeminal nerve (v)": {
+"la": "N. trigeminus (V)",
+"tr": "5. kranial sinir"
+},
+"trigeminal tubercle": {
+"la": "Tuberculum trigeminale"
+},
+"triquetrocapitate ligament": {
+"la": "Lig. triquetrocapitatum"
+},
+"triquetrohamate ligament": {
+"la": "Lig. triquetrohamatum"
+},
+"triquetrum bone": {
+"la": "Os triquetrum"
+},
+"triradiate cartilage": {
+"la": "Cartilago triradiata"
+},
+"trochanteric bursa of gluteus maximus muscle": {
+"la": "Bursa trochanterica m. glutei maximi"
+},
+"trochanteric bursa of gluteus medius muscle": {
+"la": "Bursae trochantericae m. glutei medii"
+},
+"trochanteric bursa of gluteus minimus muscle": {
+"la": "Bursa trochanterica m. glutei minimi"
+},
+"trochanteric fossa": {
+"la": "Fossa trochanterica"
+},
+"trochlea of humerus": {
+"la": "Trochlea humeri"
+},
+"trochlea of phalanx of foot": {
+"la": "Trochlea phalangis pedis"
+},
+"trochlea of phalanx of hand": {
+"la": "Trochlea phalangis manus"
+},
+"trochlea of superior oblique muscle": {
+"la": "Trochlea m. obliqui superioris"
+},
+"trochlea of talus": {
+"la": "Trochlea tali"
+},
+"trochlear fovea": {
+"la": "Fovea trochlearis"
+},
+"trochlear nerve (iv)": {
+"la": "N. trochlearis (IV)",
+"tr": "4. kranial sinir"
+},
+"trochlear notch": {
+"la": "Incisura trochlearis"
+},
+"trochlear spine": {
+"la": "Spina trochlearis"
+},
+"tuber of vermis": {
+"la": "Tuber vermis"
+},
+"tubercle of iliotibial tract": {
+"la": "Tuberculum tractus iliotibialis"
+},
+"tubercle of rib": {
+"la": "Tuberculum costae"
+},
+"tubercle of scaphoid bone": {
+"la": "Tuberculum ossis scaphoidei"
+},
+"tubercle of trapezium bone": {
+"la": "Tuberculum ossis trapezii"
+},
+"tuberculum sellae": {
+"la": "Tuberculum sellae"
+},
+"tuberosity for coracoclavicular ligament": {
+"la": "Tuberositas lig. coracoclavicularis"
+},
+"tuberosity of cuboid bone": {
+"la": "Tuberositas ossis cuboidei"
+},
+"tuberosity of distal phalanx of foot": {
+"la": "Tuberositas phalangis distalis pedis"
+},
+"tuberosity of distal phalanx of hand": {
+"la": "Tuberositas phalangis distalis manus"
+},
+"tuberosity of navicular bone": {
+"la": "Tuberositas ossis navicularis"
+},
+"tuberosity of ulna": {
+"la": "Tuberositas ulnae"
+},
+"twelfth rib": {
+"la": "Costa XII",
+"tr": "12. kaburga"
+},
+"tympanic membrane": {
+"la": "Membrana tympanica",
+"tr": "Kulak zarı"
+},
+"tympanic part of temporal bone": {
+"la": "Pars tympanica ossis temporalis"
+},
+"ulna": {
+"la": "Ulna",
+"tr": "Dirsek kemiği"
+},
+"ulnar artery": {
+"la": "A. ulnaris"
+},
+"ulnar collateral ligament": {
+"la": "Lig. collaterale ulnare"
+},
+"ulnar collateral ligament of wrist joint": {
+"la": "Lig. collaterale carpi ulnare"
+},
+"ulnar head of extensor carpi ulnaris": {
+"la": "M. extensor carpi ulnaris – caput ulnare"
+},
+"ulnar head of flexor carpi ulnaris": {
+"la": "M. flexor carpi ulnaris – caput ulnare"
+},
+"ulnar nerve": {
+"la": "N. ulnaris",
+"tr": "Dirsek siniri"
+},
+"ulnar notch": {
+"la": "Incisura ulnaris"
+},
+"ulnar recurrent artery": {
+"la": "A. recurrens ulnaris"
+},
+"ulnar styloid process": {
+"la": "Processus styloideus ulnae"
+},
+"ulnar veins": {
+"la": "Vv. ulnares"
+},
+"ulnocapitate ligament": {
+"la": "Lig. ulnocapitatum"
+},
+"ulnolunate ligament": {
+"la": "Lig. ulnolunatum"
+},
+"ulnotriquetral ligament": {
+"la": "Lig. ulnotriquetrum"
+},
+"umbilical fissure": {
+"la": "Fissura umbilicalis"
+},
+"uncinate process of first thoracic vertebra": {
+"la": "Uncus corporis vertebrae thoracicae primae"
+},
+"uncinate process of pancreas": {
+"la": "Processus uncinatus pancreatis"
+},
+"uncinate process of vertebra": {
+"la": "Processus uncinatus vertebrae"
+},
+"upper canine": {
+"tr": "Üst köpek dişi"
+},
+"upper first molar tooth": {
+"tr": "Üst 1. büyük azı dişi"
+},
+"upper first premolar": {
+"tr": "Üst 1. küçük azı dişi"
+},
+"upper lateral incisor": {
+"tr": "Üst yan kesici diş"
+},
+"upper medial incisor": {
+"tr": "Üst orta kesici diş"
+},
+"upper second molar tooth": {
+"tr": "Üst 2. büyük azı dişi"
+},
+"upper second premolar": {
+"tr": "Üst 2. küçük azı dişi"
+},
+"ureter": {
+"la": "Ureter",
+"tr": "Üreter"
+},
+"urethra": {
+"la": "Urethra",
+"tr": "İdrar yolu (üretra)"
+},
+"urinary bladder": {
+"la": "Vesica urinaria",
+"tr": "İdrar kesesi"
+},
+"uvula of palate": {
+"la": "Uvula palatina",
+"tr": "Küçük dil"
+},
+"uvula of vermis": {
+"la": "Uvula vermis"
+},
+"vaginal process of sphenoid bone": {
+"la": "Processus vaginalis ossis sphenoidalis"
+},
+"vagus nerve (x)": {
+"la": "N. vagus (X)",
+"tr": "10. kranial sinir"
+},
+"vastus intermedius muscle": {
+"la": "M. vastus intermedius"
+},
+"vastus lateralis muscle": {
+"la": "M. vastus lateralis"
+},
+"vastus medialis muscle": {
+"la": "M. vastus medialis"
+},
+"ventral parts of lateral intertransversarii lumborum muscles": {
+"la": "Mm. intertransversarii laterales lumborum – partes ventrales"
+},
+"vermiform appendix": {
+"la": "Appendix vermiformis",
+"tr": "Apandis"
+},
+"vertebra": {
+"la": "Vertebra"
+},
+"vertebra c3": {
+"la": "Vertebra cervicalis III (C3)",
+"tr": "C3 omuru"
+},
+"vertebra c4": {
+"la": "Vertebra cervicalis IV (C4)",
+"tr": "C4 omuru"
+},
+"vertebra c5": {
+"la": "Vertebra cervicalis V (C5)",
+"tr": "C5 omuru"
+},
+"vertebra c6": {
+"la": "Vertebra cervicalis VI (C6)",
+"tr": "C6 omuru"
+},
+"vertebra c7": {
+"la": "Vertebra cervicalis VII (C7)",
+"tr": "C7 omuru"
+},
+"vertebra l1": {
+"la": "Vertebra lumbalis I (L1)",
+"tr": "L1 omuru"
+},
+"vertebra l2": {
+"la": "Vertebra lumbalis II (L2)",
+"tr": "L2 omuru"
+},
+"vertebra l3": {
+"la": "Vertebra lumbalis III (L3)",
+"tr": "L3 omuru"
+},
+"vertebra l4": {
+"la": "Vertebra lumbalis IV (L4)",
+"tr": "L4 omuru"
+},
+"vertebra l5": {
+"la": "Vertebra lumbalis V (L5)",
+"tr": "L5 omuru"
+},
+"vertebra t1": {
+"la": "Vertebra thoracica I (T1)",
+"tr": "T1 omuru"
+},
+"vertebra t10": {
+"la": "Vertebra thoracica X (T10)",
+"tr": "T10 omuru"
+},
+"vertebra t11": {
+"la": "Vertebra thoracica XI (T11)",
+"tr": "T11 omuru"
+},
+"vertebra t12": {
+"la": "Vertebra thoracica XII (T12)",
+"tr": "T12 omuru"
+},
+"vertebra t2": {
+"la": "Vertebra thoracica II (T2)",
+"tr": "T2 omuru"
+},
+"vertebra t3": {
+"la": "Vertebra thoracica III (T3)",
+"tr": "T3 omuru"
+},
+"vertebra t4": {
+"la": "Vertebra thoracica IV (T4)",
+"tr": "T4 omuru"
+},
+"vertebra t5": {
+"la": "Vertebra thoracica V (T5)",
+"tr": "T5 omuru"
+},
+"vertebra t6": {
+"la": "Vertebra thoracica VI (T6)",
+"tr": "T6 omuru"
+},
+"vertebra t7": {
+"la": "Vertebra thoracica VII (T7)",
+"tr": "T7 omuru"
+},
+"vertebra t8": {
+"la": "Vertebra thoracica VIII (T8)",
+"tr": "T8 omuru"
+},
+"vertebra t9": {
+"la": "Vertebra thoracica IX (T9)",
+"tr": "T9 omuru"
+},
+"vertebral arch": {
+"la": "Arcus vertebrae"
+},
+"vertebral artery": {
+"la": "A. vertebralis"
+},
+"vertebral body": {
+"la": "Corpus vertebrae"
+},
+"vertebral foramen": {
+"la": "Foramen vertebrale"
+},
+"vertebral vein": {
+"la": "V. vertebralis"
+},
+"vestibular nerve": {
+"la": "N. vestibularis"
+},
+"vestibular nuclei": {
+"la": "Nuclei vestibulares"
+},
+"vestibular surface of tooth": {
+"la": "Facies vestibularis dentis"
+},
+"vestibule": {
+"la": "Vestibulum"
+},
+"vestibulocochlear nerve (viii)": {
+"la": "N. vestibulocochlearis (VIII)",
+"tr": "8. kranial sinir"
+},
+"visceral surface of liver": {
+"la": "Facies visceralis hepatis"
+},
+"visceral surface of spleen": {
+"la": "Facies visceralis splenis"
+},
+"vitreous body": {
+"la": "Corpus vitreum",
+"tr": "Camsı cisim"
+},
+"vocal process": {
+"la": "Processus vocalis"
+},
+"vomer": {
+"la": "Vomer",
+"tr": "Sapan kemiği"
+},
+"white matter of spinal cord": {
+"la": "Substantia alba medullae spinalis",
+"tr": "Omuriliğin ak maddesi"
+},
+"white matter of telencephalon": {
+"la": "Substantia alba telencephali"
+},
+"wing of central lobule": {
+"la": "Ala lobuli centralis"
+},
+"xiphoid process": {
+"la": "Processus xiphoideus"
+},
+"zona orbicularis": {
+"la": "Zona orbicularis"
+},
+"zonular fibres": {
+"la": "Fibrae zonulares"
+},
+"zygomatic bone": {
+"la": "Os zygomaticum",
+"tr": "Elmacık kemiği"
+},
+"zygomatic margin of greater wing": {
+"la": "Margo zygomaticus alae majoris"
+},
+"zygomatic process of frontal bone": {
+"la": "Processus zygomaticus ossis frontalis"
+},
+"zygomaticus major muscle": {
+"la": "M. zygomaticus major"
+},
+"zygomaticus minor muscle": {
+"la": "M. zygomaticus minor"
+}
+}

@@ -1,0 +1,829 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Fizyoterapi YL Hazırlık</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: tek sütun çalışma masası — üstte sabit sekmeler, altında bölüm çipleri ve seçili görünüm */
+:root{
+  --bg:#F4F7F6; --surface:#FFFFFF; --ink:#13201C; --muted:#56665F; --line:#D5DED9;
+  --accent:#0D6B58; --accent-ink:#FFFFFF; --accent-soft:#DCEEE7;
+  --good:#1D7444; --good-soft:#E1F1E6; --bad:#A93A2B; --bad-soft:#F7E4E0;
+  --font-display:"Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body:"Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --font-mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  color-scheme:light;
+}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.6 var(--font-body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:880px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--font-display);text-wrap:balance;margin:0;letter-spacing:-.01em}
+button{font:inherit;color:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+
+/* Header */
+header .wrap{padding-block:22px 14px;display:flex;flex-wrap:wrap;gap:14px 24px;align-items:end;justify-content:space-between}
+.brand h1{font-size:clamp(1.5rem,4vw,2rem);font-weight:800}
+.brand p{margin:2px 0 0;color:var(--muted);font-size:.9rem}
+.total{min-width:200px;flex:0 1 260px}
+.total .row{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted);margin-bottom:6px}
+.total .row b{color:var(--ink);font-weight:700}
+.bar{height:6px;border-radius:99px;background:var(--line);overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:99px;transition:width .3s}
+
+/* Tabs */
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav .wrap{padding-block:10px}
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px;max-width:420px}
+.tabs a{display:block;text-align:center;padding:8px 6px;border-radius:9px;color:var(--muted);text-decoration:none;font-weight:600;font-size:.92rem}
+.tabs a[aria-current="page"]{background:var(--accent);color:var(--accent-ink)}
+
+/* Section chips */
+.chips{display:grid;gap:10px;padding-block:16px 4px}
+.grp{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.glabel{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:700;min-width:118px}
+.secsel{display:none;width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);font:inherit;font-weight:600}
+@media (max-width:640px){.chips .grp{display:none}.secsel{display:block}}
+.chip{display:flex;align-items:center;gap:8px;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface);font-size:.86rem;font-weight:600}
+.chip small{font-family:var(--font-mono);font-size:.74rem;color:var(--muted);font-weight:500}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft);color:var(--ink)}
+.chip[aria-pressed="true"] small{color:var(--accent)}
+
+main .wrap{padding-block:12px 48px}
+
+/* Topic view */
+.sec-head{display:grid;gap:6px;padding-block:10px 18px;border-bottom:1px solid var(--line);margin-bottom:8px}
+.eyebrow{font-size:.74rem;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);font-weight:700}
+.sec-head h2{font-size:clamp(1.4rem,3.6vw,1.85rem);font-weight:800}
+.sec-head p{margin:0;color:var(--muted);max-width:65ch}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.btn{border:1px solid var(--line);background:var(--surface);padding:9px 16px;border-radius:10px;font-weight:600;font-size:.9rem}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.good{background:var(--good-soft);border-color:transparent;color:var(--good)}
+.btn.bad{background:var(--bad-soft);border-color:transparent;color:var(--bad)}
+.btn:disabled{opacity:.45;cursor:default}
+.blk{padding-block:16px;border-bottom:1px solid var(--line)}
+.blk:last-of-type{border-bottom:0}
+.blk h3{font-size:1.05rem;font-weight:600;margin-bottom:8px}
+.blk p{margin:0 0 6px;max-width:68ch}
+.blk ul,.blk ol{margin:0;padding-left:1.25rem;display:grid;gap:4px;max-width:70ch}
+.blk li::marker{color:var(--accent)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:.9rem}
+th,td{text-align:left;padding:8px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-size:.74rem;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:700;background:var(--bg)}
+td:first-child{font-weight:600;white-space:nowrap}
+.note{margin-top:20px;padding:12px 14px;border-radius:10px;background:var(--accent-soft);font-size:.86rem;color:var(--ink)}
+
+/* Flashcards */
+.deckbar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;padding-block:10px}
+.deckbar .count{font-family:var(--font-mono);font-size:.85rem;color:var(--muted)}
+.toggle{display:flex;align-items:center;gap:8px;font-size:.88rem;font-weight:600;color:var(--muted)}
+.toggle input{accent-color:var(--accent);width:18px;height:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px clamp(18px,4vw,30px);min-height:240px;display:flex;flex-direction:column;gap:16px;box-shadow:0 1px 0 var(--line)}
+.card .meta{display:flex;justify-content:space-between;gap:8px;font-size:.78rem;color:var(--muted)}
+.card .meta span:first-child{color:var(--accent);font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.card .q{font-family:var(--font-display);font-weight:600;font-size:clamp(1.15rem,3vw,1.4rem);line-height:1.35;text-wrap:balance}
+.card .a{border-top:1px dashed var(--line);padding-top:14px;font-size:1.05rem;font-weight:600;color:var(--accent);animation:fade .25s ease}
+.card .grow{flex:1}
+.card .known{font-size:.78rem;color:var(--good);font-weight:700}
+.card-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.card-actions .btn{padding:12px}
+.reveal{width:100%;padding:12px}
+@keyframes fade{from{opacity:.2;transform:translateY(4px)}to{opacity:1;transform:none}}
+
+/* Quiz */
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:22px clamp(18px,4vw,30px);display:grid;gap:14px}
+.panel h2{font-size:1.35rem}
+.panel p{margin:0;color:var(--muted)}
+.opts{display:grid;gap:8px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;padding:12px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);font-weight:500}
+.opt .k{font-family:var(--font-mono);font-size:.8rem;color:var(--muted);min-width:1.2em;padding-top:2px}
+.opt.ok{border-color:var(--good);background:var(--good-soft);color:var(--good);font-weight:700}
+.opt.no{border-color:var(--bad);background:var(--bad-soft);color:var(--bad)}
+.opt:disabled{cursor:default}
+.feedback{font-weight:700}
+.feedback.ok{color:var(--good)} .feedback.no{color:var(--bad)}
+.score{font-family:var(--font-display);font-weight:800;font-size:3rem;line-height:1;color:var(--accent)}
+.score small{font-size:1.2rem;color:var(--muted)}
+.wrong{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.wrong li{padding:10px 12px;border-radius:10px;background:var(--bg);font-size:.9rem}
+.wrong li b{display:block;color:var(--good);margin-top:2px}
+.qprog{display:flex;justify-content:space-between;font-size:.82rem;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px}
+.stat{padding:10px 12px;border:1px solid var(--line);border-radius:10px;font-size:.85rem}
+.stat b{display:block;font-family:var(--font-mono);font-size:1rem;color:var(--ink)}
+.stat span{color:var(--muted)}
+
+footer .wrap{padding-block:0 36px;color:var(--muted);font-size:.8rem}
+@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <h1>Fizyoterapi YL Hazırlık</h1>
+      <p>Yüksek lisans giriş sınavı için konu özetleri, kartlar ve test</p>
+    </div>
+    <div class="total" aria-live="polite">
+      <div class="row"><span>Bildiğin kartlar</span><b class="mono" id="totalText">0 / 190</b></div>
+      <div class="bar"><i id="totalBar" style="width:0%"></i></div>
+    </div>
+  </div>
+</header>
+
+<nav aria-label="Görünümler">
+  <div class="wrap">
+    <div class="tabs">
+      <a href="#konular" data-v="konular">Konular</a>
+      <a href="#kartlar" data-v="kartlar">Kartlar</a>
+      <a href="#test" data-v="test">Test</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+    <div class="chips" id="chips" role="group" aria-label="Bölüm seç"></div>
+    <div id="view"></div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">Bilgiler standart ders kaynaklarına göre hazırlandı. Sınavdan önce ders notlarınla karşılaştır. İlerlemen sadece bu tarayıcıda saklanır.</div>
+</footer>
+
+<script>
+const SECTIONS = [
+{ id:"ust", tag:"Anatomi", title:"Üst Ekstremite",
+  lead:"Her üst ekstremitede 32 kemik bulunur, iki taraf toplam 64.",
+  blocks:[
+    {h:"Omuz kuşağı (Cingulum membri superioris)", ul:["<b>Köprücük kemiği</b> – Clavicula","<b>Kürek kemiği</b> – Scapula"]},
+    {h:"Kol ve önkol", ul:["<b>Kol kemiği</b> – Humerus","<b>Radius</b> – önkolun lateralinde (başparmak tarafı)","<b>Ulna</b> – önkolun medialinde (serçe parmak tarafı)"]},
+    {h:"El bileği kemikleri (Ossa carpi) – 8 adet", table:{head:["Sıra","Lateralden mediale"],rows:[["Proksimal","Os scaphoideum, Os lunatum, Os triquetrum, Os pisiforme"],["Distal","Os trapezium, Os trapezoideum, Os capitatum, Os hamatum"]]}},
+    {h:"El tarak ve parmak kemikleri", ul:["Ossa metacarpi – 5 adet","Phalanges – 14 adet: başparmakta 2 (proksimal, distal), diğer parmaklarda 3 (proksimal, orta, distal)"]},
+    {h:"Humerus'un önemli yapıları", ul:["Caput humeri, collum anatomicum, collum chirurgicum","Tuberculum majus ve tuberculum minus; aralarında sulcus intertubercularis","Tuberositas deltoidea – m. deltoideus'un yapışma yeri","Distal uçta epicondylus medialis ve lateralis; trochlea humeri ulna ile, capitulum humeri radius ile eklem yapar"]},
+    {h:"Klinik önemi olan sinir ilişkileri", ul:["<b>N. axillaris</b> – collum chirurgicum çevresinde; bu bölgenin kırıklarında risk altında","<b>N. radialis</b> – humerus cisminin arkasındaki sulcus nervi radialis içinde; cisim kırıklarında risk altında","<b>N. ulnaris</b> – epicondylus medialis'in arkasında"]},
+    {h:"Rotator cuff kasları", table:{head:["Kas","Sinir"],rows:[["M. supraspinatus","N. suprascapularis"],["M. infraspinatus","N. suprascapularis"],["M. teres minor","N. axillaris"],["M. subscapularis","Nn. subscapulares"]]}}
+  ],
+  cards:[
+    {q:"Önkolun lateralindeki kemik hangisidir?",a:"Radius",d:["Ulna","Humerus","Os scaphoideum"]},
+    {q:"El bileğinde kaç kemik vardır?",a:"8",d:["7","5","14"]},
+    {q:"Humerus'un cerrahi boyun kırığında hangi sinir risk altındadır?",a:"N. axillaris",d:["N. radialis","N. ulnaris","N. medianus"]},
+    {q:"Humerus cisim kırığında hangi sinir risk altındadır?",a:"N. radialis",d:["N. axillaris","N. ulnaris","N. musculocutaneus"]},
+    {q:"Trochlea humeri hangi kemikle eklem yapar?",a:"Ulna",d:["Radius","Scapula","Clavicula"]},
+    {q:"Capitulum humeri hangi kemikle eklem yapar?",a:"Radius",d:["Ulna","Scapula","Os lunatum"]},
+    {q:"Rotator cuff kaslarını sayınız.",a:"Supraspinatus, infraspinatus, teres minor, subscapularis",d:["Supraspinatus, infraspinatus, teres major, subscapularis","Deltoideus, supraspinatus, infraspinatus, teres minor","Supraspinatus, infraspinatus, teres minor, latissimus dorsi"]},
+    {q:"M. teres minor'u hangi sinir uyarır?",a:"N. axillaris",d:["N. suprascapularis","Nn. subscapulares","N. radialis"]},
+    {q:"Başparmakta kaç falanks vardır?",a:"2",d:["3","1","4"]},
+    {q:"Proksimal karpal sırayı lateralden mediale sayınız.",a:"Scaphoideum, lunatum, triquetrum, pisiforme",d:["Trapezium, trapezoideum, capitatum, hamatum","Scaphoideum, lunatum, capitatum, hamatum","Pisiforme, triquetrum, lunatum, scaphoideum"]}
+  ]},
+{ id:"alt", tag:"Anatomi", title:"Alt Ekstremite",
+  lead:"Her alt ekstremitede 31 kemik bulunur, iki taraf toplam 62.",
+  blocks:[
+    {h:"Pelvis kuşağı", ul:["<b>Kalça kemiği</b> – Os coxae: ilium, ischium ve pubis'in acetabulum'da kaynaşmasıyla oluşur"]},
+    {h:"Uyluk ve bacak", ul:["<b>Uyluk kemiği</b> – Femur, vücudun en uzun kemiği","<b>Diz kapağı</b> – Patella, vücudun en büyük sesamoid kemiği","<b>Tibia</b> – bacağın medialinde, ağırlığı taşıyan kemik","<b>Fibula</b> – bacağın lateralinde"]},
+    {h:"Ayak bileği kemikleri (Ossa tarsi) – 7 adet", p:"Talus, calcaneus, os naviculare, os cuboideum, os cuneiforme mediale, os cuneiforme intermedium, os cuneiforme laterale"},
+    {h:"Ayak tarak ve parmak kemikleri", ul:["Ossa metatarsi – 5 adet","Phalanges – 14 adet: başparmakta (hallux) 2, diğer parmaklarda 3"]},
+    {h:"Femur'un önemli yapıları", ul:["Caput femoris, collum femoris","Trochanter major ve trochanter minor","Linea aspera – arka yüzde, kas yapışma yeri","Distal uçta condylus medialis ve lateralis, epicondylus medialis ve lateralis"]},
+    {h:"Klinik önemi olan sinirler", ul:["<b>N. fibularis (peroneus) communis</b> – collum fibulae çevresinde yüzeyeldir; hasarında düşük ayak (drop foot) görülür","<b>N. femoralis</b> – m. quadriceps femoris'i uyarır","<b>N. ischiadicus</b> – vücudun en kalın siniri; hamstring kaslarını uyarır"]},
+    {h:"Kas grupları", table:{head:["Grup","Kaslar","Sinir"],rows:[["Quadriceps femoris","Rectus femoris, vastus lateralis, vastus medialis, vastus intermedius","N. femoralis"],["Hamstring","Biceps femoris, semitendinosus, semimembranosus","N. ischiadicus"]]}},
+    {h:"Diz bağları", table:{head:["Bağ","Görevi"],rows:[["Ön çapraz bağ (ACL)","Tibianın femura göre öne kaymasını engeller"],["Arka çapraz bağ (PCL)","Tibianın arkaya kaymasını engeller"],["İç yan bağ (MCL)","Valgus zorlanmasına karşı korur"],["Dış yan bağ (LCL)","Varus zorlanmasına karşı korur"]]}}
+  ],
+  cards:[
+    {q:"Ayak bileğinde kaç kemik vardır?",a:"7",d:["8","5","6"]},
+    {q:"Os coxae hangi üç kemiğin kaynaşmasıyla oluşur?",a:"Ilium, ischium, pubis",d:["Ilium, sacrum, pubis","Ischium, pubis, coccyx","Ilium, ischium, sacrum"]},
+    {q:"Bacakta medialdeki kemik hangisidir?",a:"Tibia",d:["Fibula","Femur","Talus"]},
+    {q:"Collum fibulae kırığında hangi sinir risk altındadır ve sonucu nedir?",a:"N. fibularis communis; düşük ayak",d:["N. tibialis; düşük ayak","N. femoralis; diz ekstansiyonu kaybı","N. fibularis communis; plantar fleksiyon kaybı"]},
+    {q:"Quadriceps kaslarını hangi sinir uyarır?",a:"N. femoralis",d:["N. obturatorius","N. ischiadicus","N. tibialis"]},
+    {q:"Hamstring kaslarını sayınız.",a:"Biceps femoris, semitendinosus, semimembranosus",d:["Biceps femoris, semitendinosus, gracilis","Rectus femoris, semitendinosus, semimembranosus","Biceps femoris, sartorius, semimembranosus"]},
+    {q:"Ön çapraz bağın görevi nedir?",a:"Tibianın öne kaymasını engellemek",d:["Tibianın arkaya kaymasını engellemek","Valgus zorlanmasına karşı korumak","Varus zorlanmasına karşı korumak"]},
+    {q:"Valgus zorlanmasına karşı hangi bağ korur?",a:"İç yan bağ (MCL)",d:["Dış yan bağ (LCL)","Ön çapraz bağ (ACL)","Arka çapraz bağ (PCL)"]},
+    {q:"Vücudun en büyük sesamoid kemiği hangisidir?",a:"Patella",d:["Os pisiforme","Talus","Calcaneus"]},
+    {q:"Ayak bileği kemiklerini sayınız.",a:"Talus, calcaneus, naviculare, cuboideum, üç cuneiforme",d:["Talus, calcaneus, naviculare, cuboideum, iki cuneiforme","Talus, calcaneus, scaphoideum, hamatum, üç cuneiforme","Talus, calcaneus, naviculare, pisiforme, üç cuneiforme"]}
+  ]},
+{ id:"fiz", tag:"Fizyoloji", title:"Sinir ve Kas",
+  lead:"Aksiyon potansiyelinden kas kasılmasına kadar sinir-kas fizyolojisinin temel adımları.",
+  blocks:[
+    {h:"Aksiyon potansiyeli", ul:["Nöronun istirahat membran potansiyeli yaklaşık <span class=\"mono\">-70 mV</span>","<b>Depolarizasyon:</b> voltaj kapılı Na⁺ kanalları açılır, Na⁺ hücre içine girer","<b>Repolarizasyon:</b> K⁺ kanalları açılır, K⁺ hücre dışına çıkar","Na⁺/K⁺ pompası 3 Na⁺'u dışarı, 2 K⁺'u içeri taşır ve ATP harcar"]},
+    {h:"Nöromusküler kavşak", ul:["Nörotransmitter: <b>asetilkolin</b>","Asetilkolin, kas zarındaki nikotinik reseptörlere bağlanır","Asetilkolini asetilkolinesteraz enzimi yıkar"]},
+    {h:"Uyarı-kasılma eşleşmesi", ol:["Aksiyon potansiyeli T tübüllerine yayılır","Sarkoplazmik retikulumdan Ca²⁺ salınır","Ca²⁺ troponin C'ye bağlanır; tropomiyozin aktin üzerindeki bağlanma bölgelerini açığa çıkarır","Miyozin başları aktine bağlanır (çapraz köprü) ve güç vuruşu oluşur","Miyozinin aktinden ayrılması için ATP gerekir"]},
+    {h:"Sarkomer", ul:["İki Z çizgisi arasındaki bölgedir","Kasılmada <b>A bandının boyu değişmez</b>; I bandı ve H bölgesi kısalır"]},
+    {h:"Kas lifi tipleri", table:{head:["Tip","Kasılma hızı","Enerji yolu","Yorgunluğa direnç"],rows:[["Tip I","Yavaş","Oksidatif","Yüksek"],["Tip IIa","Hızlı","Oksidatif-glikolitik","Orta"],["Tip IIx","Hızlı","Glikolitik","Düşük"]]}},
+    {h:"Motor ünite", ul:["Bir alfa motor nöron ve onun uyardığı tüm kas lifleridir","<b>Henneman büyüklük prensibi:</b> önce küçük motor üniteler, kuvvet arttıkça büyükler devreye girer"]},
+    {h:"Proprioseptif reseptörler", table:{head:["Reseptör","Algıladığı","Afferent","Not"],rows:[["Kas iğciği","Kas boyu ve gerilme hızı","Ia","Germe refleksi monosinaptiktir"],["Golgi tendon organı","Kas gerimi","Ib","Otojenik inhibisyon sağlar"]]}},
+    {h:"Kasılma tipleri", ul:["<b>İzometrik:</b> kas boyu değişmez","<b>Konsantrik:</b> kas kısalarak kasılır","<b>Eksantrik:</b> kas uzayarak kasılır"]}
+  ],
+  cards:[
+    {q:"Nöromusküler kavşakta hangi nörotransmitter kullanılır?",a:"Asetilkolin",d:["Noradrenalin","Dopamin","GABA"]},
+    {q:"Kas kasılmasında Ca²⁺ nereden salınır?",a:"Sarkoplazmik retikulumdan",d:["Mitokondriden","Hücre çekirdeğinden","Golgi aygıtından"]},
+    {q:"Kasılmada Ca²⁺ hangi proteine bağlanır?",a:"Troponin C",d:["Tropomiyozin","Troponin I","Aktin"]},
+    {q:"Kasılma sırasında boyu değişmeyen band hangisidir?",a:"A bandı",d:["I bandı","H bölgesi","Sarkomerin tamamı"]},
+    {q:"Yorgunluğa en dirençli kas lifi tipi hangisidir?",a:"Tip I",d:["Tip IIa","Tip IIx","Hepsi eşit dirençlidir"]},
+    {q:"Kas iğciği neyi algılar?",a:"Kas boyu ve gerilme hızı",d:["Kas gerimi","Eklem basıncı","Ağrı ve sıcaklık"]},
+    {q:"Golgi tendon organı neyi algılar?",a:"Kas gerimi",d:["Kas boyu ve gerilme hızı","Ağrı","Titreşim"]},
+    {q:"Henneman prensibi nedir?",a:"Motor üniteler küçükten büyüğe doğru devreye girer",d:["Motor üniteler büyükten küçüğe doğru devreye girer","Tüm motor üniteler aynı anda devreye girer","Motor üniteler rastgele sırayla devreye girer"]},
+    {q:"Kas uzayarak kasılıyorsa bu hangi kasılma tipidir?",a:"Eksantrik",d:["Konsantrik","İzometrik","İzokinetik"]},
+    {q:"Na⁺/K⁺ pompası kaç Na⁺ ve kaç K⁺ taşır?",a:"3 Na⁺ dışarı, 2 K⁺ içeri",d:["2 Na⁺ dışarı, 3 K⁺ içeri","3 Na⁺ içeri, 2 K⁺ dışarı","1 Na⁺ dışarı, 1 K⁺ içeri"]}
+  ]},
+{ id:"kin", tag:"Kinezyoloji", title:"Hareket ve Mekanik",
+  lead:"Düzlemler, kaldıraçlar, kasların görevleri ve normal eklem hareket açıklıkları.",
+  blocks:[
+    {h:"Düzlemler, eksenler ve hareketler", table:{head:["Düzlem","Eksen","Hareketler"],rows:[["Sagittal","Frontal (mediolateral)","Fleksiyon, ekstansiyon"],["Frontal","Sagittal (anteroposterior)","Abduksiyon, adduksiyon"],["Transvers","Vertikal (longitudinal)","İç ve dış rotasyon"]]}},
+    {h:"Kaldıraç sistemleri", table:{head:["Sınıf","Düzen","Örnek"],rows:[["1. sınıf","Destek noktası ortada","Atlanto-oksipital eklemde başın öne-arkaya hareketi"],["2. sınıf","Yük ortada","Parmak ucunda yükselme"],["3. sınıf","Kuvvet ortada","M. biceps brachii ile dirsek fleksiyonu (vücutta en sık)"]]}},
+    {h:"Kasların görevleri", ul:["<b>Agonist:</b> hareketi asıl yapan kas","<b>Antagonist:</b> agonistin tersi yönde etki eden kas","<b>Sinerjist:</b> agoniste yardım eden kas","<b>Stabilizatör:</b> bir segmenti sabitleyerek hareketin zeminini sağlayan kas"]},
+    {h:"İki eklemli kaslarda yetersizlik", ul:["<b>Aktif yetersizlik:</b> kas iki eklem üzerinde aynı anda yeterince kısalamaz. Örnek: kalça ekstansiyondayken hamstringlerin diz fleksiyonunda zorlanması","<b>Pasif yetersizlik:</b> kas iki eklem üzerinde aynı anda yeterince uzayamaz. Örnek: kalça fleksiyonu ve diz ekstansiyonu birlikteyken hamstringlerin gerilmesi"]},
+    {h:"Kinetik zincir", ul:["<b>Açık:</b> distal segment serbesttir. Örnek: oturarak diz ekstansiyonu","<b>Kapalı:</b> distal segment sabittir. Örnek: squat"]},
+    {h:"Skapulohumeral ritim", p:"Kol elevasyonunda glenohumeral hareket ile skapulotorasik hareket yaklaşık <span class=\"mono\">2:1</span> oranındadır."},
+    {h:"Normal eklem hareket açıklıkları (AAOS)", p:"Kaynağa göre küçük farklar olabilir.", table:{head:["Hareket","Derece"],rows:[["Omuz fleksiyonu","180°"],["Omuz abduksiyonu","180°"],["Dirsek fleksiyonu","150°"],["Kalça fleksiyonu","120°"],["Kalça abduksiyonu","45°"],["Diz fleksiyonu","135°"],["Ayak bileği dorsifleksiyonu","20°"],["Ayak bileği plantar fleksiyonu","50°"]]}},
+    {h:"Kapalı paket (close-packed) pozisyonlar", ul:["<b>Diz:</b> tam ekstansiyon","<b>Omuz (glenohumeral):</b> abduksiyon ve dış rotasyon","<b>Kalça:</b> ekstansiyon, iç rotasyon ve abduksiyon"]}
+  ],
+  cards:[
+    {q:"Fleksiyon-ekstansiyon hangi düzlemde olur?",a:"Sagittal düzlem",d:["Frontal düzlem","Transvers düzlem","Oblik düzlem"]},
+    {q:"Abduksiyon-adduksiyonun ekseni nedir?",a:"Sagittal (anteroposterior) eksen",d:["Frontal (mediolateral) eksen","Vertikal (longitudinal) eksen","Oblik eksen"]},
+    {q:"Vücutta en sık görülen kaldıraç tipi hangisidir?",a:"3. sınıf",d:["1. sınıf","2. sınıf","Hepsi eşit sıklıktadır"]},
+    {q:"Parmak ucunda yükselme hangi sınıf kaldıraçtır?",a:"2. sınıf",d:["1. sınıf","3. sınıf"]},
+    {q:"Squat açık mı, kapalı kinetik zincir midir?",a:"Kapalı",d:["Açık"]},
+    {q:"Skapulohumeral ritim oranı nedir?",a:"Yaklaşık 2:1 (glenohumeral : skapulotorasik)",d:["Yaklaşık 1:1","Yaklaşık 3:1","Yaklaşık 1:2"]},
+    {q:"Dizin kapalı paket pozisyonu nedir?",a:"Tam ekstansiyon",d:["90° fleksiyon","25° fleksiyon","Tam fleksiyon"]},
+    {q:"Pasif yetersizlik nedir?",a:"İki eklemli kasın iki eklem üzerinde aynı anda yeterince uzayamaması",d:["İki eklemli kasın iki eklem üzerinde aynı anda yeterince kısalamaması","Kasın sinir hasarı nedeniyle kasılamaması","Kasın yorgunluk nedeniyle kuvvet kaybetmesi"]},
+    {q:"Normal diz fleksiyonu kaç derecedir (AAOS)?",a:"135°",d:["120°","150°","180°"]},
+    {q:"Normal ayak bileği dorsifleksiyonu kaç derecedir (AAOS)?",a:"20°",d:["10°","30°","50°"]}
+  ]},
+{ id:"ort", tag:"Rehabilitasyon", title:"Ortopedik Rehabilitasyon",
+  lead:"Doku iyileşmesi, sık kullanılan özel testler ve akut yaralanma yönetimi.",
+  blocks:[
+    {h:"Yumuşak doku iyileşme evreleri", ol:["<b>İnflamasyon:</b> ilk günler; ağrı, şişlik, kızarıklık, ısı artışı","<b>Proliferasyon:</b> yeni kollajen (ağırlıklı tip III) ve damar oluşumu","<b>Yeniden yapılanma (remodeling):</b> tip III kollajen yerini tip I'e bırakır, doku yüke göre düzenlenir; aylarca sürebilir"]},
+    {h:"Kırık iyileşme evreleri", ol:["İnflamasyon (hematom)","Yumuşak kallus","Sert kallus","Yeniden yapılanma (remodeling)"]},
+    {h:"Sık kullanılan özel testler", table:{head:["Test","Neyi değerlendirir"],rows:[["Lachman","Ön çapraz bağ (ACL); en duyarlı klinik test"],["Ön çekmece (diz)","Ön çapraz bağ (ACL)"],["Arka çekmece","Arka çapraz bağ (PCL)"],["McMurray","Menisküs yırtığı"],["Thessaly","Menisküs yırtığı"],["Valgus stres","İç yan bağ (MCL)"],["Varus stres","Dış yan bağ (LCL)"],["Neer","Subakromiyal sıkışma"],["Hawkins-Kennedy","Subakromiyal sıkışma"],["Empty can (Jobe)","M. supraspinatus"],["Drop arm","Rotator cuff yırtığı"],["Speed","Biceps uzun başı tendinopatisi"],["Anterior apprehension","Omuzun ön instabilitesi"],["Phalen","Karpal tünel sendromu"],["Tinel","Sinir irritasyonu (ör. n. medianus)"],["Finkelstein","De Quervain tenosinoviti"],["Thomas","Kalça fleksör kısalığı"],["Ober","İliotibial bant kısalığı"],["FABER (Patrick)","Kalça ve sakroiliak eklem patolojisi"],["Trendelenburg","M. gluteus medius zayıflığı"],["Düz bacak kaldırma (Lasègue)","Lomber sinir kökü irritasyonu"],["Thompson","Aşil tendonu rüptürü"],["Ön çekmece (ayak bileği)","Anterior talofibular bağ (ATFL)"]]}},
+    {h:"Akut yaralanma yönetimi", ul:["Eski yaklaşım: <b>RICE</b> – dinlenme, buz, kompresyon, elevasyon","Güncel yaklaşım: <b>POLICE</b> – koruma, optimal yükleme, buz, kompresyon, elevasyon. Tam dinlenme yerine kontrollü yükleme önerilir"]}
+  ],
+  cards:[
+    {q:"ACL için en duyarlı klinik test hangisidir?",a:"Lachman testi",d:["Ön çekmece testi","McMurray testi","Arka çekmece testi"]},
+    {q:"McMurray testi neyi değerlendirir?",a:"Menisküs yırtığını",d:["ACL yırtığını","MCL yaralanmasını","Patellar instabiliteyi"]},
+    {q:"Empty can testi hangi kası değerlendirir?",a:"M. supraspinatus",d:["M. infraspinatus","M. subscapularis","M. deltoideus"]},
+    {q:"Phalen testi hangi durumu değerlendirir?",a:"Karpal tünel sendromunu",d:["De Quervain tenosinovitini","Lateral epikondiliti","Kübital tünel sendromunu"]},
+    {q:"Finkelstein testi hangi durumu değerlendirir?",a:"De Quervain tenosinovitini",d:["Karpal tünel sendromunu","Tetik parmağı","Lateral epikondiliti"]},
+    {q:"Trendelenburg bulgusu hangi kasın zayıflığını gösterir?",a:"M. gluteus medius",d:["M. gluteus maximus","M. iliopsoas","M. quadriceps femoris"]},
+    {q:"Thomas testi neyi değerlendirir?",a:"Kalça fleksör kısalığını",d:["İliotibial bant kısalığını","Hamstring kısalığını","Sakroiliak eklem patolojisini"]},
+    {q:"Thompson testi neyi değerlendirir?",a:"Aşil tendonu rüptürünü",d:["ATFL yaralanmasını","Plantar fasiiti","Tibialis posterior disfonksiyonunu"]},
+    {q:"Yumuşak doku iyileşmesinin evreleri sırasıyla nelerdir?",a:"İnflamasyon, proliferasyon, yeniden yapılanma",d:["Proliferasyon, inflamasyon, yeniden yapılanma","Hematom, yumuşak kallus, sert kallus","Yeniden yapılanma, inflamasyon, proliferasyon"]},
+    {q:"POLICE kısaltmasındaki “OL” ne anlama gelir?",a:"Optimal yükleme (optimal loading)",d:["Optimal dinlenme","Ortez kullanımı","Osteopatik liberasyon"]}
+  ]},
+{ id:"nor", tag:"Rehabilitasyon", title:"Nörolojik Rehabilitasyon",
+  lead:"Motor nöron lezyonları, inme, Parkinson, MS ve omurilik yaralanmasında kullanılan temel skalalar.",
+  blocks:[
+    {h:"Üst ve alt motor nöron lezyonu", table:{head:["Bulgu","Üst motor nöron","Alt motor nöron"],rows:[["Tonus","Artmış (spastisite)","Azalmış (flask)"],["Derin tendon refleksleri","Artmış","Azalmış veya yok"],["Babinski","Pozitif","Negatif"],["Atrofi","Hafif (kullanmamaya bağlı)","Belirgin"],["Fasikülasyon","Yok","Olabilir"],["Klonus","Olabilir","Yok"]]}},
+    {h:"Modifiye Ashworth Skalası (spastisite)", table:{head:["Derece","Tanım"],rows:[["0","Tonus artışı yok"],["1","Hareketin sonunda hafif takılma"],["1+","Hareketin yarısından azında hafif direnç"],["2","Hareketin büyük kısmında belirgin artış, ama ekstremite kolayca hareket ettirilir"],["3","Belirgin artış, pasif hareket zor"],["4","Ekstremite fleksiyon ya da ekstansiyonda rijit"]]}},
+    {h:"İnme", ul:["En sık etkilenen arter: <b>orta serebral arter (MCA)</b>. Karşı tarafta kol ve yüz, bacaktan daha belirgin tutulur","<b>Anterior serebral arter (ACA):</b> karşı tarafta bacak, koldan daha belirgin tutulur"]},
+    {h:"Brunnstrom iyileşme evreleri", ol:["Flask dönem, istemli hareket yok","Spastisite başlar, sinerjiler ortaya çıkar","Sinerjiler istemli yapılabilir, spastisite en yüksek düzeydedir","Sinerji dışı hareketler başlar, spastisite azalır","Daha zor sinerji dışı hareketler yapılabilir","İzole eklem hareketleri, normale yakın koordinasyon"]},
+    {h:"Glasgow Koma Skalası", table:{head:["Bölüm","Puan"],rows:[["Göz açma","1–4"],["Sözel yanıt","1–5"],["Motor yanıt","1–6"],["Toplam","3–15"]]}},
+    {h:"Parkinson ve multipl skleroz", ul:["<b>Parkinson</b> temel bulguları: istirahat tremoru, rijidite (dişli çark), bradikinezi, postüral instabilite","Parkinson evrelemesi: <b>Hoehn ve Yahr</b> (1–5)","<b>Multipl skleroz</b> engellilik değerlendirmesi: <b>EDSS</b> (0–10)"]},
+    {h:"Omurilik yaralanması – ASIA Bozukluk Skalası", table:{head:["Derece","Tanım"],rows:[["A","Tam lezyon; S4–S5'te duyu ve motor fonksiyon yok"],["B","Duyusal inkomplet; lezyon altında duyu var, motor fonksiyon yok"],["C","Motor inkomplet; lezyon altındaki anahtar kasların yarısından fazlası 3'ün altında"],["D","Motor inkomplet; lezyon altındaki anahtar kasların en az yarısı 3 ve üzeri"],["E","Normal"]]}}
+  ],
+  cards:[
+    {q:"Babinski pozitifliği hangi lezyonu düşündürür?",a:"Üst motor nöron lezyonu",d:["Alt motor nöron lezyonu","Miyopati","Periferik nöropati"]},
+    {q:"Fasikülasyon hangi lezyonda görülür?",a:"Alt motor nöron lezyonu",d:["Üst motor nöron lezyonu","Serebellar lezyon","Bazal ganglion lezyonu"]},
+    {q:"Spastisite hangi skala ile değerlendirilir?",a:"Modifiye Ashworth Skalası",d:["Berg Denge Ölçeği","Glasgow Koma Skalası","Hoehn ve Yahr"]},
+    {q:"İnmede en sık etkilenen arter hangisidir?",a:"Orta serebral arter (MCA)",d:["Anterior serebral arter (ACA)","Posterior serebral arter (PCA)","Baziler arter"]},
+    {q:"ACA tıkanıklığında hangi bölge daha çok etkilenir?",a:"Karşı taraf bacak",d:["Karşı taraf kol ve yüz","Aynı taraf bacak","Aynı taraf kol"]},
+    {q:"Brunnstrom iyileşme evrelerinin sayısı kaçtır?",a:"6",d:["4","5","7"]},
+    {q:"Glasgow Koma Skalası'nın en düşük ve en yüksek puanı nedir?",a:"3 ve 15",d:["0 ve 15","1 ve 15","3 ve 10"]},
+    {q:"Parkinson'un dört temel bulgusu nedir?",a:"İstirahat tremoru, rijidite, bradikinezi, postüral instabilite",d:["İstirahat tremoru, spastisite, bradikinezi, postüral instabilite","Niyet tremoru, rijidite, bradikinezi, ataksi","İstirahat tremoru, rijidite, hiperrefleksi, postüral instabilite"]},
+    {q:"ASIA A ne anlama gelir?",a:"Tam lezyon; S4–S5'te duyu ve motor fonksiyon yok",d:["Duyusal inkomplet; lezyon altında duyu var, motor fonksiyon yok","Motor inkomplet; anahtar kasların yarısından fazlası 3'ün altında","Normal duyu ve motor fonksiyon"]},
+    {q:"Parkinson evrelemesinde hangi skala kullanılır?",a:"Hoehn ve Yahr",d:["EDSS","Modifiye Ashworth Skalası","Brunnstrom evreleri"]}
+  ]},
+{ id:"deg", tag:"Değerlendirme", title:"Değerlendirme Yöntemleri",
+  lead:"Kas testi, dermatom, miyotom, refleksler ve fonksiyonel testler.",
+  blocks:[
+    {h:"Manuel kas testi (Oxford / MRC)", table:{head:["Puan","Tanım"],rows:[["0","Kasılma yok"],["1","Kasılma hissedilir ya da görülür, hareket yok"],["2","Yer çekimi elimine edilmiş pozisyonda tam hareket"],["3","Yer çekimine karşı tam hareket"],["4","Yer çekimine ve orta dirence karşı tam hareket"],["5","Yer çekimine ve tam dirence karşı tam hareket (normal)"]]}},
+    {h:"Diğer temel ölçümler", ul:["<b>Gonyometri:</b> eklem hareket açıklığının ölçülmesi","<b>VAS (Görsel Analog Skala):</b> ağrı şiddeti, 10 cm'lik çizgi üzerinde 0–10"]},
+    {h:"Dermatomlar (anahtar bölgeler)", table:{head:["Kök","Bölge"],rows:[["C5","Kolun lateral yüzü"],["C6","Başparmak"],["C7","Orta parmak"],["C8","Serçe parmak"],["L4","Bacağın medial yüzü ve medial malleol"],["L5","Ayak sırtı ve ayak başparmağı"],["S1","Ayağın lateral kenarı ve topuk"]]}},
+    {h:"Miyotomlar", table:{head:["Kök","Hareket"],rows:[["C5","Dirsek fleksiyonu"],["C6","El bileği ekstansiyonu"],["C7","Dirsek ekstansiyonu"],["C8","Parmak fleksiyonu (orta parmak distal falanks)"],["T1","Serçe parmak abduksiyonu"],["L2","Kalça fleksiyonu"],["L3","Diz ekstansiyonu"],["L4","Ayak bileği dorsifleksiyonu"],["L5","Ayak başparmağı ekstansiyonu"],["S1","Ayak bileği plantar fleksiyonu"]]}},
+    {h:"Derin tendon refleksleri", table:{head:["Refleks","Kök"],rows:[["Biceps","C5–C6"],["Brachioradialis","C6"],["Triceps","C7"],["Patella","L3–L4"],["Aşil","S1"]]}},
+    {h:"Fonksiyonel ve denge testleri", ul:["<b>Berg Denge Ölçeği:</b> 14 madde, en yüksek puan 56; düşük puan artmış düşme riskini gösterir","<b>Kalk ve Yürü Testi (TUG):</b> sandalyeden kalkıp 3 metre yürüyüp dönüp oturma süresi; yaşlılarda 13,5 saniyenin üstü artmış düşme riskiyle ilişkilendirilir","<b>6 Dakika Yürüme Testi:</b> fonksiyonel egzersiz kapasitesi","<b>Barthel İndeksi:</b> günlük yaşam aktiviteleri, 0–100","<b>FIM:</b> 18 madde, 18–126 puan"]}
+  ],
+  cards:[
+    {q:"Manuel kas testinde 3 puan ne anlama gelir?",a:"Yer çekimine karşı tam hareket",d:["Yer çekimi elimine edilmiş pozisyonda tam hareket","Yer çekimine ve orta dirence karşı tam hareket","Kasılma hissedilir, hareket yok"]},
+    {q:"Manuel kas testinde 2 puan ne anlama gelir?",a:"Yer çekimi elimine edilmiş pozisyonda tam hareket",d:["Yer çekimine karşı tam hareket","Kasılma hissedilir, hareket yok","Yer çekimine ve orta dirence karşı tam hareket"]},
+    {q:"Orta parmağın dermatomu hangisidir?",a:"C7",d:["C6","C8","T1"]},
+    {q:"Ayak sırtı ve ayak başparmağının dermatomu hangisidir?",a:"L5",d:["L4","S1","L3"]},
+    {q:"El bileği ekstansiyonu hangi miyotomdur?",a:"C6",d:["C5","C7","C8"]},
+    {q:"Ayak bileği dorsifleksiyonu hangi miyotomdur?",a:"L4",d:["L5","S1","L2"]},
+    {q:"Aşil refleksi hangi köktür?",a:"S1",d:["L4","L5","S2"]},
+    {q:"Triceps refleksi hangi köktür?",a:"C7",d:["C5","C6","C8"]},
+    {q:"Berg Denge Ölçeği'nin en yüksek puanı nedir?",a:"56",d:["14","100","126"]},
+    {q:"FIM'in puan aralığı nedir?",a:"18–126",d:["0–100","0–56","14–56"]}
+  ]}
+];
+
+SECTIONS.push(
+{ id:"omr", tag:"Anatomi", title:"Omurga ve Gövde",
+  lead:"Omurga 33 omurdan oluşur. Spinal sinirler 31 çifttir ve medulla spinalis yetişkinde L1–L2 düzeyinde sonlanır.",
+  blocks:[
+    {h:"Omur sayıları", table:{head:["Bölge","Sayı","Ayırt edici özellik"],rows:[["Servikal","7","Foramen transversarium; C1 atlas (corpus yok), C2 axis (dens)"],["Torakal","12","Kostalarla eklem yapar (fovea costalis)"],["Lomber","5","En büyük corpus"],["Sakral","5","Kaynaşarak sacrum'u oluşturur"],["Koksigeal","3–5 (genellikle 4)","Kaynaşarak coccyx'i oluşturur"]]}},
+    {h:"Spinal sinirler (31 çift)", p:"8 servikal, 12 torakal, 5 lomber, 5 sakral, 1 koksigeal. Medulla spinalis yetişkinde L1–L2 düzeyinde conus medullaris ile sonlanır; altında cauda equina bulunur."},
+    {h:"Fizyolojik eğrilikler", ul:["<b>Primer (doğuştan) eğrilikler:</b> torakal ve sakral kifoz","<b>Sekonder (sonradan) eğrilikler:</b> servikal lordoz (baş kontrolüyle) ve lomber lordoz (oturma ve yürümeyle)"]},
+    {h:"İntervertebral disk", ul:["<b>Nucleus pulposus:</b> ortada, jel kıvamında","<b>Annulus fibrosus:</b> dışta, lifli halka","Herniasyon en sık posterolateral yöndedir; en sık L4–L5 ve L5–S1 düzeyinde görülür","L4–L5 posterolateral herniasyon genellikle L5 kökünü etkiler"]},
+    {h:"Bağlar", ul:["<b>Lig. longitudinale anterius:</b> corpusların önünde; ekstansiyonu sınırlar","<b>Lig. longitudinale posterius:</b> corpusların arkasında; fleksiyonu sınırlar","<b>Lig. flavum:</b> laminalar arasında, elastik","<b>Lig. supraspinale ve interspinale:</b> spinöz çıkıntılar arasında; fleksiyonu sınırlar","<b>Lig. nuchae:</b> boyunda, lig. supraspinale'nin devamı"]},
+    {h:"Üst servikal eklemler", ul:["<b>Atlanto-oksipital eklem:</b> fleksiyon-ekstansiyon (evet hareketi)","<b>Atlanto-aksiyel eklem:</b> rotasyon (hayır hareketi); servikal rotasyonun yaklaşık yarısı burada olur"]},
+    {h:"Gövde kasları", ul:["<b>Derin (lokal) stabilizatörler:</b> m. transversus abdominis, m. multifidus, diafragma, pelvik taban kasları","<b>Yüzeyel (global) kaslar:</b> m. rectus abdominis, m. obliquus externus ve internus, m. erector spinae"]},
+    {h:"Bel ağrısında kırmızı bayraklar", ul:["<b>Cauda equina sendromu:</b> eyer anestezisi, mesane ve barsak disfonksiyonu, iki taraflı nörolojik kayıp; acil sevk gerekir","Kanser öyküsü, açıklanamayan kilo kaybı, istirahatte ve gece ağrısı","Ateş ve enfeksiyon bulguları, ciddi travma, uzun süreli kortikosteroid kullanımı"]}
+  ],
+  cards:[
+    {q:"Omurgada kaç servikal omur vardır?",a:"7",d:["8","12","5"]},
+    {q:"Kaç çift spinal sinir vardır?",a:"31",d:["33","30","32"]},
+    {q:"Dens hangi omurda bulunur?",a:"C2 (axis)",d:["C1 (atlas)","C3","C7"]},
+    {q:"Omurganın primer (doğuştan) eğrilikleri hangileridir?",a:"Torakal ve sakral kifoz",d:["Servikal ve lomber lordoz","Servikal lordoz ve torakal kifoz","Lomber lordoz ve sakral kifoz"]},
+    {q:"Yetişkinde medulla spinalis hangi düzeyde sonlanır?",a:"L1–L2",d:["T10–T11","L4–L5","S1–S2"]},
+    {q:"Disk herniasyonu en sık hangi yönde olur?",a:"Posterolateral",d:["Anterior","Anterolateral","Lateral"]},
+    {q:"Omurgada ekstansiyonu sınırlayan uzun bağ hangisidir?",a:"Lig. longitudinale anterius",d:["Lig. longitudinale posterius","Lig. flavum","Lig. supraspinale"]},
+    {q:"Atlanto-aksiyel eklemde temel olarak hangi hareket olur?",a:"Rotasyon",d:["Fleksiyon-ekstansiyon","Lateral fleksiyon","Hiçbir hareket olmaz"]},
+    {q:"Cauda equina sendromunu düşündüren kırmızı bayrak hangisidir?",a:"Eyer anestezisi ve mesane-barsak disfonksiyonu",d:["Hareketle artan mekanik bel ağrısı","15 dakikadan kısa sabah tutukluğu","Lokal paravertebral kas spazmı"]},
+    {q:"Lomber bölgenin derin stabilizatör kasları hangileridir?",a:"M. transversus abdominis ve m. multifidus",d:["M. rectus abdominis ve m. obliquus externus","M. latissimus dorsi ve m. trapezius","M. rectus femoris ve m. sartorius"]}
+  ]},
+{ id:"kas", tag:"Anatomi", title:"Önemli Kaslar",
+  lead:"Sınavlarda en sık sorulan kasların ana işlevleri ve sinirleri.",
+  blocks:[
+    {h:"Üst ekstremite ve omuz kuşağı", table:{head:["Kas","Ana işlevi","Sinir"],rows:[["M. deltoideus","Omuz abduksiyonu (orta lifler), fleksiyon (ön), ekstansiyon (arka)","N. axillaris"],["M. biceps brachii","Dirsek fleksiyonu, önkol supinasyonu","N. musculocutaneus"],["M. brachialis","Dirsek fleksiyonu (önkol pozisyonundan bağımsız)","N. musculocutaneus"],["M. brachioradialis","Dirsek fleksiyonu (önkol orta pozisyonda)","N. radialis"],["M. triceps brachii","Dirsek ekstansiyonu","N. radialis"],["M. serratus anterior","Skapula protraksiyonu ve yukarı rotasyonu","N. thoracicus longus"],["M. trapezius","Skapula elevasyonu (üst), retraksiyonu (orta), depresyonu (alt), yukarı rotasyonu","N. accessorius (XI)"],["M. latissimus dorsi","Omuz ekstansiyonu, addüksiyonu, iç rotasyonu","N. thoracodorsalis"],["M. pectoralis major","Omuz addüksiyonu ve iç rotasyonu","Nn. pectorales medialis ve lateralis"]]}},
+    {h:"Alt ekstremite", table:{head:["Kas","Ana işlevi","Sinir"],rows:[["M. iliopsoas","Kalçanın en güçlü fleksörü","M. iliacus: n. femoralis; m. psoas major: L1–L3 ön dalları"],["M. gluteus maximus","Kalça ekstansiyonu ve dış rotasyonu","N. gluteus inferior"],["M. gluteus medius","Kalça abduksiyonu, yürürken pelvisi stabilize eder","N. gluteus superior"],["M. sartorius","Vücudun en uzun kası; kalça fleksiyon, abduksiyon, dış rotasyon; diz fleksiyonu","N. femoralis"],["M. popliteus","Dizin kilidini açar","N. tibialis"],["M. tibialis anterior","Ayak bileği dorsifleksiyonu ve inversiyonu","N. fibularis profundus"],["M. tibialis posterior","İnversiyon, plantar fleksiyon; medial arkı destekler","N. tibialis"],["Mm. fibularis longus ve brevis","Eversiyon","N. fibularis superficialis"],["M. gastrocnemius","Plantar fleksiyon, diz fleksiyonu","N. tibialis"],["M. soleus","Plantar fleksiyon","N. tibialis"]]}},
+    {h:"Pes anserinus", p:"Tibianın medial üst yüzüne yapışan üç kasın ortak tendonu: m. sartorius, m. gracilis, m. semitendinosus."}
+  ],
+  cards:[
+    {q:"Önkol pozisyonundan bağımsız olarak dirseği fleksiyona getiren kas hangisidir?",a:"M. brachialis",d:["M. biceps brachii","M. brachioradialis","M. pronator teres"]},
+    {q:"M. biceps brachii'yi hangi sinir uyarır?",a:"N. musculocutaneus",d:["N. radialis","N. medianus","N. axillaris"]},
+    {q:"Kalçanın en güçlü fleksörü hangisidir?",a:"M. iliopsoas",d:["M. rectus femoris","M. sartorius","M. tensor fasciae latae"]},
+    {q:"Pes anserinus'u oluşturan kaslar hangileridir?",a:"Sartorius, gracilis, semitendinosus",d:["Sartorius, gracilis, semimembranosus","Rectus femoris, gracilis, semitendinosus","Sartorius, adductor longus, semitendinosus"]},
+    {q:"Dizin kilidini açan kas hangisidir?",a:"M. popliteus",d:["M. quadriceps femoris","M. gastrocnemius","M. sartorius"]},
+    {q:"Ayağın eversiyonunu yapan kaslar ve sinirleri hangisidir?",a:"Mm. fibularis longus ve brevis – N. fibularis superficialis",d:["Mm. fibularis longus ve brevis – N. fibularis profundus","M. tibialis anterior – N. fibularis profundus","M. tibialis posterior – N. tibialis"]},
+    {q:"M. trapezius'u hangi sinir uyarır?",a:"N. accessorius (XI)",d:["N. thoracicus longus","N. dorsalis scapulae","N. thoracodorsalis"]},
+    {q:"Vücudun en uzun kası hangisidir?",a:"M. sartorius",d:["M. rectus femoris","M. gracilis","M. latissimus dorsi"]},
+    {q:"M. latissimus dorsi'nin omuzdaki işlevleri nelerdir?",a:"Ekstansiyon, addüksiyon, iç rotasyon",d:["Abduksiyon ve dış rotasyon","Fleksiyon ve abduksiyon","Skapula elevasyonu"]},
+    {q:"M. gluteus maximus'u hangi sinir uyarır?",a:"N. gluteus inferior",d:["N. gluteus superior","N. ischiadicus","N. femoralis"]}
+  ]},
+{ id:"plx", tag:"Anatomi", title:"Pleksuslar ve Periferik Sinirler",
+  lead:"Plexus brachialis C5–T1, plexus lumbalis L1–L4, plexus sacralis L4–S3 köklerinden oluşur.",
+  blocks:[
+    {h:"Plexus brachialis yapısı", ol:["<b>Kökler:</b> C5, C6, C7, C8, T1","<b>Trunkuslar:</b> superior (C5–C6), medius (C7), inferior (C8–T1)","<b>Divizyonlar:</b> her trunkusun ön ve arka divizyonu","<b>Kordlar:</b> lateral, posterior, medial","<b>Terminal dallar</b>"]},
+    {h:"Terminal dallar ve kordları", table:{head:["Sinir","Kord"],rows:[["N. musculocutaneus","Lateral kord"],["N. medianus","Lateral ve medial kord"],["N. ulnaris","Medial kord"],["N. axillaris","Posterior kord"],["N. radialis","Posterior kord"]]}},
+    {h:"Üst ekstremite sinir lezyonları", table:{head:["Lezyon","Klinik tablo"],rows:[["Erb-Duchenne (C5–C6)","Garson eli: omuz addüksiyon ve iç rotasyonda, dirsek ekstansiyonda, önkol pronasyonda"],["Klumpke (C8–T1)","Pençe el, el intrinsik kas zaafı; Horner sendromu eşlik edebilir"],["N. radialis","Düşük el (wrist drop)"],["N. ulnaris","Pençe el (4. ve 5. parmaklar), Froment bulgusu"],["N. medianus","Maymun eli (tenar atrofi); karpal tünelde sıkışma"],["N. axillaris","Deltoid zaafı, omuz lateralinde duyu kaybı"],["N. thoracicus longus","M. serratus anterior felci, kanatlı skapula"],["N. musculocutaneus","Dirsek fleksiyonu ve supinasyonda zaaf, biceps refleksi kaybı"]]}},
+    {h:"Alt ekstremite sinirleri", table:{head:["Sinir","Kökler","Uyardığı başlıca kaslar"],rows:[["N. femoralis","L2–L4","Quadriceps femoris, m. iliacus, m. sartorius"],["N. obturatorius","L2–L4","Kalça addüktörleri"],["N. gluteus superior","L4–S1","Gluteus medius ve minimus, tensor fasciae latae"],["N. gluteus inferior","L5–S2","Gluteus maximus"],["N. ischiadicus","L4–S3","Hamstringler; dallarına ayrılır"],["N. tibialis","L4–S3","Plantar fleksörler, tibialis posterior"],["N. fibularis profundus","L4–S1","Dorsifleksörler (tibialis anterior)"],["N. fibularis superficialis","L4–S1","Evertörler (fibularis longus ve brevis)"]]}}
+  ],
+  cards:[
+    {q:"Plexus brachialis hangi köklerden oluşur?",a:"C5–T1",d:["C4–C8","C5–C8","C6–T2"]},
+    {q:"Düşük el (wrist drop) hangi sinirin hasarında görülür?",a:"N. radialis",d:["N. ulnaris","N. medianus","N. axillaris"]},
+    {q:"Maymun eli hangi sinirin hasarında görülür?",a:"N. medianus",d:["N. ulnaris","N. radialis","N. musculocutaneus"]},
+    {q:"M. serratus anterior felcine bağlı kanatlı skapula hangi sinirin hasarıyla olur?",a:"N. thoracicus longus",d:["N. axillaris","N. suprascapularis","N. musculocutaneus"]},
+    {q:"Erb-Duchenne felcinde hangi kökler etkilenir?",a:"C5–C6",d:["C8–T1","C7","C5–T1"]},
+    {q:"Klumpke felcinde hangi kökler etkilenir?",a:"C8–T1",d:["C5–C6","C7","C4–C5"]},
+    {q:"N. ulnaris plexus brachialis'in hangi kordundan çıkar?",a:"Medial kord",d:["Lateral kord","Posterior kord","Lateral ve medial kord"]},
+    {q:"N. gluteus superior hasarında hangi bulgu görülür?",a:"Trendelenburg bulgusu",d:["Düşük ayak","Diz ekstansiyonu kaybı","Kalça ekstansiyonu kaybı"]},
+    {q:"N. fibularis profundus hasarında hangi hareket zayıflar?",a:"Ayak bileği dorsifleksiyonu",d:["Ayak eversiyonu","Ayak bileği plantar fleksiyonu","Kalça addüksiyonu"]},
+    {q:"Kalça addüktörlerini hangi sinir uyarır?",a:"N. obturatorius",d:["N. femoralis","N. gluteus superior","N. tibialis"]}
+  ]},
+{ id:"sol", tag:"Fizyoloji", title:"Solunum",
+  lead:"Akciğer volüm ve kapasiteleri, spirometri paternleri, solunum kasları ve kan gazı normalleri.",
+  blocks:[
+    {h:"Akciğer volümleri ve kapasiteleri (yetişkin erkek, yaklaşık)", table:{head:["Ölçüm","Tanım","Değer"],rows:[["Tidal volüm (TV)","Normal solukta alınıp verilen hava","500 mL"],["İnspiratuvar yedek volüm (IRV)","Normal inspirasyondan sonra alınabilen ek hava","3000 mL"],["Ekspiratuvar yedek volüm (ERV)","Normal ekspirasyondan sonra verilebilen ek hava","1100 mL"],["Rezidüel volüm (RV)","Zorlu ekspirasyondan sonra kalan hava","1200 mL"],["İnspiratuvar kapasite (IC)","TV + IRV","3500 mL"],["Fonksiyonel rezidüel kapasite (FRC)","ERV + RV","2300 mL"],["Vital kapasite (VC)","IRV + TV + ERV","4600 mL"],["Total akciğer kapasitesi (TLC)","VC + RV","5800 mL"]]}},
+    {h:"Spirometri", ul:["RV ve RV içeren kapasiteler (FRC, TLC) spirometriyle ölçülemez","<b>Obstrüktif patern</b> (KOAH, astım): FEV₁/FVC oranı azalır (%70'in altında)","<b>Restriktif patern</b> (interstisyel akciğer hastalığı, göğüs duvarı deformitesi): FVC ve TLC azalır, FEV₁/FVC normal ya da artmış"]},
+    {h:"Solunum kasları", ul:["<b>İnspirasyonun ana kası:</b> diafragma (n. phrenicus, C3–C5); yardımcı olarak eksternal interkostaller","<b>Yardımcı inspirasyon kasları:</b> m. sternocleidomastoideus, mm. scaleni, m. pectoralis minor","<b>İstirahat ekspirasyonu</b> pasiftir; zorlu ekspirasyonda karın kasları ve internal interkostaller çalışır"]},
+    {h:"Normal değerler (yetişkin)", table:{head:["Parametre","Normal aralık"],rows:[["Solunum sayısı","12–20 /dk"],["SpO₂","%95–100"],["PaO₂","80–100 mmHg"],["PaCO₂","35–45 mmHg"],["pH","7,35–7,45"]]}},
+    {h:"Oksijen-hemoglobin ayrışma eğrisi", p:"CO₂ artışı, pH düşüşü, sıcaklık artışı ve 2,3-DPG artışı eğriyi sağa kaydırır; hemoglobin oksijeni dokuya daha kolay bırakır (Bohr etkisi)."},
+    {h:"Ventilasyon/perfüzyon", p:"Ayakta duran kişide V/Q oranı akciğer apeksinde en yüksek, tabanda en düşüktür."}
+  ],
+  cards:[
+    {q:"İnspirasyonun ana kası hangisidir?",a:"Diafragma",d:["Eksternal interkostaller","M. sternocleidomastoideus","M. rectus abdominis"]},
+    {q:"Diafragmayı uyaran sinir ve kökleri nelerdir?",a:"N. phrenicus, C3–C5",d:["N. vagus","N. phrenicus, C5–C7","N. accessorius, C1–C5"]},
+    {q:"Yetişkinde normal tidal volüm yaklaşık ne kadardır?",a:"500 mL",d:["150 mL","1200 mL","3000 mL"]},
+    {q:"Fonksiyonel rezidüel kapasite hangi volümlerin toplamıdır?",a:"ERV + RV",d:["TV + IRV","TV + ERV","IRV + TV + ERV"]},
+    {q:"Hangisi spirometri ile ölçülemez?",a:"Rezidüel volüm",d:["Tidal volüm","Vital kapasite","İnspiratuvar yedek volüm"]},
+    {q:"Obstrüktif akciğer hastalığında spirometrinin temel bulgusu nedir?",a:"FEV₁/FVC oranının azalması (%70'in altı)",d:["FEV₁/FVC oranının artması","Yalnızca TLC'nin azalması","FVC normal, FEV₁ artmış"]},
+    {q:"Arter kanında normal PaCO₂ aralığı nedir?",a:"35–45 mmHg",d:["20–30 mmHg","45–55 mmHg","80–100 mmHg"]},
+    {q:"Arter kanının normal pH aralığı nedir?",a:"7,35–7,45",d:["7,25–7,35","7,45–7,55","7,00–7,20"]},
+    {q:"Oksijen-hemoglobin ayrışma eğrisini sağa kaydıran durum hangisidir?",a:"CO₂ ve sıcaklık artışı, pH düşüşü",d:["CO₂ azalması ve pH artışı","Vücut sıcaklığının düşmesi","2,3-DPG azalması"]},
+    {q:"Ayakta duran kişide V/Q oranı en yüksek nerededir?",a:"Akciğer apeksinde",d:["Akciğer tabanında","Hilusta","Her yerde eşittir"]}
+  ]},
+{ id:"kal", tag:"Fizyoloji", title:"Dolaşım ve Kalp",
+  lead:"İleti sistemi, EKG dalgaları, kalp debisi ve egzersize kardiyovasküler yanıt.",
+  blocks:[
+    {h:"Kalbin ileti sistemi", ol:["<b>SA düğüm:</b> doğal pacemaker, 60–100 atım/dk","<b>AV düğüm:</b> uyarıyı kısa süre geciktirir","<b>His demeti</b>","<b>Sağ ve sol dal</b>","<b>Purkinje lifleri</b>"]},
+    {h:"EKG dalgaları", table:{head:["Dalga","Anlamı"],rows:[["P","Atriyumların depolarizasyonu"],["QRS","Ventriküllerin depolarizasyonu"],["T","Ventriküllerin repolarizasyonu"]]}, p:"Atriyumların repolarizasyonu QRS kompleksi içinde gizlenir."},
+    {h:"Temel kavramlar", ul:["<b>Kalp debisi</b> = atım hacmi × kalp hızı; istirahatte yaklaşık 5 L/dk","<b>Frank-Starling yasası:</b> diyastol sonu hacim arttıkça kasılma gücü artar","<b>Ejeksiyon fraksiyonu:</b> normalde yaklaşık %55–70","<b>Ortalama arter basıncı</b> = DKB + 1/3 (SKB − DKB)","Normal istirahat kalp hızı 60–100 atım/dk; normal kan basıncı 120/80 mmHg'nin altı","<b>Barorezeptörler:</b> karotis sinüs ve aortik arkta bulunur"]},
+    {h:"Egzersiz ve kardiyovasküler yanıt", ul:["Dinamik egzersizde sistolik basınç artar, diyastolik basınç değişmez ya da hafif azalır","<b>Valsalva manevrası:</b> intratorasik basınç artar, venöz dönüş azalır; kalp hastalarında ve hipertansiflerde kaçınılır","<b>Ortostatik hipotansiyon:</b> ayağa kalktıktan sonraki 3 dakika içinde sistolik basınçta en az 20 mmHg ya da diyastolik basınçta en az 10 mmHg düşüş"]}
+  ],
+  cards:[
+    {q:"Kalbin doğal pacemakerı hangisidir?",a:"SA düğüm",d:["AV düğüm","His demeti","Purkinje lifleri"]},
+    {q:"EKG'de QRS kompleksi neyi gösterir?",a:"Ventriküllerin depolarizasyonu",d:["Atriyumların depolarizasyonu","Ventriküllerin repolarizasyonu","AV düğüm gecikmesi"]},
+    {q:"EKG'de T dalgası neyi gösterir?",a:"Ventriküllerin repolarizasyonu",d:["Ventriküllerin depolarizasyonu","Atriyumların repolarizasyonu","Atriyumların depolarizasyonu"]},
+    {q:"Kalp debisi nasıl hesaplanır?",a:"Atım hacmi × kalp hızı",d:["Atım hacmi × kan basıncı","Kalp hızı × periferik direnç","Ortalama arter basıncı ÷ kalp hızı"]},
+    {q:"Frank-Starling yasası neyi ifade eder?",a:"Diyastol sonu hacim arttıkça kasılma gücü artar",d:["Diyastol sonu hacim arttıkça kasılma gücü azalır","Periferik direnç arttıkça debi artar","Kalp hızı arttıkça diyastol süresi uzar"]},
+    {q:"Dinamik egzersizde diyastolik kan basıncı nasıl değişir?",a:"Değişmez ya da hafif azalır",d:["Belirgin şekilde artar","Sistolik basınçla aynı oranda artar","Sıfıra yaklaşır"]},
+    {q:"Ortalama arter basıncı nasıl hesaplanır?",a:"DKB + 1/3 (SKB − DKB)",d:["SKB + 1/3 (SKB − DKB)","DKB + 1/2 (SKB − DKB)","SKB − DKB"]},
+    {q:"Ortostatik hipotansiyonun tanımı nedir?",a:"Ayağa kalktıktan sonra 3 dk içinde SKB'de ≥20 ya da DKB'de ≥10 mmHg düşüş",d:["Ayağa kalktıktan sonra SKB'de ≥10 ya da DKB'de ≥5 mmHg düşüş","Ayağa kalktıktan 10 dk sonra SKB'de ≥40 mmHg düşüş","Ayağa kalkınca kalp hızında ≥30 atım/dk artış"]},
+    {q:"Valsalva manevrasının venöz dönüşe etkisi nedir?",a:"Venöz dönüşü azaltır",d:["Venöz dönüşü artırır","İntratorasik basıncı düşürür","Dolaşımı etkilemez"]},
+    {q:"Normal ejeksiyon fraksiyonu yaklaşık ne kadardır?",a:"%55–70",d:["%20–35","%35–45","%80–95"]}
+  ]},
+{ id:"egz", tag:"Fizyoloji", title:"Egzersiz Fizyolojisi",
+  lead:"Enerji sistemleri, egzersiz şiddetinin belirlenmesi ve antrenman prensipleri.",
+  blocks:[
+    {h:"Enerji sistemleri", table:{head:["Sistem","Yaklaşık süre","Örnek"],rows:[["ATP-PC (fosfojen)","İlk 10 saniye","Maksimal sprint, sıçrama"],["Anaerobik glikoliz","10 saniye – 2 dakika","400 m koşu; laktat birikir"],["Aerobik (oksidatif)","2 dakikanın üstü","Uzun süreli koşu, yürüyüş"]]}},
+    {h:"Egzersiz şiddeti", ul:["<b>VO₂max:</b> maksimal oksijen tüketimi; aerobik kapasitenin altın standart ölçümü","<b>1 MET</b> = 3,5 mL O₂/kg/dk (istirahat enerji tüketimi)","<b>Tahmini maksimal kalp hızı</b> = 220 − yaş","<b>Karvonen formülü:</b> hedef KH = (KHmax − KHistirahat) × şiddet + KHistirahat","<b>Borg skalası:</b> orijinali 6–20, modifiye hali 0–10"]},
+    {h:"Antrenman prensipleri", ul:["<b>Aşırı yüklenme (overload):</b> gelişme için alışılandan fazla yük gerekir","<b>Özgüllük (SAID):</b> vücut, uygulanan yüke özgü uyum gösterir","<b>Geri dönüşüm (reversibility):</b> antrenman bırakılınca kazanımlar kaybolur","<b>Bireysellik:</b> her kişinin yanıtı farklıdır"]},
+    {h:"Diğer", ul:["<b>Gecikmiş kas ağrısı (DOMS):</b> özellikle eksantrik egzersizden sonra görülür, 24–72 saatte zirve yapar","<b>Statik germe:</b> genellikle 15–30 saniye tutulur"]}
+  ],
+  cards:[
+    {q:"Yaklaşık 10 saniyelik maksimal eforda baskın enerji sistemi hangisidir?",a:"ATP-PC (fosfojen) sistemi",d:["Anaerobik glikoliz","Aerobik sistem","Yağ oksidasyonu"]},
+    {q:"1 MET kaç mL O₂/kg/dk'ya eşittir?",a:"3,5",d:["1","5","7"]},
+    {q:"40 yaşındaki birinin tahmini maksimal kalp hızı kaçtır?",a:"180 atım/dk",d:["160 atım/dk","200 atım/dk","220 atım/dk"]},
+    {q:"Karvonen formülü hangisidir?",a:"(KHmax − KHistirahat) × şiddet + KHistirahat",d:["KHmax × şiddet","(KHmax + KHistirahat) × şiddet","(KHmax − yaş) × şiddet"]},
+    {q:"Orijinal Borg skalasının aralığı nedir?",a:"6–20",d:["0–10","1–5","0–100"]},
+    {q:"SAID ilkesi hangi antrenman prensibini ifade eder?",a:"Özgüllük",d:["Aşırı yüklenme","Geri dönüşüm","Bireysellik"]},
+    {q:"Gecikmiş kas ağrısı (DOMS) en çok hangi kasılma tipinden sonra görülür?",a:"Eksantrik",d:["Konsantrik","İzometrik","Hepsinde eşit"]},
+    {q:"DOMS genellikle ne zaman zirve yapar?",a:"24–72 saat sonra",d:["İlk 1 saat içinde","5–7 gün sonra","2 hafta sonra"]},
+    {q:"Aerobik kapasitenin altın standart ölçümü hangisidir?",a:"VO₂max",d:["İstirahat kalp hızı","1 tekrar maksimum","Borg skoru"]},
+    {q:"Antrenman bırakılınca kazanımların kaybolması hangi prensiptir?",a:"Geri dönüşüm (reversibility)",d:["Özgüllük","Aşırı yüklenme","Periyodizasyon"]}
+  ]},
+{ id:"yur", tag:"Kinezyoloji", title:"Yürüme, Ortez ve Protez",
+  lead:"Yürüme döngüsü, patolojik yürüyüşler, yardımcı cihazlar, skolyoz ve ampütasyon.",
+  blocks:[
+    {h:"Yürüme döngüsü", ul:["<b>Duruş fazı</b> yaklaşık %60, <b>salınım fazı</b> yaklaşık %40","Çift destek fazı toplam yaklaşık %20","<b>Duruş alt fazları:</b> ilk temas, yüklenme yanıtı, orta duruş, terminal duruş, salınım öncesi","<b>Salınım alt fazları:</b> başlangıç, orta ve terminal salınım"]},
+    {h:"Fazlara göre kas aktivitesi", ul:["İlk temas ve yüklenme yanıtı: m. tibialis anterior eksantrik çalışarak ayağın kontrollü inişini sağlar; quadriceps eksantrik çalışır","Terminal duruş: gastrocnemius-soleus itme (push-off) sağlar","Salınım: m. tibialis anterior ayağın yere takılmasını önler"]},
+    {h:"Patolojik yürüyüşler", table:{head:["Yürüyüş","Neden","Görünüm"],rows:[["Trendelenburg","M. gluteus medius zayıflığı","Duruşta karşı taraf pelvis düşer; kompansasyonda gövde aynı tarafa eğilir"],["Gluteus maximus","M. gluteus maximus zayıflığı","Gövde geriye atılır"],["Steppage","Düşük ayak","Kalça ve diz aşırı fleksiyona gelir"],["Hemiplejik","İnme","Sirkümdüksiyon"],["Parkinson (festinan)","Parkinson hastalığı","Küçük, hızlanan adımlar; kol salınımı azalmış"],["Ataksik","Serebellar lezyon","Geniş tabanlı, dengesiz"],["Makas","Spastik dipleji","Kalça addüktör spastisitesine bağlı bacaklar çaprazlanır"],["Antaljik","Ağrı","Ağrılı tarafta duruş fazı kısalır"]]}},
+    {h:"Yardımcı cihazlar", ul:["Baston etkilenen bacağın karşı tarafındaki elde tutulur","Baston boyu büyük trokanter ya da el bileği çizgisi hizasında; dirsek yaklaşık 20–30° fleksiyonda","Merdiven: çıkarken önce sağlam bacak, inerken önce etkilenen bacak"]},
+    {h:"Skolyoz ve ortezler", ul:["Skolyoz tanısı: Cobb açısı 10° ve üzeri","Büyümesi devam edenlerde yaklaşık 25–45° eğrilikte ortez, 45–50° üzerinde genellikle cerrahi düşünülür","<b>AFO</b> (ayak-bilek ortezi): düşük ayakta kullanılır; <b>KAFO</b>: diz-ayak-bilek ortezi"]},
+    {h:"Ampütasyon", ul:["Transfemoral ampütasyonda kalça fleksiyon ve abduksiyon kontraktürü riski vardır; güdüğün altına yastık konmaz, yüzüstü yatma önerilir","Transtibial ampütasyonda diz fleksiyon kontraktürü riski vardır","Güdük bandajı 8 şeklinde, basınç distalden proksimale azalacak şekilde uygulanır"]}
+  ],
+  cards:[
+    {q:"Yürüme döngüsünde duruş fazı yaklaşık yüzde kaçtır?",a:"%60",d:["%40","%50","%80"]},
+    {q:"Düşük ayakta hangi yürüyüş görülür?",a:"Steppage yürüyüşü",d:["Trendelenburg yürüyüşü","Makas yürüyüşü","Festinan yürüyüş"]},
+    {q:"M. gluteus maximus zayıflığında yürürken ne görülür?",a:"Gövde geriye atılır",d:["Gövde öne eğilir","Karşı taraf pelvis düşer","Sirkümdüksiyon"]},
+    {q:"Makas yürüyüşü en çok hangi durumda görülür?",a:"Spastik dipleji",d:["Parkinson hastalığı","Serebellar ataksi","Gluteus maximus zayıflığı"]},
+    {q:"Baston hangi elde tutulur?",a:"Etkilenen bacağın karşı tarafındaki elde",d:["Etkilenen bacakla aynı taraftaki elde","Her zaman dominant elde","Fark etmez"]},
+    {q:"Merdiven çıkarken hangi bacak önce adım atar?",a:"Sağlam bacak",d:["Etkilenen bacak","Önce baston, sonra etkilenen bacak","İki bacak aynı anda"]},
+    {q:"Skolyoz tanısı için Cobb açısı en az kaç derece olmalıdır?",a:"10°",d:["5°","25°","45°"]},
+    {q:"Transfemoral ampütasyonda hangi kontraktür riski vardır?",a:"Kalça fleksiyon ve abduksiyon kontraktürü",d:["Kalça ekstansiyon ve addüksiyon kontraktürü","Diz ekstansiyon kontraktürü","Ayak bileği plantar fleksiyon kontraktürü"]},
+    {q:"Topuk temasından sonra ayağın kontrollü inişini hangi kas sağlar?",a:"M. tibialis anterior (eksantrik)",d:["M. gastrocnemius (konsantrik)","M. quadriceps (konsantrik)","Hamstringler"]},
+    {q:"Güdük bandajı nasıl uygulanır?",a:"8 şeklinde, basınç distalden proksimale azalarak",d:["Proksimalden distale artan basınçla","Dairesel ve her yerde eşit sıkılıkta","Sadece proksimal bölgeye"]}
+  ]},
+{ id:"kpr", tag:"Rehabilitasyon", title:"Kardiyopulmoner Rehabilitasyon",
+  lead:"Hava yolu temizleme, solunum egzersizleri, kardiyak rehabilitasyon evreleri ve güvenlik kriterleri.",
+  blocks:[
+    {h:"Hava yolu temizleme teknikleri", ul:["<b>ACBT (aktif solunum teknikleri döngüsü):</b> solunum kontrolü, torasik ekspansiyon egzersizleri, zorlu ekspirasyon tekniği (huff)","<b>Postüral drenaj:</b> etkilenen segment yukarıda kalacak şekilde pozisyonlama","Perküsyon ve vibrasyon","<b>PEP cihazları:</b> flutter, Acapella gibi pozitif ekspiratuvar basınç cihazları","Otojenik drenaj"]},
+    {h:"Solunum egzersizleri", ul:["<b>Dudak büzme solunumu:</b> ekspirasyonu uzatır, hava yolu kollapsını azaltır; KOAH'ta kullanılır","<b>Diyafragmatik solunum:</b> solunum işini azaltır","<b>İnsentif spirometre:</b> ameliyat sonrası atelektaziyi önlemek için derin inspirasyonu teşvik eder"]},
+    {h:"Değerlendirme ve sınıflamalar", ul:["<b>KOAH tanısı:</b> bronkodilatör sonrası FEV₁/FVC %70'in altında","<b>mMRC skalası:</b> dispne (0–4)","<b>NYHA:</b> kalp yetmezliğinde fonksiyonel sınıflama (I–IV)","<b>6 Dakika Yürüme Testi:</b> fonksiyonel kapasite"]},
+    {h:"Kardiyak rehabilitasyon evreleri", ol:["<b>Faz I:</b> hastanede yatarken; erken mobilizasyon","<b>Faz II:</b> taburculuk sonrası, denetimli ayaktan program","<b>Faz III (bazı kaynaklarda IV):</b> uzun dönem idame"]},
+    {h:"Egzersizi durdurma kriterleri", ul:["Göğüs ağrısı (angina)","Artan iş yüküne rağmen sistolik basınçta 10 mmHg'den fazla düşüş","Ciddi nefes darlığı, baş dönmesi, solukluk, siyanoz","Ciddi aritmi","SpO₂'nin %88'in altına düşmesi"]},
+    {h:"Egzersizin mutlak kontrendikasyonları (örnekler)", ul:["Stabil olmayan anjina","Akut miyokard enfarktüsünün ilk 2 günü","Kontrolsüz semptomatik aritmi","Semptomatik ciddi aort darlığı","Akut pulmoner emboli, akut miyokardit ya da perikardit"]}
+  ],
+  cards:[
+    {q:"Dudak büzme solunumunun amacı nedir?",a:"Ekspirasyonu uzatıp hava yolu kollapsını azaltmak",d:["İnspiratuvar kas kuvvetini artırmak","Kalp hızını artırmak","Akciğer hacmini küçültmek"]},
+    {q:"ACBT'nin bileşenleri nelerdir?",a:"Solunum kontrolü, torasik ekspansiyon egzersizleri, zorlu ekspirasyon tekniği",d:["Perküsyon, vibrasyon, postüral drenaj","Diyafragmatik solunum, dudak büzme, insentif spirometre","Öksürük, perküsyon, PEP"]},
+    {q:"İnsentif spirometrenin başlıca amacı nedir?",a:"Ameliyat sonrası atelektaziyi önlemek",d:["Ekspiratuvar kas kuvvetini artırmak","Balgam viskozitesini azaltmak","Kalp hızını düşürmek"]},
+    {q:"Kalp yetmezliğinde fonksiyonel sınıflama hangi skala ile yapılır?",a:"NYHA",d:["GOLD","mMRC","ASIA"]},
+    {q:"mMRC skalası neyi değerlendirir?",a:"Dispne (nefes darlığı)",d:["Spastisite","Denge","Ağrı"]},
+    {q:"Kardiyak rehabilitasyonda Faz I ne zaman uygulanır?",a:"Hastanede yatarken",d:["Taburculuk sonrası denetimli programda","Uzun dönem evde idamede","Ameliyattan önce"]},
+    {q:"Hangisi egzersizi hemen durdurma nedenidir?",a:"Göğüs ağrısı (angina) gelişmesi",d:["Kalp hızının hedef aralığa ulaşması","Hafif terleme","Borg 11 düzeyinde algılanan zorluk"]},
+    {q:"Hangisi egzersizin mutlak kontrendikasyonudur?",a:"Stabil olmayan anjina",d:["Kontrol altındaki hipertansiyon","Stabil KOAH","Kompanse kalp yetmezliği (NYHA II)"]},
+    {q:"Hangisi bir PEP cihazıdır?",a:"Flutter",d:["İnsentif spirometre","Nebülizatör","Pulse oksimetre"]},
+    {q:"KOAH tanısında spirometri kriteri nedir?",a:"Bronkodilatör sonrası FEV₁/FVC < %70",d:["FEV₁/FVC > %80","Yalnızca TLC'nin azalması","Yalnızca FVC'nin azalması"]}
+  ]},
+{ id:"ped", tag:"Rehabilitasyon", title:"Pediatrik Rehabilitasyon",
+  lead:"Motor gelişim basamakları, primitif refleksler, serebral palsi ve sık görülen pediatrik durumlar.",
+  blocks:[
+    {h:"Motor gelişim basamakları (yaklaşık)", table:{head:["Beceri","Yaş"],rows:[["Baş kontrolü","3–4 ay"],["Yuvarlanma","4–6 ay"],["Desteksiz oturma","6–8 ay"],["Emekleme","8–10 ay"],["Tutunarak ayakta durma","9–10 ay"],["Bağımsız yürüme","12–15 ay (18 aya kadar normal kabul edilir)"]]}},
+    {h:"Primitif refleksler ve reaksiyonlar", table:{head:["Refleks","Kaybolma zamanı"],rows:[["Arama (rooting)","Yaklaşık 3–4 ay"],["Moro","4–6 ay"],["ATNR","4–6 ay"],["Palmar yakalama","4–6 ay"],["STNR","6 ayda ortaya çıkar, 8–12 ayda kaybolur"],["Plantar yakalama","9–12 ay"],["Paraşüt reaksiyonu","6–9 ayda ortaya çıkar, ömür boyu sürer"]]}},
+    {h:"Serebral palsi", ul:["<b>Spastik tip</b> en sıktır (motor korteks ve piramidal yollar)","<b>Diskinetik tip:</b> bazal ganglionlar","<b>Ataksik tip:</b> serebellum","<b>Topografik sınıflama:</b> hemipleji, dipleji (alt ekstremiteler daha çok; prematürelerde sık), kuadripleji","<b>GMFCS:</b> kaba motor fonksiyon, I (en bağımsız) – V (tekerlekli sandalyede taşınır)","<b>MACS:</b> el becerisi sınıflaması, I–V"]},
+    {h:"Diğer sık durumlar", ul:["<b>Duchenne musküler distrofi:</b> X'e bağlı resesif, erkek çocuklar; Gowers bulgusu, baldırda psödohipertrofi","<b>Konjenital musküler tortikolis:</b> m. sternocleidomastoideus kısalığı; baş aynı tarafa lateral fleksiyon, karşı tarafa rotasyon","<b>Gelişimsel kalça displazisi:</b> Ortolani testi çıkık kalçayı redükte eder; Barlow testi kalçayı çıkarmaya çalışır","<b>Spina bifida:</b> en ağır formu miyelomeningosel; hidrosefali eşlik edebilir","<b>Obstetrik brakiyal pleksus yaralanması:</b> en sık Erb tipi (C5–C6)"]}
+  ],
+  cards:[
+    {q:"Bağımsız yürüme normalde hangi yaşta başlar?",a:"12–15 ay (18 aya kadar normal)",d:["6–8 ay","9–10 ay","24–30 ay"]},
+    {q:"Desteksiz oturma hangi yaşta kazanılır?",a:"6–8 ay",d:["3–4 ay","10–12 ay","12–15 ay"]},
+    {q:"Moro refleksi hangi yaşta kaybolur?",a:"4–6 ay",d:["1–2 ay","9–12 ay","2 yaş"]},
+    {q:"Paraşüt reaksiyonu için hangisi doğrudur?",a:"6–9 ayda ortaya çıkar ve ömür boyu sürer",d:["Doğumda vardır, 4–6 ayda kaybolur","Doğumda vardır, 12 ayda kaybolur","Sadece prematürelerde görülür"]},
+    {q:"En sık görülen serebral palsi tipi hangisidir?",a:"Spastik",d:["Diskinetik","Ataksik","Hipotonik"]},
+    {q:"Ataksik serebral palside lezyon nerededir?",a:"Serebellum",d:["Bazal ganglionlar","Motor korteks","Omurilik"]},
+    {q:"GMFCS V düzeyi neyi ifade eder?",a:"En ağır düzey; tekerlekli sandalyede taşınır",d:["En hafif düzey; bağımsız yürür","Yardımcı cihazla yürür","Koşabilir ve sıçrayabilir"]},
+    {q:"Gowers bulgusu en çok hangi hastalıkta görülür?",a:"Duchenne musküler distrofi",d:["Serebral palsi","Spina bifida","Konjenital tortikolis"]},
+    {q:"Sağ konjenital musküler tortikoliste baş hangi pozisyondadır?",a:"Sağa lateral fleksiyon, sola rotasyon",d:["Sola lateral fleksiyon, sağa rotasyon","Sağa lateral fleksiyon, sağa rotasyon","Sola lateral fleksiyon, sola rotasyon"]},
+    {q:"Ortolani testi ne yapar?",a:"Çıkık kalçayı redükte eder",d:["Kalçayı çıkarmaya çalışır","Menisküs yırtığını değerlendirir","Skolyozu değerlendirir"]}
+  ]},
+{ id:"rom", tag:"Rehabilitasyon", title:"Romatolojik Hastalıklar",
+  lead:"Osteoartrit ve romatoid artrit farkları, el deformiteleri, ankilozan spondilit, osteoporoz ve gut.",
+  blocks:[
+    {h:"Osteoartrit ve romatoid artrit", table:{head:["Özellik","Osteoartrit","Romatoid artrit"],rows:[["Doğası","Dejeneratif, mekanik","Otoimmün, inflamatuvar"],["Tutulum","Asimetrik; yük taşıyan eklemler, DIP ve PIP","Simetrik; MCP, PIP, el bileği; DIP genellikle korunur"],["Sabah tutukluğu","30 dakikadan kısa","1 saatten uzun"],["Laboratuvar","Genellikle normal","RF, anti-CCP pozitif; ESH ve CRP yüksek"],["Radyoloji","Eklem aralığında daralma, osteofit, subkondral skleroz","Erozyonlar, periartiküler osteopeni"],["El bulguları","Heberden (DIP), Bouchard (PIP) nodülleri","Kuğu boynu, düğme iliği, ulnar deviasyon"]]}},
+    {h:"RA el deformiteleri", ul:["<b>Kuğu boynu:</b> PIP hiperekstansiyon, DIP fleksiyon","<b>Düğme iliği (boutonnière):</b> PIP fleksiyon, DIP hiperekstansiyon","<b>Ulnar deviasyon:</b> MCP eklemlerinde"]},
+    {h:"Ankilozan spondilit", ul:["HLA-B27 ile ilişkili; genellikle genç erkeklerde","İnflamatuvar bel ağrısı: istirahatte artar, hareketle azalır","Sakroiliit, ileri dönemde bambu omurga","<b>Schober testi:</b> lomber fleksiyon hareketliliğini ölçer; göğüs ekspansiyonu azalır"]},
+    {h:"Diğer", ul:["<b>Osteoporoz:</b> DEXA ile T skoru −2,5 ve altı; −1 ile −2,5 arası osteopeni. Ağırlık taşıyan ve dirençli egzersiz önerilir, omurga fleksiyonundan kaçınılır","<b>Gut:</b> ürik asit kristalleri; en sık ayak başparmağı MTP eklemi (podagra)","<b>Fibromiyalji:</b> yaygın ağrı, yorgunluk, uyku bozukluğu; aerobik egzersiz en etkili tedavilerdendir"]}
+  ],
+  cards:[
+    {q:"Romatoid artritte sabah tutukluğu ne kadar sürer?",a:"1 saatten uzun",d:["30 dakikadan kısa","5 dakika","Sabah tutukluğu olmaz"]},
+    {q:"Heberden nodülleri hangi eklemde ve hangi hastalıkta görülür?",a:"DIP – osteoartrit",d:["PIP – osteoartrit","MCP – romatoid artrit","DIP – romatoid artrit"]},
+    {q:"Romatoid artritte genellikle korunan eklem hangisidir?",a:"DIP",d:["MCP","PIP","El bileği"]},
+    {q:"Kuğu boynu deformitesi nedir?",a:"PIP hiperekstansiyon, DIP fleksiyon",d:["PIP fleksiyon, DIP hiperekstansiyon","MCP'de ulnar deviasyon","Yalnızca DIP fleksiyonu"]},
+    {q:"Ankilozan spondilit hangi doku grubu antijeni ile ilişkilidir?",a:"HLA-B27",d:["HLA-DR4","HLA-B51","HLA-DQ2"]},
+    {q:"İnflamatuvar bel ağrısının özelliği nedir?",a:"İstirahatte artar, hareketle azalır",d:["Hareketle artar, istirahatte azalır","Sadece öne eğilince olur","Akşam artar, sabah hiç olmaz"]},
+    {q:"Schober testi neyi ölçer?",a:"Lomber fleksiyon hareketliliğini",d:["Servikal rotasyonu","Göğüs ekspansiyonunu","Kalça fleksör kısalığını"]},
+    {q:"Osteoporoz tanısı için T skoru kaç olmalıdır?",a:"−2,5 ve altı",d:["−1 ve üstü","−1 ile −2,5 arası","+2,5 ve üstü"]},
+    {q:"Gut en sık hangi eklemi tutar?",a:"Ayak başparmağı MTP eklemi",d:["Diz","El bileği","Kalça"]},
+    {q:"Osteoartritin tipik radyolojik bulgusu hangisidir?",a:"Osteofit ve eklem aralığında daralma",d:["Periartiküler osteopeni ve erozyon","Bambu omurga","Radyolojik bulgu olmaz"]}
+  ]},
+{ id:"man", tag:"Rehabilitasyon", title:"Manuel Terapi ve Egzersiz",
+  lead:"Mobilizasyon dereceleri, konveks-konkav kuralı, kapsüler patern ve egzersiz yöntemleri.",
+  blocks:[
+    {h:"Maitland mobilizasyon dereceleri", table:{head:["Derece","Tanım","Kullanım"],rows:[["I","Hareketin başında küçük amplitüd","Ağrı"],["II","Geniş amplitüd, direnç başlamadan","Ağrı"],["III","Geniş amplitüd, dirence kadar","Sertlik"],["IV","Küçük amplitüd, hareketin sonunda dirence karşı","Sertlik"],["V","Manipülasyon: yüksek hız, düşük amplitüd (thrust)","Sertlik, eklem kilitlenmesi"]]}},
+    {h:"Kaltenborn dereceleri", ul:["<b>Derece I:</b> gevşetme; eklem yüzeylerindeki basıncı kaldırır","<b>Derece II:</b> gevşekliği alma (slack)","<b>Derece III:</b> germe; kapsül ve çevre dokular gerilir"]},
+    {h:"Konveks-konkav kuralı", ul:["Konveks yüzey, konkav yüzey üzerinde hareket ediyorsa kayma hareketin <b>tersi</b> yönündedir","Konkav yüzey, konveks yüzey üzerinde hareket ediyorsa kayma hareketle <b>aynı</b> yöndedir","Örnek: glenohumeral abduksiyonda humerus başı inferiora kayar"]},
+    {h:"Kapsüler patern (Cyriax)", ul:["<b>Omuz:</b> dış rotasyon > abduksiyon > iç rotasyon","<b>Diz:</b> fleksiyon > ekstansiyon"]},
+    {h:"Egzersiz yöntemleri", ul:["<b>DeLorme:</b> 10 TM'nin %50, %75 ve %100'ü ile 3 set, 10'ar tekrar","<b>Oxford:</b> DeLorme'nin tersi; %100, %75, %50","<b>İzokinetik egzersiz:</b> sabit açısal hızda","<b>PNF:</b> diyagonal paternler (D1, D2); tut-gevşe, kasıl-gevşe, ritmik stabilizasyon teknikleri","<b>McKenzie:</b> postüral, disfonksiyon ve düzensizlik (derangement) sendromları; santralizasyon iyi prognoz göstergesidir"]}
+  ],
+  cards:[
+    {q:"Maitland IV. derece mobilizasyon nedir?",a:"Küçük amplitüd, hareketin sonunda dirence karşı",d:["Hareketin başında küçük amplitüd","Geniş amplitüd, direnç başlamadan","Yüksek hızlı thrust"]},
+    {q:"Ağrıyı azaltmak için hangi Maitland dereceleri kullanılır?",a:"I ve II",d:["III ve IV","Sadece V","IV ve V"]},
+    {q:"Maitland V. derece nedir?",a:"Manipülasyon (yüksek hız, düşük amplitüd)",d:["Hareketin sonunda küçük amplitüdlü mobilizasyon","Statik germe","İzometrik egzersiz"]},
+    {q:"Konveks yüzey konkav yüzey üzerinde hareket ediyorsa kayma hangi yöndedir?",a:"Hareketin tersi yönünde",d:["Hareketle aynı yönde","Kayma olmaz","Sadece rotasyon olur"]},
+    {q:"Glenohumeral abduksiyonu artırmak için humerus başı hangi yöne kaydırılır?",a:"İnferior",d:["Superior","Anterior","Posterior"]},
+    {q:"Omuzun kapsüler paterni nedir?",a:"Dış rotasyon > abduksiyon > iç rotasyon",d:["İç rotasyon > abduksiyon > dış rotasyon","Abduksiyon > fleksiyon > ekstansiyon","Fleksiyon > dış rotasyon > iç rotasyon"]},
+    {q:"DeLorme yöntemi nasıl uygulanır?",a:"10 TM'nin %50, %75, %100'ü ile 3 set 10 tekrar",d:["10 TM'nin %100, %75, %50'si ile 3 set 10 tekrar","Her sette 1 TM ile tek tekrar","10 TM'nin %25, %50, %75'i ile 3 set 10 tekrar"]},
+    {q:"McKenzie yaklaşımında iyi prognoz göstergesi hangisidir?",a:"Santralizasyon",d:["Periferalizasyon","Ağrının bacağa yayılması","Hareketle artan uyuşma"]},
+    {q:"Sabit açısal hızda yapılan egzersiz hangisidir?",a:"İzokinetik",d:["İzotonik","İzometrik","Pliometrik"]},
+    {q:"Kaltenborn III. derece nedir?",a:"Germe",d:["Gevşetme","Gevşekliği alma","Manipülasyon"]}
+  ]},
+{ id:"elk", tag:"Rehabilitasyon", title:"Elektroterapi ve Fiziksel Ajanlar",
+  lead:"Sıcak ve soğuk uygulamalar, terapötik ultrason, elektrik akımları ve kontrendikasyonlar.",
+  blocks:[
+    {h:"Sıcak ve soğuk", ul:["<b>Hot pack:</b> yaklaşık 20 dakika; yüzeyel ısıtma (yaklaşık 1 cm). Vazodilatasyon, ağrıda azalma, kollajen esnekliğinde artış","<b>Parafin:</b> özellikle el ve el bileğinin kronik eklem tutukluğunda","<b>Kriyoterapi:</b> yaklaşık 10–20 dakika; akut inflamasyon ve ödemde. Kontrendikasyonlar: Raynaud fenomeni, soğuk ürtikeri, kriyoglobulinemi"]},
+    {h:"Terapötik ultrason", ul:["<b>1 MHz:</b> derin dokular (yaklaşık 3–5 cm)","<b>3 MHz:</b> yüzeyel dokular (yaklaşık 1–2 cm)","<b>Sürekli mod:</b> termal etki; <b>pulse mod:</b> non-termal (mekanik) etki"]},
+    {h:"Elektrik akımları", ul:["<b>Konvansiyonel TENS:</b> yüksek frekans (yaklaşık 50–100 Hz), duyusal düzey; kapı kontrol teorisi","<b>Akupunktur benzeri TENS:</b> düşük frekans (yaklaşık 2–10 Hz), motor düzey; endojen opioid salınımı","<b>İnterferansiyel akım:</b> iki orta frekanslı akımın kesişmesiyle derinde düşük frekanslı etki oluşur","<b>NMES:</b> kas kuvvetlendirme; <b>FES:</b> fonksiyonel aktivite sırasında, ör. düşük ayakta","<b>Kısa dalga diatermi:</b> derin ısıtma; metal implant ve kalp pilinde kontrendike"]},
+    {h:"Genel kontrendikasyonlar (elektroterapi ve derin ısıtma)", ul:["Kalp pili (özellikle göğüs bölgesine yakın uygulama)","Gebelikte abdomen ve bel bölgesi","Malignite üzerine uygulama","Derin ven trombozu","Karotis sinüs ve gözler üzerine uygulama","Açık yara ve enfeksiyon; duyu kaybında dikkat"]}
+  ],
+  cards:[
+    {q:"Derin dokular için hangi ultrason frekansı seçilir?",a:"1 MHz",d:["3 MHz","10 MHz","100 Hz"]},
+    {q:"Pulse ultrasonun amacı nedir?",a:"Non-termal (mekanik) etki",d:["Derin ısıtma","Kas kasılması oluşturmak","Sinir iletimini bloke etmek"]},
+    {q:"Konvansiyonel TENS hangi mekanizma ile ağrıyı azaltır?",a:"Kapı kontrol teorisi",d:["Endojen opioid salınımı","Kas hipertrofisi","Derin ısıtma"]},
+    {q:"Düşük frekanslı (akupunktur benzeri) TENS'in mekanizması nedir?",a:"Endojen opioid salınımı",d:["Kapı kontrol teorisi","Vazokonstriksiyon","Kollajen sentezi"]},
+    {q:"Hangisi soğuk uygulamanın kontrendikasyonudur?",a:"Raynaud fenomeni",d:["Akut ayak bileği burkulması","Akut ödem","Akut kas zorlanması"]},
+    {q:"Hot pack genellikle ne kadar süre uygulanır?",a:"Yaklaşık 20 dakika",d:["2–3 dakika","60 dakika","2 saat"]},
+    {q:"Kısa dalga diatermide önemli kontrendikasyon hangisidir?",a:"Metal implant ve kalp pili",d:["Kronik bel ağrısı","Kas spazmı","Eklem sertliği"]},
+    {q:"İnterferansiyel akım nedir?",a:"İki orta frekanslı akımın kesişmesiyle oluşan düşük frekanslı etki",d:["Tek bir düşük frekanslı doğru akım","Ses dalgalarıyla ısıtma","Elektromanyetik dalgalarla ısıtma"]},
+    {q:"Düşük ayakta yürüme sırasında hangi yöntem kullanılır?",a:"FES (fonksiyonel elektrik stimülasyonu)",d:["Konvansiyonel TENS","Hot pack","Terapötik ultrason"]},
+    {q:"Parafin en çok hangi durumda kullanılır?",a:"El ve el bileğinin kronik eklem tutukluğu",d:["Akut yanık","Açık yara","Akut derin ven trombozu"]}
+  ]}
+);
+const ORDER = ["ust","alt","omr","kas","plx","fiz","sol","kal","egz","kin","yur","ort","nor","kpr","ped","rom","man","elk","deg"];
+SECTIONS.sort((a,b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id));
+const GROUPS = ["Anatomi","Fizyoloji","Kinezyoloji","Rehabilitasyon","Değerlendirme"];
+
+/* ---------- storage (per browser, optional) ---------- */
+const store = {
+  get(k,d){ try{ const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; }catch(e){ return d; } },
+  set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+};
+let known = store.get("ftr-known", {});
+let best = store.get("ftr-best", {});
+const ALL = SECTIONS.flatMap(s => s.cards.map((c,i) => ({...c, sid:s.id, key:s.id+":"+i})));
+const secById = id => SECTIONS.find(s => s.id === id);
+
+/* ---------- state ---------- */
+const state = { view:"konular", sec:store.get("ftr-sec","ust"), onlyUnknown:false, deck:[], idx:0, revealed:false, deckSig:"" };
+let quiz = { phase:"start", qs:[], i:0, picked:null, wrong:[], correct:0 };
+const $ = s => document.querySelector(s);
+const shuffle = a => { const b=[...a]; for(let i=b.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [b[i],b[j]]=[b[j],b[i]]; } return b; };
+
+function knownCount(sid){ const list = sid==="all" ? ALL : ALL.filter(c=>c.sid===sid); return list.filter(c=>known[c.key]).length; }
+function poolFor(sid){ return sid==="all" ? ALL : ALL.filter(c=>c.sid===sid); }
+
+/* ---------- header ---------- */
+function renderTotal(){
+  const k = knownCount("all");
+  $("#totalText").textContent = k + " / " + ALL.length;
+  $("#totalBar").style.width = (k/ALL.length*100) + "%";
+}
+
+/* ---------- chips ---------- */
+function renderChips(){
+  const withAll = state.view !== "konular";
+  if(!secById(state.sec) && !(withAll && state.sec==="all")) state.sec = SECTIONS[0].id;
+  const chip = s => `<button class="chip" data-sec="${s.id}" aria-pressed="${state.sec===s.id}">${s.title}<small>${knownCount(s.id)}/${poolFor(s.id).length}</small></button>`;
+  let html = "";
+  if(withAll) html += `<div class="grp"><span class="glabel">Karışık</span>${chip({id:"all", title:"Tümü"})}</div>`;
+  for(const g of GROUPS){
+    const list = SECTIONS.filter(s => s.tag===g);
+    if(list.length) html += `<div class="grp"><span class="glabel">${g}</span>${list.map(chip).join("")}</div>`;
+  }
+  html += `<select class="secsel" id="secSelect" aria-label="Bölüm seç">`
+    + (withAll ? `<option value="all" ${state.sec==="all"?"selected":""}>Tümü (${knownCount("all")}/${ALL.length})</option>` : "")
+    + GROUPS.map(g => { const list = SECTIONS.filter(s => s.tag===g); return list.length ? `<optgroup label="${g}">${list.map(s => `<option value="${s.id}" ${state.sec===s.id?"selected":""}>${s.title} (${knownCount(s.id)}/${s.cards.length})</option>`).join("")}</optgroup>` : ""; }).join("")
+    + `</select>`;
+  $("#chips").innerHTML = html;
+}
+function setSec(id){
+  state.sec = id; store.set("ftr-sec", id);
+  if(state.view==="test") quiz = { phase:"start", qs:[], i:0, picked:null, wrong:[], correct:0 };
+  render();
+}
+$("#chips").addEventListener("click", e => {
+  const b = e.target.closest("[data-sec]"); if(b) setSec(b.dataset.sec);
+});
+$("#chips").addEventListener("change", e => {
+  if(e.target.id==="secSelect") setSec(e.target.value);
+});
+
+/* ---------- topics ---------- */
+function blockHTML(b){
+  let h = `<section class="blk"><h3>${b.h}</h3>`;
+  if(b.p) h += `<p>${b.p}</p>`;
+  if(b.ul) h += `<ul>${b.ul.map(x=>`<li>${x}</li>`).join("")}</ul>`;
+  if(b.ol) h += `<ol>${b.ol.map(x=>`<li>${x}</li>`).join("")}</ol>`;
+  if(b.table) h += `<div class="tw"><table><thead><tr>${b.table.head.map(x=>`<th scope="col">${x}</th>`).join("")}</tr></thead><tbody>${b.table.rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join("")}</tr>`).join("")}</tbody></table></div>`;
+  return h + `</section>`;
+}
+function renderTopics(){
+  const s = secById(state.sec);
+  const k = knownCount(s.id);
+  $("#view").innerHTML = `
+    <div class="sec-head">
+      <span class="eyebrow">${s.tag}</span>
+      <h2>${s.title}</h2>
+      <p>${s.lead}</p>
+      <div class="actions">
+        <button class="btn primary" data-go="kartlar">Kartlarla çalış</button>
+        <button class="btn" data-go="test">Bu bölümün testini çöz</button>
+        <span class="mono" style="align-self:center;color:var(--muted);font-size:.85rem">Bildiğin: ${k}/${s.cards.length}</span>
+      </div>
+    </div>
+    ${s.blocks.map(blockHTML).join("")}
+    <div class="note">Bu bölümde ${s.cards.length} kart var. Kartları çalıştıktan sonra testle kendini dene.</div>`;
+}
+
+/* ---------- flashcards ---------- */
+function buildDeck(){
+  let list = poolFor(state.sec);
+  if(state.onlyUnknown) list = list.filter(c=>!known[c.key]);
+  state.deck = shuffle(list); state.idx = 0; state.revealed = false;
+  state.deckSig = state.sec + "|" + state.onlyUnknown;
+}
+function renderCards(){
+  if(state.deckSig !== state.sec + "|" + state.onlyUnknown) buildDeck();
+  const d = state.deck, i = state.idx;
+  const bar = `<div class="deckbar">
+      <label class="toggle"><input type="checkbox" id="onlyUnknown" ${state.onlyUnknown?"checked":""}> Sadece bilmediklerim</label>
+      <span class="count">${Math.min(i+1,d.length)} / ${d.length}</span>
+    </div>`;
+  if(d.length===0){
+    $("#view").innerHTML = bar + `<div class="panel"><h2>Bu bölümdeki tüm kartları biliyorsun</h2><p>“Sadece bilmediklerim” filtresini kapatıp tekrar edebilir ya da teste geçebilirsin.</p><div class="actions"><button class="btn primary" data-go="test">Teste geç</button></div></div>`;
+    return;
+  }
+  if(i >= d.length){
+    const k = d.filter(c=>known[c.key]).length;
+    $("#view").innerHTML = bar + `<div class="panel"><h2>Desteyi bitirdin</h2><p>Bu destede bildiğin kart: <b class="mono">${k} / ${d.length}</b></p>
+      <div class="actions"><button class="btn primary" id="restart">Karıştırıp baştan başla</button><button class="btn" id="unknownOnly">Bilmediklerimi çalış</button><button class="btn" data-go="test">Teste geç</button></div></div>`;
+    return;
+  }
+  const c = d[i], s = secById(c.sid);
+  $("#view").innerHTML = bar + `
+    <article class="card" aria-live="polite">
+      <div class="meta"><span>${s.title}</span>${known[c.key]?'<span class="known">Biliyorsun</span>':''}</div>
+      <div class="q">${c.q}</div>
+      <div class="grow"></div>
+      ${state.revealed ? `<div class="a">${c.a}</div>` : `<button class="btn primary reveal" id="reveal">Cevabı göster</button>`}
+    </article>
+    <div class="card-actions">
+      <button class="btn bad" id="again" ${state.revealed?"":"disabled"}>Tekrar et</button>
+      <button class="btn good" id="gotit" ${state.revealed?"":"disabled"}>Biliyorum</button>
+    </div>`;
+}
+function mark(isKnown){
+  const c = state.deck[state.idx];
+  if(isKnown) known[c.key] = true; else delete known[c.key];
+  store.set("ftr-known", known);
+  state.idx++; state.revealed = false; render();
+}
+
+/* ---------- quiz ---------- */
+function startQuiz(){
+  const pool = poolFor(state.sec);
+  const n = state.sec==="all" ? 20 : pool.length;
+  quiz = { phase:"q", i:0, picked:null, wrong:[], correct:0,
+    qs: shuffle(pool).slice(0,n).map(c => ({...c, opts: shuffle([c.a, ...c.d])})) };
+  render();
+}
+function renderQuiz(){
+  const label = state.sec==="all" ? "Tüm bölümler" : secById(state.sec).title;
+  if(quiz.phase==="start"){
+    const n = state.sec==="all" ? 20 : poolFor(state.sec).length;
+    const b = best[state.sec];
+    $("#view").innerHTML = `<div class="panel">
+      <span class="eyebrow">Test</span>
+      <h2>${label}</h2>
+      <p>${n} soru, her soruda tek doğru cevap. Cevabı seçince doğrusu hemen gösterilir.</p>
+      <div class="stats">
+        <div class="stat"><span>Soru sayısı</span><b>${n}</b></div>
+        <div class="stat"><span>En iyi skorun</span><b>${b ? b.c+" / "+b.n : "Henüz yok"}</b></div>
+      </div>
+      <div class="actions"><button class="btn primary" id="startQuiz">Testi başlat</button></div>
+    </div>`;
+    return;
+  }
+  if(quiz.phase==="end"){
+    const n = quiz.qs.length;
+    $("#view").innerHTML = `<div class="panel">
+      <span class="eyebrow">Sonuç · ${label}</span>
+      <div class="score">${quiz.correct}<small> / ${n}</small></div>
+      <p>${quiz.correct===n ? "Hepsi doğru. Başka bir bölüme geçebilirsin." : "Yanlış yaptığın sorular aşağıda, doğru cevaplarıyla birlikte."}</p>
+      ${quiz.wrong.length ? `<ul class="wrong">${quiz.wrong.map(w=>`<li>${w.q}<b>${w.a}</b></li>`).join("")}</ul>` : ""}
+      <div class="actions"><button class="btn primary" id="startQuiz">Yeniden çöz</button><button class="btn" data-go="kartlar">Kartlara dön</button></div>
+    </div>`;
+    return;
+  }
+  const q = quiz.qs[quiz.i], answered = quiz.picked!==null;
+  const letters = "ABCD";
+  $("#view").innerHTML = `<div class="panel">
+    <div class="qprog"><span>${label}</span><span class="mono">Soru ${quiz.i+1} / ${quiz.qs.length} · Doğru ${quiz.correct}</span></div>
+    <div class="bar"><i style="width:${(quiz.i/quiz.qs.length)*100}%"></i></div>
+    <h2>${q.q}</h2>
+    <div class="opts">${q.opts.map((o,j)=>{
+      let cls = "opt";
+      if(answered && o===q.a) cls += " ok";
+      else if(answered && j===quiz.picked) cls += " no";
+      return `<button class="${cls}" data-opt="${j}" ${answered?"disabled":""}><span class="k">${letters[j]}</span><span>${o}</span></button>`;
+    }).join("")}</div>
+    ${answered ? `<div class="feedback ${q.opts[quiz.picked]===q.a?"ok":"no"}">${q.opts[quiz.picked]===q.a?"Doğru.":"Yanlış. Doğru cevap: "+q.a}</div>
+      <div class="actions"><button class="btn primary" id="nextQ">${quiz.i+1<quiz.qs.length?"Sonraki soru":"Sonucu gör"}</button></div>` : ""}
+  </div>`;
+}
+function pick(j){
+  if(quiz.picked!==null) return;
+  const q = quiz.qs[quiz.i]; quiz.picked = j;
+  if(q.opts[j]===q.a) quiz.correct++; else quiz.wrong.push(q);
+  render();
+}
+function nextQ(){
+  quiz.i++; quiz.picked = null;
+  if(quiz.i >= quiz.qs.length){
+    quiz.phase = "end";
+    const prev = best[state.sec];
+    if(!prev || quiz.correct/quiz.qs.length > prev.c/prev.n){ best[state.sec] = {c:quiz.correct, n:quiz.qs.length}; store.set("ftr-best", best); }
+  }
+  render();
+}
+
+/* ---------- events ---------- */
+$("#view").addEventListener("click", e => {
+  const t = e.target.closest("button"); if(!t) return;
+  if(t.dataset.go){ location.hash = t.dataset.go; return; }
+  if(t.dataset.opt !== undefined){ pick(+t.dataset.opt); return; }
+  switch(t.id){
+    case "reveal": state.revealed = true; render(); break;
+    case "again": mark(false); break;
+    case "gotit": mark(true); break;
+    case "restart": buildDeck(); render(); break;
+    case "unknownOnly": state.onlyUnknown = true; buildDeck(); render(); break;
+    case "startQuiz": startQuiz(); break;
+    case "nextQ": nextQ(); break;
+  }
+});
+$("#view").addEventListener("change", e => {
+  if(e.target.id==="onlyUnknown"){ state.onlyUnknown = e.target.checked; buildDeck(); render(); }
+});
+document.addEventListener("keydown", e => {
+  if(e.target.matches("input,textarea")) return;
+  if(state.view==="kartlar" && state.idx < state.deck.length){
+    if(e.code==="Space" && !state.revealed){ e.preventDefault(); state.revealed = true; render(); }
+    else if(state.revealed && e.key==="ArrowRight"){ mark(true); }
+    else if(state.revealed && e.key==="ArrowLeft"){ mark(false); }
+  }
+  if(state.view==="test" && quiz.phase==="q"){
+    const n = "1234".indexOf(e.key); if(n>-1 && n < quiz.qs[quiz.i].opts.length) pick(n);
+    if(e.key==="Enter" && quiz.picked!==null) nextQ();
+  }
+});
+
+/* ---------- routing ---------- */
+function render(){
+  document.querySelectorAll(".tabs a").forEach(a => { if(a.dataset.v===state.view) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+  renderTotal(); renderChips();
+  if(state.view==="konular") renderTopics();
+  else if(state.view==="kartlar") renderCards();
+  else renderQuiz();
+}
+function route(){
+  const h = location.hash.slice(1);
+  const v = ["konular","kartlar","test"].includes(h) ? h : "konular";
+  if(v !== state.view && v==="test") quiz = { phase:"start", qs:[], i:0, picked:null, wrong:[], correct:0 };
+  state.view = v; render(); window.scrollTo(0,0);
+}
+window.addEventListener("hashchange", route);
+route();
+</script>
+
+</html>
