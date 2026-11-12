@@ -210,7 +210,8 @@ const sysCount = {};
 const PACKS = window.FTR_ATLAS_PACKS || ["extra","female","lymphv","regions"];
 const packChunks = [], packCredits = [], sysBusy = {}, sysFail = {};
 let baseDone = false, hostsDirty = false;
-const partColor = p => new THREE.Color(p.att && !/^o/i.test(p.att) ? SYSMAP[p.system].color2 || SYSMAP[p.system].color : SYSMAP[p.system].color);
+const nameHue = t => { let h = 0; for(let i=0;i<t.length;i++) h = (h*31 + t.charCodeAt(i)) >>> 0; return (h % 360) / 360; };
+const partColor = p => p.system==="regions" ? new THREE.Color().setHSL(nameHue(p.en || p.name), .6, .56) : new THREE.Color(p.att && !/^o/i.test(p.att) ? SYSMAP[p.system].color2 || SYSMAP[p.system].color : SYSMAP[p.system].color);
 let needsRender = true;
 const HL = new THREE.Color("#2DE2C4");
 
